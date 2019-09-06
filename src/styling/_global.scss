@@ -1,0 +1,57 @@
+@import "./branding";
+
+.full-screen {
+  height: 100vh;
+}
+
+.half-screen {
+  height: 50vh;
+}
+
+.quarter-screen {
+  height: 25vh;
+}
+
+.flex-box-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.flex-box-column {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.height15vh {
+  height: 15vh;
+}
+
+h1 {
+  font-family: $title-text-font;
+  font-weight: 10;
+  letter-spacing: 0.4vw;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: $title-text-font;
+  font-weight: 10;
+  letter-spacing: 0.4vw;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: $title-text-font;
+  font-weight: 10;
+  letter-spacing: 0.4vw;
+  margin-top: 0;
+}
+
+h5 {
+  font-family: $title-text-font;
+  font-weight: 10;
+  letter-spacing: 0.4vw;
+  margin-top: 0;
+}

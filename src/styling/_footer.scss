@@ -1,0 +1,95 @@
+@import "./branding";
+
+// Footer Section
+.footer-container {
+  background-image: linear-gradient($secondary-colour, $primary-text-colour);
+  height: 25vh;
+  display: grid;
+  grid-template: 95% 5% / 40% 20% 40%;
+  grid-template-areas:
+    "email logo socialMedia"
+    "credits credits credits";
+
+  .footer-email-container {
+    grid-area: email;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 15vh;
+      margin-left: 12.5vw;
+      margin-right: 12.5vw;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+
+      li {
+        img {
+          padding: 0.5vh;
+          width: 12%;
+          height: 20%;
+        }
+
+        p {
+          float: left;
+          color: black;
+          font-family: $primary-text-font;
+        }
+      }
+    }
+  }
+
+  .footer-logo-container {
+    grid-area: logo;
+    img {
+      height: 20vh;
+    }
+  }
+
+  .social-media-links-footer-container {
+    grid-area: socialMedia;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 15vh;
+      margin-left: 12.5vw;
+      margin-right: 12.5vw;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+
+      li {
+        a {
+          text-decoration: none;
+          img {
+            padding: 0.5vh;
+            width: 12%;
+            height: 20%;
+          }
+
+          p {
+            float: left;
+            color: black;
+            font-family: $primary-text-font;
+          }
+        }
+      }
+
+      .facebookLogo {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.credits-container {
+  grid-area: credits;
+  position: relative;
+  top: -10%;
+  width: 100%;
+}

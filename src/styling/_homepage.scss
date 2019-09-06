@@ -1,0 +1,307 @@
+@import "./branding";
+// @import "./media-queries";
+@import "./mixins";
+
+//Social media links at top of page
+.top-social-medias {
+  height: 0vh;
+  width: 25vw;
+  padding-top: 2.5vh;
+  position: relative;
+  left: 70vw;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 10vh;
+
+    li {
+      a {
+        img {
+          height: 25%;
+        }
+      }
+    }
+
+    .facebookLogo {
+      width: 25%;
+    }
+  }
+}
+
+//Nav and logo
+.nav-and-logo {
+  background: $secondary-colour;
+}
+
+// Nav Bar
+.nav-bar {
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+  z-index: 1;
+  position: relative;
+  top: 25%;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    li {
+      font-family: $title-text-font;
+      font-size: 1.1em;
+
+      a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+      }
+
+      :hover {
+        color: $primary-text-colour;
+      }
+    }
+  }
+}
+
+.logo-and-text-container {
+  height: 75vh;
+  img {
+    height: 45vh;
+  }
+}
+
+.logo-only-container {
+  height: 52vh;
+  img {
+    position: relative;
+    height: 70vh;
+  }
+}
+
+.text-only-container {
+  position: relative;
+  bottom: 3.5vh;
+  img {
+    position: relative;
+    bottom: 12.5vh;
+    height: 53vh;
+  }
+
+  h1 {
+    font-family: $title-text-font;
+    font-weight: 10;
+    letter-spacing: 0.5vw;
+    margin-bottom: 0;
+  }
+  h3 {
+    font-family: $title-text-font;
+    font-weight: 10;
+    letter-spacing: 0.4vw;
+    margin-top: 0;
+  }
+}
+
+.arrow-down {
+  position: absolute;
+  left: 50vw;
+  top: 95vh;
+  img {
+    height: 2vh;
+  }
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+// About section
+.about-container {
+  background-image: linear-gradient(
+    $secondary-colour,
+    $primary-colour,
+    $secondary-colour
+  );
+  display: grid;
+  grid-template: 5% 40% 55% / 100%;
+  grid-template-areas:
+    "title"
+    "text"
+    "headshot";
+
+  .headshot-container {
+    img {
+      height: 30vh;
+      border-radius: 50%;
+    }
+  }
+
+  h2 {
+    margin: 0;
+    font-family: $title-text-font;
+    letter-spacing: 0.5vw;
+  }
+
+  .about-title-container {
+    grid-area: title;
+  }
+
+  .about-text {
+    margin-left: 12.5vw;
+    margin-right: 12.5vw;
+    height: 20vh;
+    grid-area: text;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-size: 1.25em;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: $primary-text-font;
+      float: left;
+    }
+  }
+
+  .headshot-container {
+    grid-area: headshot;
+    height: 30vh;
+    img {
+      position: relative;
+      top: 50%;
+    }
+    .name-and-role {
+      margin-top: 2.5vh;
+
+      h3 {
+        font-family: $title-text-font;
+        font-weight: 10;
+        letter-spacing: 0.2vw;
+        margin-top: 0;
+      }
+
+      h4 {
+        font-family: $title-text-font;
+        font-weight: 10;
+        letter-spacing: 0.2vw;
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+// Work for/with us section
+.work-container {
+  background: $secondary-colour;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  // :hover {
+  //   opacity: 0.8;
+  // }
+
+  .work-sub-container {
+    background: $secondary-colour;
+    width: 50vw;
+    display: grid;
+    grid-template: 25% 40% 35% / 100%;
+    grid-template-areas:
+      "title"
+      "text"
+      "button";
+
+    .work-for-us-image-container {
+      position: relative;
+      bottom: 100vh;
+      img {
+        height: 100vh;
+        width: 50vw;
+        opacity: 0.6;
+        :hover {
+          opacity: 0.2;
+        }
+      }
+    }
+
+    .work-with-us-image-container {
+      position: relative;
+      bottom: 100vh;
+      img {
+        height: 100vh;
+        width: 49.21vw;
+        opacity: 0.6;
+        :hover {
+          opacity: 0.2;
+        }
+      }
+    }
+
+    .work-title {
+      grid-area: title;
+
+      h1 {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: $title-text-font;
+        font-size: 3.5em;
+        letter-spacing: 0.5vw;
+      }
+    }
+
+    .work-text {
+      grid-area: text;
+      margin-left: 7.5vw;
+      margin-right: 7.5vw;
+      background: $primary-colour;
+      opacity: 0.7;
+      height: 25vh;
+      position: relative;
+      top: 10vh;
+      border-radius: 0.5em;
+      padding-bottom: 2vh;
+      padding-left: 2vw;
+      padding-right: 2vw;
+
+      p {
+        color: $secondary-text-colour;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.3em;
+        font-family: $primary-text-font;
+      }
+    }
+
+    .work-button {
+      grid-area: button;
+
+      a {
+        background: $primary-colour;
+        border-radius: 1em;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        padding: 3vh;
+        font-family: $primary-text-font;
+        text-decoration: none;
+        color: black;
+        font-size: 1.5em;
+      }
+    }
+    // .work-sub-container:hover {
+    //   background: $primary-colour;
+    //   opacity: 0.7;
+    // }
+  }
+}

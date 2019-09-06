@@ -1,0 +1,115 @@
+@import "./branding";
+@import "./media-queries";
+@import "./mixins";
+
+.work-with-us-page-container {
+  background-image: linear-gradient(
+    $secondary-colour,
+    $primary-colour,
+    $secondary-colour
+  );
+  height: 150vh;
+  .work-with-us-title {
+    padding-top: 7.5vh;
+    h1 {
+      font-family: $title-text-font;
+      margin-top: 0;
+      letter-spacing: 0.5vw;
+      font-size: 3em;
+    }
+  }
+
+  .info-paragraph {
+    width: 99vw;
+    padding-top: 7.5vh;
+    display: flex;
+    flex-direction: column;
+
+    .work-info-opening-line {
+      p {
+        font-size: 1.25em;
+        margin-left: 12.5vw;
+        margin-right: 12.5vw;
+        font-family: $primary-text-font;
+      }
+    }
+
+    p {
+      margin: 0;
+      padding-bottom: 5vh;
+      font-family: $primary-text-font;
+    }
+
+    .work-info-list-container {
+      height: 20vh;
+      position: relative;
+      margin-left: 45vw;
+      background-image: linear-gradient(
+        to left,
+        rgba(245, 245, 245, 0.1),
+        rgb(245, 245, 245)
+      );
+      border-radius: 10px 0px 0px 10px;
+      float: right;
+
+      .work-info-list {
+        float: left;
+        ul {
+          padding-right: 5vw;
+          position: relative;
+          top: 1.5vh;
+
+          li {
+            font-size: 1.2em;
+            padding: 0.5vh;
+            font-family: $primary-text-font;
+          }
+        }
+      }
+    }
+
+    .work-info-container {
+      background-image: linear-gradient(
+        to right,
+        rgba(245, 245, 245, 0.1),
+        rgb(245, 245, 245)
+      );
+      width: 60vw;
+      border-radius: 0px 10px 10px 0px;
+      margin-top: 5vh;
+
+      .work-info {
+        float: left;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        position: relative;
+        top: 2.5vh;
+      }
+    }
+
+    .contact-info-container {
+      // border: orange 2px solid;
+      width: 100%;
+      width: 99vw;
+      background-color: $secondary-colour;
+      padding-top: 2.5vh;
+      margin-top: 10vh;
+
+      p {
+        margin: 0;
+        font-family: $primary-text-font;
+      }
+    }
+  }
+
+  .return-home-container {
+    position: fixed;
+    z-index: 1;
+    img {
+      height: 2.5vh;
+      float: left;
+      padding-left: 3vw;
+      padding-top: 3vh;
+    }
+  }
+}

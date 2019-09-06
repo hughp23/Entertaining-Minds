@@ -1,0 +1,238 @@
+@import "./branding";
+
+//Media Queries
+@media screen and (max-width: 400px) {
+  //Social media links at top of page
+  .top-social-medias {
+    width: 50vw;
+    position: relative;
+    left: 45vw;
+  }
+
+  // Nav Bar
+  .nav-bar {
+    // margin-left: 12.5vw;
+    // margin-right: 12.5vw;
+    z-index: 1;
+    position: relative;
+    top: 25%;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+
+      li {
+        font-family: $title-text-font;
+        font-size: 1.1em;
+
+        a {
+          text-decoration: none;
+          color: black;
+          cursor: pointer;
+        }
+
+        :hover {
+          color: $primary-text-colour;
+        }
+      }
+    }
+  }
+
+  .logo-only-container {
+    height: 52vh;
+    img {
+      position: relative;
+      // top: 15vh;
+      height: 46vh;
+    }
+  }
+
+  .text-only-container {
+    position: relative;
+    bottom: 15vh;
+  }
+
+  // About section
+  .about-container {
+    .about-text {
+      // margin-left: 12.5vw;
+      // margin-right: 12.5vw;
+      height: 35vh;
+      grid-area: text;
+
+      p {
+        // color: $primary-text-colour;
+        font-size: 0.75em;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: $primary-text-font;
+        float: left;
+      }
+    }
+
+    .headshot-container {
+      grid-area: headshot;
+      height: 50vh;
+      img {
+        // float: right;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  // Work for/with us section
+  .work-container {
+    background: $secondary-colour;
+    height: 200vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .work-sub-container {
+      background: $secondary-colour;
+      width: 100vw;
+      height: 100vh;
+
+      .work-for-us-image-container {
+        img {
+          width: 100vw;
+        }
+      }
+
+      .work-with-us-image-container {
+        img {
+          width: 100vw;
+        }
+      }
+    }
+
+    .work-title {
+      grid-area: title;
+
+      h1 {
+        font-size: 2.5em;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+
+    .work-text {
+      grid-area: text;
+      margin-left: 7.5vw;
+      margin-right: 7.5vw;
+    }
+
+    .work-button {
+      grid-area: button;
+    }
+  }
+
+  .work-for-us-page-container {
+    height: 225vh;
+
+    .work-info-list-container {
+      .work-info-list {
+        li {
+          font-size: 0.75em !important;
+        }
+      }
+    }
+
+    .contact-info-container {
+      margin-top: 5vh !important;
+    }
+  }
+
+  .work-with-us-page-container {
+    height: 225vh !important;
+
+    .work-info-list-container {
+      .work-info-list {
+        li {
+          font-size: 0.75em !important;
+        }
+      }
+    }
+
+    .contact-info-container {
+      margin-top: 5vh !important;
+    }
+  }
+
+  // Footer Section
+  .footer-container {
+    height: 40vh !important;
+    grid-template: 30% 40% 20% 10% / 100% !important;
+    grid-template-areas:
+      "email"
+      "socialMedia"
+      "logo"
+      "credits" !important;
+
+    .footer-email-container {
+      grid-area: email;
+      padding-top: 2.5vh;
+
+      ul {
+        margin-left: 15vw !important;
+        margin-right: 15vw !important;
+
+        li {
+          img {
+            width: 7% !important;
+          }
+
+          p {
+            font-size: 0.7em;
+          }
+        }
+      }
+    }
+
+    .footer-logo-container {
+      img {
+        height: 15vh !important;
+        position: relative !important;
+        bottom: 4vh !important;
+      }
+    }
+
+    .social-media-links-footer-container {
+      grid-area: socialMedia;
+
+      ul {
+        margin-left: 15vw !important;
+        margin-right: 15vw !important;
+
+        li {
+          a {
+            img {
+              width: 7% !important;
+            }
+
+            p {
+              font-size: 0.7em;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .credits-container {
+    font-size: 0.3em;
+    top: 5% !important;
+    a {
+      font-size: 0.3em;
+    }
+  }
+}
