@@ -24,28 +24,25 @@ class Homepage extends Component {
           <div className="top-social-medias">
             <ul className="flex-box-row social-media-links">
               <li className="facebookLogo">
-                <a href="https://www.facebook.com/jlppaul">
+                <a href="https://www.facebook.com/entertainingminds/?ref=bookmarks">
                   <img
                     src={facebookLogo}
-                    alt="https://www.facebook.com/jlppaul"
+                    alt="https://www.facebook.com/entertainingminds/?ref=bookmarks"
                   />
                 </a>
               </li>
               <li className="instaLogo">
-                <a href="https://www.instagram.com/jessicapaul_____/">
+                <a href="https://www.instagram.com/entertainingminds/">
                   <img
                     src={instaLogo}
-                    alt="https://www.instagram.com/jessicapaul_____/"
+                    alt="https://www.instagram.com/entertainingminds/"
                   />
                 </a>
               </li>
               <li className="twitterLogo">
-                <a href="https://twitter.com/_JessicaPaul">
+                <a href="https://twitter.com/EntMindsUK">
                   {" "}
-                  <img
-                    src={twitterLogo}
-                    alt="https://twitter.com/_JessicaPaul"
-                  />
+                  <img src={twitterLogo} alt="https://twitter.com/EntMindsUK" />
                 </a>
               </li>
             </ul>
@@ -61,12 +58,12 @@ class Homepage extends Component {
                 </a>
               </li>
               <li>
-                <a onClick={handleScroll("workInfo")} href="#workInfo">
+                <a onClick={handleScroll("workInfo")} href="/workforus">
                   JOIN US
                 </a>
               </li>
               <li>
-                <a onClick={handleScroll("workInfo")} href="#workInfo">
+                <a onClick={handleScroll("workInfo")} href="/workwithus">
                   CLIENTS
                 </a>
               </li>

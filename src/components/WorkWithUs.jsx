@@ -41,13 +41,13 @@ class WorkWithUs extends Component {
             <div className="work-info-container">
               <div className="work-info">
                 <p>
-                  (We pride ourselves in offering a quality program of
-                  activities and creative classes for your home - all carefully
-                  planned and tailored to suit the residents abilities and
-                  needs. All of our sessions are run by creative and like-minded
-                  individuals who have been carefully selected by us. Each of
-                  our staff are selected based on their professional performing
-                  backgrounds and/ or their flare for the arts.
+                  We pride ourselves in offering a quality program of activities
+                  and creative classes for your home - all carefully planned and
+                  tailored to suit the residents abilities and needs. All of our
+                  sessions are run by creative and like-minded individuals who
+                  have been carefully selected by us. Each of our staff are
+                  selected based on their professional performing backgrounds
+                  and/ or their flare for the arts.
                 </p>
                 <p>
                   We offer a variety of core activities such as sing-alongs,
@@ -65,7 +65,7 @@ class WorkWithUs extends Component {
               </div>
             </div>
             <section className="contact-info-container">
-              <h4>WHAT MAKES US DIFFERENT?</h4>
+              <h3>WHAT MAKES US DIFFERENT?</h3>
               <p>
                 All of our staff at Entertaining Minds are trained under the
                 Alzheimer’s Society by our company’s own ‘Dementia Champion’.

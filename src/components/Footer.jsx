@@ -34,35 +34,32 @@ const Footer = () => {
         <div className="social-media-links-footer-container">
           <ul className="flex-box social-media-links">
             <li className="facebookLogo">
-              <a href="https://www.facebook.com/jlppaul">
+              <a href="https://www.facebook.com/entertainingminds/?ref=bookmarks">
                 <div className="flex-box-row">
                   <img
                     src={facebookLogo}
-                    alt="https://www.facebook.com/jlppaul"
+                    alt="https://www.facebook.com/entertainingminds/?ref=bookmarks"
                   />
                   <p>@Entertaining Minds</p>
                 </div>
               </a>
             </li>
             <li className="instaLogo">
-              <a href="https://www.instagram.com/jessicapaul_____/">
+              <a href="https://www.instagram.com/entertainingminds/">
                 <div className="flex-box-row">
                   <img
                     src={instaLogo}
-                    alt="https://www.instagram.com/jessicapaul_____/"
+                    alt="https://www.instagram.com/entertainingminds/"
                   />
                   <p>@entertainingminds</p>
                 </div>
               </a>
             </li>
             <li className="twitterLogo">
-              <a href="https://twitter.com/_JessicaPaul">
+              <a href="https://twitter.com/EntMindsUK">
                 {" "}
                 <div className="flex-box-row">
-                  <img
-                    src={twitterLogo}
-                    alt="https://twitter.com/_JessicaPaul"
-                  />
+                  <img src={twitterLogo} alt="https://twitter.com/EntMindsUK" />
                   <p>@EntMindsUK</p>
                 </div>
               </a>

@@ -65,7 +65,7 @@ class WorkForUs extends Component {
               </div>
             </div>
             <section className="contact-info-container">
-              <h4>Contact us today!</h4>
+              <h3>Contact us today!</h3>
               <p>
                 If you’re looking for flexible and rewarding work don’t hesitate
                 to contact us today - we are always looking for friendly, new
