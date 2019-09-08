@@ -46,7 +46,7 @@ class WorkForUs extends Component {
                   on a weekly basis without tying you into a binding contract.
                   Run by actress and musical theatre performer, Jessica Paul, we
                   truly understand the need for flexible work. We know you need
-                  time to concentrate on auditions, college/ university studies
+                  time to concentrate on auditions, college / university studies
                   and other important commitments. We respect this fully, which
                   is why we reward you with great rates of pay for simply a few
                   hours of your time.

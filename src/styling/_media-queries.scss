@@ -28,12 +28,6 @@
         font-family: $title-text-font;
         font-size: 1.1em;
 
-        a {
-          text-decoration: none;
-          color: black;
-          cursor: pointer;
-        }
-
         :hover {
           color: $primary-text-colour;
         }
@@ -42,22 +36,31 @@
   }
 
   .logo-only-container {
-    height: 52vh;
+    height: 42vh;
     img {
       position: relative;
       height: 46vh;
+      top: 5vh;
     }
   }
 
   .text-only-container {
     position: relative;
     bottom: 15vh;
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    h3 {
+      font-size: 1em;
+    }
   }
 
   // About section
   .about-container {
     .about-text {
-      height: 35vh;
+      height: 40vh;
       grid-area: text;
 
       p {
@@ -77,6 +80,7 @@
         position: relative;
         top: 50%;
         transform: 0;
+        height: 20vh;
       }
     }
   }

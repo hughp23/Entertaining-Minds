@@ -86,7 +86,7 @@ const Footer = () => {
           / Built By{" "}
           <a href="https://www.linkedin.com/in/hugh-paul-6762a7173/">
             Hugh Paul
-          </a>
+          </a> / Company No 12165268
         </div>
       </div>
     </div>

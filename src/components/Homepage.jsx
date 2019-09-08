@@ -16,18 +16,30 @@ const joinUsImage = require("../assets/joinUsImage.jpg");
 const workWithUsImage = require("../assets/workWithUsImage.jpg");
 const arrowDown = require("../assets/arrowDown.png");
 const background = require("../assets/background.png");
+const cross = require("../assets/cross.png");
 
 class Homepage extends Component {
   render() {
     return (
       <div className="flex-box">
-        {/* <div
-          id="cookies-popup"
-          onClick={this.closePopup}
-          className="cookies-popup"
-        >
-          <p>This site has cookies.</p>
-        </div> */}
+        <div id="cookies-popup" className="cookies-popup flex-box-row">
+          <p>
+            We use cookies and similar technologies to measure traffic and site
+            performance.{" "}
+            <a>Learn more about cookies (including how to disable them)</a>. By
+            clicking{" "}
+            <p onClick={this.closePopup} className="underline pointer">
+              "I agree"
+            </p>
+            ,{" "}
+            <p onClick={this.closePopup} className="underline pointer">
+              "X"
+            </p>{" "}
+            or by continuing to use our site you consent to the use of cookies
+            (unless you have disabled cookies).
+          </p>
+          <img src={cross} alt="Close!" onClick={this.closePopup} />
+        </div>
         <div className="full-screen nav-and-logo">
           <div className="background-container">
             <img src={background} />
@@ -99,7 +111,8 @@ class Homepage extends Component {
                 Entertaining Minds was established in 2019 with the aim to
                 provide regular entertainment in care & nursing homes using
                 immersive musical theatre. Our company specialises uniquely in
-                stimulating those who suffer from Dementia/ Alzheimer’s disease.
+                stimulating those who suffer from Dementia / Alzheimer’s
+                disease.
               </p>
             </div>
             <div className="height15vh">
@@ -177,9 +190,7 @@ class Homepage extends Component {
   }
 
   closePopup = () => {
-    console.log("in close popup function");
-    $("cookies-popup").attr("hidden", true);
-    $("cookies-popup").addClass("hidden");
+    document.getElementById("cookies-popup").classList.add("hidden");
   };
 
   // handleScroll = name => {
