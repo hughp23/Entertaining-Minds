@@ -14,7 +14,7 @@ function App() {
         <WorkForUs path="/workforus" />
         <WorkWithUs path="/workwithus" />
       </Router>
-      <Footer />
+      <Footer path="contact" />
     </div>
   );
 }

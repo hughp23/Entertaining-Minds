@@ -19,6 +19,7 @@ class WorkWithUs extends Component {
             </Link>
           </div>
           <div className="work-with-us-title">
+            <h1>CARE HOMES</h1>
             <h1>WHAT CAN WE OFFER?</h1>
           </div>
           <div className="info-paragraph">
@@ -34,7 +35,7 @@ class WorkWithUs extends Component {
                   <li>High quality entertainment</li>
                   <li>Reliability and punctuality</li>
                   <li>Extensive knowledge</li>
-                  <li>Immaculate presentation</li>
+                  <li>Unique tailored service</li>
                 </ul>
               </div>
             </div>
@@ -42,25 +43,38 @@ class WorkWithUs extends Component {
               <div className="work-info">
                 <p>
                   We pride ourselves in offering a quality program of activities
-                  and creative classes for your home - all carefully planned and
-                  tailored to suit the residents abilities and needs. All of our
-                  sessions are run by creative and like-minded individuals who
-                  have been carefully selected by us. Each of our staff are
-                  selected based on their professional performing backgrounds
-                  and/ or their flare for the arts.
+                  and entertainment to add a unique touch to your home. All
+                  activities are carefully planned and tailored to suit your
+                  residents abilities and needs, bringing fresh, new
+                  opportunities into your home. Our sessions are run by actors
+                  and creatives who have been carefully selected by us based on
+                  their professional performing backgrounds and/ or their flare
+                  for the arts.
                 </p>
                 <p>
                   We offer a variety of core activities such as sing-alongs,
-                  pamper sessions and tea party’s - to name a few! As well as
-                  this we offer a more qualified service of singers, poets and
-                  stand up comedians who can perform in your home. Please
-                  contact us for more information about our activities.
+                  pamper sessions and tea party’s - to name a few - all of which
+                  continue a unique theme of musical theatre. With our staff
+                  embodying characters such as Grease’s Pink Ladies or West Side
+                  Story’s Tony & Maria to provide a stimulating immersive
+                  experience for your residents, helping bring a room to life!
+                  As well as this, we offer a more qualified service of singers,
+                  poets and stand up comedians who can perform in your home on a
+                  group/ private basis.
+                </p>
+              </div>
+            </div>
+            <div className="work-info-container-right">
+              <div className="work-info">
+                <p className="bold">
+                  Please contact us for more information regarding our
+                  activities/ entertainment.
                 </p>
                 <p>
                   As a company we will organise everything for you - from
-                  regular staff to the co-ordination of activities - meaning you
-                  have time to concentrate on your home with as little hassle as
-                  possible.
+                  regular staff to the co-ordination of entertainment. This
+                  means you will have time to concentrate on your home with as
+                  little hassle as possible.
                 </p>
               </div>
             </div>

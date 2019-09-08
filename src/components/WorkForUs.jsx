@@ -18,6 +18,7 @@ class WorkForUs extends Component {
             </Link>
           </div>
           <div className="work-for-us-title">
+            <h1>ACTORS</h1>
             <h1>WHY WORK FOR US?</h1>
           </div>
           <div className="info-paragraph">
@@ -33,20 +34,16 @@ class WorkForUs extends Component {
                   <li>Reliable weekly pay</li>
                   <li>Complete flexibility</li>
                   <li>Thorough training</li>
-                  <li>Rewarding hard work</li>
+                  <li>The chance to perform!</li>
                 </ul>
               </div>
             </div>
             <div className="work-info-container">
               <div className="work-info">
                 <p>
-                  Firstly, we strive to provide you with regular work and
-                  understand the need for flexible hours. Entertaining Minds
-                  will pay you well on a weekly basis without tying you into a
-                  binding contract. We will allow you to pay your bills whilst
-                  still fitting in with your day to day routine.
-                </p>
-                <p>
+                  We strive to provide you with regular work and understand the
+                  need for flexible hours. Entertaining Minds will pay you well
+                  on a weekly basis without tying you into a binding contract.
                   Run by actress and musical theatre performer, Jessica Paul, we
                   truly understand the need for flexible work. We know you need
                   time to concentrate on auditions, college/ university studies
@@ -55,12 +52,32 @@ class WorkForUs extends Component {
                   hours of your time.
                 </p>
                 <p>
-                  During your initial training morning for Entertaining Minds
-                  you will be coached as a ‘Dementia Friend’. This will help
-                  give you an insight into those living with these diseases. As
-                  well as this, you will be part of an important new movement
-                  which will work to undo the stigma behind Dementia/
-                  Alzheimer’s.
+                  Most importantly, Entertaining Minds gives you the opportunity
+                  to utilise your skills as actors and entertainers.
+                </p>
+                <p className="bold">
+                  Singers, poets, stand up comedians, magicians, or simply those
+                  with a passion for the arts - this is for you!
+                </p>
+              </div>
+            </div>
+            <div className="work-info-container-left">
+              <div className="work-info">
+                <p>
+                  As well as this, our core activities are designed to embody
+                  different characters giving you the chance to perform. Whether
+                  it’s one of Grease’s Pink Ladies, West Side Story’s Tony or
+                  Maria, or even something of your choice you feel you can
+                  execute well. At Entertaining Minds you will get the chance to
+                  regularly make money performing - and make a difference doing
+                  so!
+                </p>
+                <p>
+                  During your initial training for our company you will be
+                  coached as a ‘Dementia Friend’. This will help give you an
+                  insight into those living with Dementia. As well as this, you
+                  will be part of an important new movement which will work to
+                  undo the stigma behind Dementia/ Alzheimer’s disease.
                 </p>
               </div>
             </div>
@@ -68,7 +85,7 @@ class WorkForUs extends Component {
               <h3>Contact us today!</h3>
               <p>
                 If you’re looking for flexible and rewarding work don’t hesitate
-                to contact us today - we are always looking for friendly, new
+                to contact us today. We are always looking for friendly, new
                 faces to join our team.
               </p>
               <p>info@entertainingminds.co.uk</p>

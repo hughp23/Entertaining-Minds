@@ -15,12 +15,23 @@ const jessicaHeadshot = require("../assets/jessicaHeadshot.jpg");
 const joinUsImage = require("../assets/joinUsImage.jpg");
 const workWithUsImage = require("../assets/workWithUsImage.jpg");
 const arrowDown = require("../assets/arrowDown.png");
+const background = require("../assets/background.png");
 
 class Homepage extends Component {
   render() {
     return (
       <div className="flex-box">
+        {/* <div
+          id="cookies-popup"
+          onClick={this.closePopup}
+          className="cookies-popup"
+        >
+          <p>This site has cookies.</p>
+        </div> */}
         <div className="full-screen nav-and-logo">
+          <div className="background-container">
+            <img src={background} />
+          </div>
           <div className="top-social-medias">
             <ul className="flex-box-row social-media-links">
               <li className="facebookLogo">
@@ -53,24 +64,18 @@ class Homepage extends Component {
           <div className="nav-bar">
             <ul>
               <li>
-                <a onClick={handleScroll("about")} href="#about">
+                <a name="about" href="#about">
                   ABOUT
                 </a>
               </li>
               <li>
-                <a onClick={handleScroll("workInfo")} href="/workforus">
-                  JOIN US
-                </a>
+                <a href="/workforus">JOIN US</a>
               </li>
               <li>
-                <a onClick={handleScroll("workInfo")} href="/workwithus">
-                  CLIENTS
-                </a>
+                <a href="/workwithus">CLIENTS</a>
               </li>
               <li>
-                <a onClick={handleScroll("contact")} href="#contact">
-                  CONTACT
-                </a>
+                <a href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -91,29 +96,30 @@ class Homepage extends Component {
           <div className="about-text">
             <div className="height15vh">
               <p>
-                Entertaining Minds was established in 2019 with the aim of
-                providing regular entertainment in care & nursing homes. Our
-                company specialises uniquely in stimulating those who suffer
-                from Dementia/ Alzheimer’s disease.
+                Entertaining Minds was established in 2019 with the aim to
+                provide regular entertainment in care & nursing homes using
+                immersive musical theatre. Our company specialises uniquely in
+                stimulating those who suffer from Dementia/ Alzheimer’s disease.
               </p>
             </div>
             <div className="height15vh">
               <p>
-                Director of our company, Jessica Paul, graduated from Guildford
+                Director of the company, Jessica Paul, graduated from Guildford
                 School of Acting in 2016 and continues a successful career in
                 acting and musical theatre. In addition to this, Jessica has
                 worked part-time as a Dementia care assistant on and off for
                 over seven years. After recognising a need for more stimulation
                 in care homes - as well as a need for flexible freelance work as
                 an actor and creative - Jessica has combined her knowledge to
-                form Entertaining Minds.
+                create a new and exciting form of entertainment for care homes.
               </p>
             </div>
             <div className="height15vh">
               <p>
-                As a company, we hope Entertaining Minds can be part of an
+                As a company, Entertaining Minds hopes to be part of an
                 important new movement which challenges the stigma behind
-                Dementia. We aim to improve quality of life and provide a
+                Dementia. We wholeheartedly aim to deliver high-class
+                entertainment in order to improve quality of life and provide a
                 happier way of living for all.
               </p>
             </div>
@@ -136,10 +142,10 @@ class Homepage extends Component {
             </div>
             <div className="work-text">
               <p>
-                Firstly, we strive to provide you with regular work and
-                understand the need for flexible hours. Entertaining Minds will
-                pay you well on a weekly basis without tying you into a binding
-                contract... READ MORE
+                We strive to provide you with regular work and understand the
+                need for flexible hours. Entertaining Minds will pay you well on
+                a weekly basis without tying you into a binding contract... READ
+                MORE
               </p>
             </div>
             <div className="work-button">
@@ -156,9 +162,9 @@ class Homepage extends Component {
             <div className="work-text">
               <p>
                 We pride ourselves in offering a quality program of activities
-                and creative classes for your home - all carefully planned and
-                tailored to suit the residents abilities and needs. All of our
-                sessions are run by... READ MORE
+                and entertainment to add a unique touch to your home. All
+                activities are carefully planned and tailored to suit your
+                residents abilities and needs... READ MORE
               </p>
             </div>
             <div className="work-button">
@@ -169,17 +175,23 @@ class Homepage extends Component {
       </div>
     );
   }
-}
 
-const handleScroll = id => {
-  // console.log("in function");
-  // console.log(id, "id");
-  $("html, body").animate(
-    {
-      scrollTop: $("#" + id).offset.top
-    },
-    500
-  );
-};
+  closePopup = () => {
+    console.log("in close popup function");
+    $("cookies-popup").attr("hidden", true);
+    $("cookies-popup").addClass("hidden");
+  };
+
+  // handleScroll = name => {
+  //   console.log("in function");
+  //   console.log(name, "name");
+  //   $("html, body").animate(
+  //     {
+  //       scrollTop: $("#" + name).offset.top
+  //     },
+  //     500
+  //   );
+  // };
+}
 
 export default Homepage;

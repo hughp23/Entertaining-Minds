@@ -33,16 +33,32 @@
 
 //Nav and logo
 .nav-and-logo {
-  background: $secondary-colour;
+  .background-container {
+    z-index: -1;
+    position: absolute;
+    img {
+      height: 100vh;
+      width: 99.2vw;
+      opacity: 0.8;
+    }
+  }
+  // background-image: url("../assets/background.png");
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
 }
 
 // Nav Bar
 .nav-bar {
-  margin-left: 12.5vw;
-  margin-right: 12.5vw;
+  padding-left: 12.5vw;
+  padding-right: 12.5vw;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
   z-index: 1;
   position: relative;
   top: 25%;
+  background-color: $primary-colour;
 
   ul {
     list-style-type: none;
@@ -59,12 +75,12 @@
 
       a {
         text-decoration: none;
-        color: black;
+        color: $primary-text-colour;
         cursor: pointer;
       }
 
       :hover {
-        color: $primary-text-colour;
+        color: $secondary-text-colour;
       }
     }
   }
@@ -81,7 +97,7 @@
   height: 52vh;
   img {
     position: relative;
-    height: 70vh;
+    height: 80vh;
   }
 }
 
@@ -99,12 +115,14 @@
     font-weight: 10;
     letter-spacing: 0.5vw;
     margin-bottom: 0;
+    color: $primary-text-colour;
   }
   h3 {
     font-family: $title-text-font;
     font-weight: 10;
     letter-spacing: 0.4vw;
     margin-top: 0;
+    color: $primary-text-colour;
   }
 }
 
@@ -114,6 +132,7 @@
   top: 95vh;
   img {
     height: 2vh;
+    color: $primary-text-colour;
   }
 }
 
@@ -123,11 +142,7 @@
 
 // About section
 .about-container {
-  background-image: linear-gradient(
-    $secondary-colour,
-    $primary-colour,
-    $secondary-colour
-  );
+  background-color: $primary-colour;
   display: grid;
   grid-template: 5% 40% 55% / 100%;
   grid-template-areas:
@@ -146,6 +161,10 @@
     margin: 0;
     font-family: $title-text-font;
     letter-spacing: 0.5vw;
+    font-size: 2.5em;
+    padding-top: 3vh;
+    // margin-bottom: 2.5vh;
+    color: $primary-text-colour;
   }
 
   .about-title-container {
@@ -155,7 +174,7 @@
   .about-text {
     margin-left: 12.5vw;
     margin-right: 12.5vw;
-    height: 20vh;
+    height: 40vh;
     grid-area: text;
     display: flex;
     flex-direction: column;
@@ -167,6 +186,7 @@
       transform: translateY(-50%);
       font-family: $primary-text-font;
       float: left;
+      color: $primary-text-colour;
     }
   }
 
@@ -185,6 +205,7 @@
         font-weight: 10;
         letter-spacing: 0.2vw;
         margin-top: 0;
+        color: $primary-text-colour;
       }
 
       h4 {
@@ -192,6 +213,7 @@
         font-weight: 10;
         letter-spacing: 0.2vw;
         margin-top: 0;
+        color: $primary-text-colour;
       }
     }
   }
@@ -273,7 +295,7 @@
       padding-right: 2vw;
 
       p {
-        color: $secondary-text-colour;
+        color: $primary-text-colour;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
@@ -295,7 +317,7 @@
         padding: 3vh;
         font-family: $primary-text-font;
         text-decoration: none;
-        color: black;
+        color: $primary-text-colour;
         font-size: 1.5em;
       }
     }
