@@ -60,6 +60,7 @@
   // About section
   .about-container {
     height: 150vh !important;
+    grid-template: 5% 60% 35% / 100% !important;
     .about-text {
       height: 40vh;
       grid-area: text;
@@ -142,7 +143,7 @@
   }
 
   .work-for-us-page-container {
-    height: 460vh;
+    height: 500vh;
 
     .work-info-list-container {
       .work-info-list {
@@ -162,7 +163,7 @@
   }
 
   .work-with-us-page-container {
-    height: 465vh !important;
+    height: 500vh !important;
 
     .work-info-list-container {
       .work-info-list {
