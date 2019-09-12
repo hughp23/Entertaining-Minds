@@ -62,14 +62,17 @@
     .about-text {
       height: 40vh;
       grid-area: text;
-
-      p {
-        font-size: 0.75em;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-        font-family: $primary-text-font;
-        float: left;
+      .about-sub-text {
+        height: 20vh;
+        margin-top: 2vh;
+        p {
+          font-size: 0.75em;
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          font-family: $primary-text-font;
+          float: left;
+        }
       }
     }
 
@@ -126,6 +129,10 @@
       grid-area: text;
       margin-left: 7.5vw;
       margin-right: 7.5vw;
+
+      p {
+        font-size: 1.1em !important;
+      }
     }
 
     .work-button {
@@ -134,7 +141,7 @@
   }
 
   .work-for-us-page-container {
-    height: 225vh;
+    height: 415vh;
 
     .work-info-list-container {
       .work-info-list {
@@ -144,18 +151,32 @@
       }
     }
 
+    p {
+      font-size: 0.75em;
+    }
+
     .contact-info-container {
       margin-top: 5vh !important;
     }
   }
 
   .work-with-us-page-container {
-    height: 225vh !important;
+    height: 410vh !important;
 
     .work-info-list-container {
       .work-info-list {
         li {
           font-size: 0.75em !important;
+        }
+      }
+    }
+
+    .info-paragraph {
+      .work-info-container .work-info-container-left {
+        .work-info {
+          p {
+            font-size: 0.75em;
+          }
         }
       }
     }

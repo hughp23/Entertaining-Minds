@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "@reach/router";
 import "../styling/_workforus.scss";
+import "../styling/_media-queries.scss";
 const facebookLogo = require("../assets/facebook.png");
 const instaLogo = require("../assets/instagram.png");
 const twitterLogo = require("../assets/twitter.png");

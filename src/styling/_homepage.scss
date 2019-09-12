@@ -147,7 +147,7 @@
 .about-container {
   background-color: $primary-colour;
   display: grid;
-  grid-template: 5% 50% 45% / 100%;
+  grid-template: 5% 60% 35% / 100%;
   grid-template-areas:
     "title"
     "text"
@@ -182,14 +182,17 @@
     display: flex;
     flex-direction: column;
 
-    p {
-      font-size: 1.25em;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-      font-family: $primary-text-font;
-      float: left;
-      color: $primary-text-colour;
+    .about-sub-text {
+      height: 20vh;
+      p {
+        font-size: 1.25em;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: $primary-text-font;
+        float: left;
+        color: $primary-text-colour;
+      }
     }
   }
 

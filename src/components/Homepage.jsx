@@ -106,7 +106,7 @@ class Homepage extends Component {
             <h2>ABOUT</h2>
           </div>
           <div className="about-text">
-            <div className="height15vh">
+            <div className="about-sub-text">
               <p>
                 Entertaining Minds was established in 2019 with the aim to
                 provide regular entertainment in care & nursing homes using
@@ -115,7 +115,7 @@ class Homepage extends Component {
                 disease.
               </p>
             </div>
-            <div className="height15vh">
+            <div className="about-sub-text">
               <p>
                 Director of the company, Jessica Paul, graduated from Guildford
                 School of Acting in 2016 and continues a successful career in
@@ -127,7 +127,7 @@ class Homepage extends Component {
                 create a new and exciting form of entertainment for care homes.
               </p>
             </div>
-            <div className="height15vh">
+            <div className="about-sub-text">
               <p>
                 As a company, Entertaining Minds hopes to be part of an
                 important new movement which challenges the stigma behind
