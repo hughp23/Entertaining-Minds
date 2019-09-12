@@ -47,14 +47,10 @@ class WorkForUs extends Component {
                   on a weekly basis without tying you into a binding contract.
                   Run by actress and musical theatre performer, Jessica Paul, we
                   truly understand the need for flexible work. We know you need
-                  time to concentrate on auditions, college / university studies
+                  time to concentrate on auditions, college/ university studies
                   and other important commitments. We respect this fully, which
                   is why we reward you with great rates of pay for simply a few
                   hours of your time.
-                </p>
-                <p>
-                  Most importantly, Entertaining Minds gives you the opportunity
-                  to utilise your skills as actors and entertainers.
                 </p>
                 <p className="bold">
                   Singers, poets, stand up comedians, magicians, or simply those
@@ -65,29 +61,41 @@ class WorkForUs extends Component {
             <div className="work-info-container-left">
               <div className="work-info">
                 <p>
-                  As well as this, our core activities are designed to embody
-                  different characters giving you the chance to perform. Whether
-                  it’s one of Grease’s Pink Ladies, West Side Story’s Tony or
-                  Maria, or even something of your choice you feel you can
-                  execute well. At Entertaining Minds you will get the chance to
-                  regularly make money performing - and make a difference doing
-                  so!
+                  Our sessions are designed in the same way a kids musical
+                  theatre session would be - just instead of kids, we are of
+                  course entertaining elderly residents! It will be a fun
+                  environment for all involved - with movement, relaxed
+                  activities using drama/ poetry and group sing- alongs!
+                  Alongside this, we offer you the chance to utilise your skills
+                  further in individual sessions. These give you the chance to
+                  perform your own set of singing, a yoga class, or even a magic
+                  show - if it’s something you can do well! Entertaining Minds
+                  strives to give you the chance to make money regularly
+                  performing, helping you do what you do best - and make a
+                  difference doing so!
                 </p>
                 <p>
-                  During your initial training for our company you will be
-                  coached as a ‘Dementia Friend’. This will help give you an
-                  insight into those living with Dementia. As well as this, you
-                  will be part of an important new movement which will work to
-                  undo the stigma behind Dementia/ Alzheimer’s disease.
+                  Before joining our books you will be taken through an initial
+                  training morning to discuss how our sessions are run - making
+                  sure you know exactly what is involved. You will also be
+                  coached as a ‘Dementia Friend’ by our friendly staff. This
+                  will help give you an insight into those living with Dementia
+                  - with your very own badge of approval! In joining our company
+                  you will not only perform regularly, you will also be part of
+                  an important new movement which works to undo the stigma
+                  behind Dementia/ Alzheimer’s disease.
                 </p>
               </div>
             </div>
             <section className="contact-info-container">
               <h3>Contact us today!</h3>
-              <p>
-                If you’re looking for flexible and rewarding work don’t hesitate
-                to contact us today. We are always looking for friendly, new
-                faces to join our team.
+              <p className="inline">If you’re looking for</p>{" "}
+              <p className="bold inline">flexible</p>{" "}
+              <p className="inline">and</p>{" "}
+              <p className="bold inline">rewarding</p>{" "}
+              <p className="inline">
+                work don’t hesitate to contact us today. We are always looking
+                for friendly, new faces to join our team.
               </p>
               <p>info@entertainingminds.co.uk</p>
               <p>07772023349</p>

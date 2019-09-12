@@ -42,39 +42,47 @@ class WorkWithUs extends Component {
             <div className="work-info-container">
               <div className="work-info">
                 <p>
-                  We pride ourselves in offering a quality program of activities
-                  and entertainment to add a unique touch to your home. All
-                  activities are carefully planned and tailored to suit your
-                  residents abilities and needs, bringing fresh, new
-                  opportunities into your home. Our sessions are run by actors
-                  and creatives who have been carefully selected by us based on
+                  We pride ourselves in offering a quality program of musical
+                  activities and entertainment which will stimulate your
+                  residents daily. All sessions are carefully planned and
+                  tailored to suit your residents abilities and needs a
+                  completely personal touch! Our sessions are run by actors and
+                  creatives who have been carefully selected by us based on
                   their professional performing backgrounds and/ or their flare
                   for the arts.
                 </p>
                 <p>
-                  We offer a variety of core activities such as sing-alongs,
-                  pamper sessions and tea party’s - to name a few - all of which
-                  continue a unique theme of musical theatre. With our staff
-                  embodying characters such as Grease’s Pink Ladies or West Side
-                  Story’s Tony & Maria to provide a stimulating immersive
-                  experience for your residents, helping bring a room to life!
-                  As well as this, we offer a more qualified service of singers,
-                  poets and stand up comedians who can perform in your home on a
-                  group/ private basis.
+                  Each of our sessions start with a fun element of dance or
+                  fitness - fully tailored for your residents and designed to
+                  get the endorphins flowing! Next we will enjoy an element of
+                  drama and reminiscent activities using sensory objects, poetry
+                  and theatre. Finally, we will end each of our sessions with a
+                  group sing-along - again completely tailored to your residents
+                  musical taste! Our staff are trained to provide a stimulating
+                  immersive experience in each session - helping to bring a room
+                  to life!
                 </p>
               </div>
             </div>
             <div className="work-info-container-right">
               <div className="work-info">
                 <p className="bold">
-                  Please contact us for more information regarding our
-                  activities/ entertainment.
+                  Please contact us directly for more information regarding our
+                  services.
                 </p>
                 <p>
-                  As a company we will organise everything for you - from
-                  regular staff to the co-ordination of entertainment. This
-                  means you will have time to concentrate on your home with as
-                  little hassle as possible.
+                  As well as this, we offer a more qualified service of singers,
+                  poets and stand up comedians who can perform in your home on a
+                  group/ private basis. At Entertaining Minds we believe private
+                  sessions can be hugely beneficial for those of your immobile
+                  or bed-ridden residents. We offer a variety of sensory
+                  activities to help stimulate these people in order to maintain
+                  a fully inclusive service.
+                </p>
+                <p>
+                  From regular staff to the co-ordination of entertainment, we
+                  will organise everything for you, meaning you will have time
+                  to concentrate on your home with as little hassle as possible.
                 </p>
               </div>
             </div>
@@ -86,8 +94,8 @@ class WorkWithUs extends Component {
                 With this they gain a knowledge and understanding of Dementia/
                 Alzheimer’s to become ‘Dementia Friends’. As a company this is
                 very important to us. We passionately believe in undoing the
-                stigma behind these diseases and helping people to understand
-                this new way of living.
+                stigma behind these diseases and helping people understand this
+                new way of living.
               </p>
               <p>All of our staff are fully screened and DBS checked by us.</p>
             </section>

@@ -59,6 +59,7 @@
 
   // About section
   .about-container {
+    height: 150vh !important;
     .about-text {
       height: 40vh;
       grid-area: text;
@@ -141,7 +142,7 @@
   }
 
   .work-for-us-page-container {
-    height: 415vh;
+    height: 460vh;
 
     .work-info-list-container {
       .work-info-list {
@@ -161,7 +162,7 @@
   }
 
   .work-with-us-page-container {
-    height: 410vh !important;
+    height: 465vh !important;
 
     .work-info-list-container {
       .work-info-list {

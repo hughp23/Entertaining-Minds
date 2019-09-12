@@ -111,8 +111,7 @@ class Homepage extends Component {
                 Entertaining Minds was established in 2019 with the aim to
                 provide regular entertainment in care & nursing homes using
                 immersive musical theatre. Our company specialises uniquely in
-                stimulating those who suffer from Dementia / Alzheimer’s
-                disease.
+                stimulating those who suffer from Dementia/ Alzheimer’s disease.
               </p>
             </div>
             <div className="about-sub-text">
@@ -125,6 +124,18 @@ class Homepage extends Component {
                 in care homes - as well as a need for flexible freelance work as
                 an actor and creative - Jessica has combined her knowledge to
                 create a new and exciting form of entertainment for care homes.
+              </p>
+            </div>
+            <div className="about-sub-text">
+              <p>
+                Leading research has shown that music and exercise can
+                significantly improve and support the mood, alertness and
+                engagement in elderly people and Dementia sufferers. It can
+                reduce the use of medication and help to manage agitation,
+                isolation, depression and anxiety - overall supporting a better
+                quality of life. It is for this reason Entertaining Minds
+                creates every one of our sessions around music, fitness and
+                sensory activities.
               </p>
             </div>
             <div className="about-sub-text">
@@ -174,10 +185,10 @@ class Homepage extends Component {
             </div>
             <div className="work-text">
               <p>
-                We pride ourselves in offering a quality program of activities
-                and entertainment to add a unique touch to your home. All
-                activities are carefully planned and tailored to suit your
-                residents abilities and needs... READ MORE
+                We pride ourselves in offering a quality program of musical
+                activities and entertainment which will stimulate your residents
+                daily. All sessions are carefully planned and tailored to suit
+                your residents abilities and needs... READ MORE
               </p>
             </div>
             <div className="work-button">
