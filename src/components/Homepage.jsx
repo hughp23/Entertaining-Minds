@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "@reach/router";
+import * as Scroll from "react-scroll";
 import "../styling/_global.scss";
 import "../styling/_homepage.scss";
 import "../styling/_media-queries.scss";
@@ -90,7 +91,7 @@ class Homepage extends Component {
                 <a href="/workwithus">CLIENTS</a>
               </li>
               <li>
-                <a href="#contact">CONTACT</a>
+                <a onClick={this.scrollToBottom}>CONTACT</a>
               </li>
             </ul>
           </div>
@@ -205,7 +206,6 @@ class Homepage extends Component {
 
   componentDidMount() {
     const agreedCookies = localStorage.getItem("AgreedCookies");
-    console.log(agreedCookies, "agreedCookies");
     if (agreedCookies === "true") {
       document.getElementById("cookies-popup").classList.add("hidden");
     } else {
@@ -215,20 +215,12 @@ class Homepage extends Component {
 
   closePopup = () => {
     localStorage.setItem("AgreedCookies", "true");
-    console.log(localStorage.getItem("AgreedCookies"), "clicked agree cookies");
     document.getElementById("cookies-popup").classList.add("hidden");
   };
 
-  // handleScroll = name => {
-  //   console.log("in function");
-  //   console.log(name, "name");
-  //   $("html, body").animate(
-  //     {
-  //       scrollTop: $("#" + name).offset.top
-  //     },
-  //     500
-  //   );
-  // };
+  scrollToBottom = () => {
+    Scroll.animateScroll.scrollToBottom();
+  };
 }
 
 export default Homepage;
