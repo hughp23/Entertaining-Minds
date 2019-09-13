@@ -1,6 +1,7 @@
 import React from "react";
 import "../styling/_footer.scss";
 import "../styling/_media-queries.scss";
+import * as Scroll from "react-scroll";
 const entertainingMindsLogo = require("../assets/entertainingMindsLogo.png");
 const facebookLogo = require("../assets/facebook.png");
 const instaLogo = require("../assets/instagram.png");
@@ -28,7 +29,11 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="footer-logo-container">
+        <div
+          onClick={scrollToTop}
+          title="Scroll To Top"
+          className="footer-logo-container pointer"
+        >
           <img src={entertainingMindsLogo} alt="small-logo" />
         </div>
         <div className="social-media-links-footer-container">
@@ -86,11 +91,16 @@ const Footer = () => {
           / Built By{" "}
           <a href="https://www.linkedin.com/in/hugh-paul-6762a7173/">
             Hugh Paul
-          </a> / Company No 12165268
+          </a>{" "}
+          / Company No 12165268
         </div>
       </div>
     </div>
   );
+};
+
+const scrollToTop = () => {
+  Scroll.animateScroll.scrollToTop();
 };
 
 export default Footer;

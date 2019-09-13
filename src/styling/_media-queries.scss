@@ -1,13 +1,58 @@
 @import "./branding";
 
-//Media Queries
+//Media Queries: 1400px
+@media screen and (max-width: 1400px) {
+  // About section
+  .about-container {
+    height: 125vh !important;
+  }
+
+  .footer-email-container {
+    ul {
+      li {
+        img {
+          width: 10% !important;
+        }
+
+        p {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+
+  .social-media-links-footer-container {
+    ul {
+      // margin-left: 15vw !important;
+      // margin-right: 15vw !important;
+
+      li {
+        a {
+          img {
+            width: 10% !important;
+          }
+
+          p {
+            font-size: 0.9em;
+          }
+        }
+      }
+    }
+  }
+
+  .work-with-us-page-container {
+    height: 190vh !important;
+  }
+}
+
+//Media Queries: 420px
 @media screen and (max-width: 420px) {
   //Social media links at top of page
-  .top-social-medias {
-    width: 50vw;
-    position: relative;
-    left: 45vw;
-  }
+  // .top-social-medias {
+  //   width: 50vw;
+  //   position: absolute;
+  //   left: 45vw;
+  // }
 
   // Nav Bar
   .nav-bar {
