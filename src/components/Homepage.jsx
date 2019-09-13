@@ -6,7 +6,7 @@ import "../styling/_media-queries.scss";
 import "../assets/entertainingMindsLogoAndText.png";
 import "../assets/entertainingMindsLogo.png";
 import "../assets/entertainingMindsText.png";
-import $ from "jquery";
+// import $ from "jquery";
 const entertainingMindsLogo = require("../assets/entertainingMindsLogo.png");
 const facebookLogo = require("../assets/facebook.png");
 const instaLogo = require("../assets/instagram.png");
@@ -19,6 +19,7 @@ const background = require("../assets/background.png");
 const cross = require("../assets/cross.png");
 
 class Homepage extends Component {
+  state = {};
   render() {
     return (
       <div className="flex-box">
@@ -26,8 +27,10 @@ class Homepage extends Component {
           <p>
             We use cookies and similar technologies to measure traffic and site
             performance.{" "}
-            <a>Learn more about cookies (including how to disable them)</a>. By
-            clicking{" "}
+            <a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences">
+              Learn more about cookies (including how to disable them)
+            </a>
+            . By clicking{" "}
             <p onClick={this.closePopup} className="underline pointer">
               "I agree"
             </p>
@@ -200,7 +203,19 @@ class Homepage extends Component {
     );
   }
 
+  componentDidMount() {
+    const agreedCookies = localStorage.getItem("AgreedCookies");
+    console.log(agreedCookies, "agreedCookies");
+    if (agreedCookies === "true") {
+      document.getElementById("cookies-popup").classList.add("hidden");
+    } else {
+      document.getElementById("cookies-popup").classList.remove("hidden");
+    }
+  }
+
   closePopup = () => {
+    localStorage.setItem("AgreedCookies", "true");
+    console.log(localStorage.getItem("AgreedCookies"), "clicked agree cookies");
     document.getElementById("cookies-popup").classList.add("hidden");
   };
 

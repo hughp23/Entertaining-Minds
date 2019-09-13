@@ -14,6 +14,14 @@
       font-size: 3em;
       color: $primary-text-colour;
     }
+
+    h2 {
+      font-family: $title-text-font;
+      margin-top: 0;
+      letter-spacing: 0.5vw;
+      font-size: 2em;
+      color: $primary-text-colour;
+    }
   }
 
   .info-paragraph {

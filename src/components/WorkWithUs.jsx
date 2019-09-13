@@ -2,11 +2,7 @@ import React, { Component } from "react";
 import { Link } from "@reach/router";
 import "../styling/_workwithus.scss";
 import "../styling/_global.scss";
-const facebookLogo = require("../assets/facebook.png");
-const instaLogo = require("../assets/instagram.png");
-const twitterLogo = require("../assets/twitter.png");
 const arrowLeft = require("../assets/arrowLeft.png");
-const entertainingMindsLogo = require("../assets/entertainingMindsLogo.png");
 
 class WorkWithUs extends Component {
   render() {
@@ -20,15 +16,15 @@ class WorkWithUs extends Component {
           </div>
           <div className="work-with-us-title">
             <h1>CARE HOMES</h1>
-            <h1>WHAT CAN WE OFFER?</h1>
+            <h2>WHAT CAN WE OFFER?</h2>
           </div>
           <div className="info-paragraph">
-            <div className="work-info-opening-line">
+            {/* <div className="work-info-opening-line">
               <p>
                 At Entertaining Minds we believe the practice of any art form is
                 a powerful tool for a person’s wellbeing, but what can we offer?
               </p>
-            </div>
+            </div> */}
             <div className="work-info-list-container">
               <div className="work-info-list">
                 <ul>

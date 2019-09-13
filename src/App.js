@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Router, Link } from "@reach/router";
+import { Router } from "@reach/router";
 import Homepage from "./components/Homepage";
 import WorkForUs from "./components/WorkForUs";
 import WorkWithUs from "./components/WorkWithUs";

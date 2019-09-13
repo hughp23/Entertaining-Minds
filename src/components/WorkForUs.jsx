@@ -2,11 +2,7 @@ import React, { Component } from "react";
 import { Link } from "@reach/router";
 import "../styling/_workforus.scss";
 import "../styling/_media-queries.scss";
-const facebookLogo = require("../assets/facebook.png");
-const instaLogo = require("../assets/instagram.png");
-const twitterLogo = require("../assets/twitter.png");
 const arrowLeft = require("../assets/arrowLeft.png");
-const entertainingMindsLogo = require("../assets/entertainingMindsLogo.png");
 
 class WorkForUs extends Component {
   render() {
@@ -20,15 +16,15 @@ class WorkForUs extends Component {
           </div>
           <div className="work-for-us-title">
             <h1>ACTORS</h1>
-            <h1>WHY WORK FOR US?</h1>
+            <h2>WHY WORK FOR US?</h2>
           </div>
           <div className="info-paragraph">
-            <div className="work-info-opening-line">
+            {/* <div className="work-info-opening-line">
               <p>
                 So you are looking for flexible work to fit in with your day to
                 day lives, but why should you work for us?
               </p>
-            </div>
+            </div> */}
             <div className="work-info-list-container">
               <div className="work-info-list">
                 <ul>

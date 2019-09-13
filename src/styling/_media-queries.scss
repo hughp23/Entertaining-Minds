@@ -1,7 +1,7 @@
 @import "./branding";
 
 //Media Queries
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   //Social media links at top of page
   .top-social-medias {
     width: 50vw;
@@ -254,5 +254,15 @@
     a {
       font-size: 0.3em;
     }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .work-for-us-page-container {
+    height: 550vh;
+  }
+
+  .work-with-us-page-container {
+    height: 550vh !important;
   }
 }
