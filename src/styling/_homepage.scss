@@ -36,6 +36,9 @@
   .background-container {
     z-index: -1;
     position: absolute;
+    background-size: 100vw 100vh;
+    -moz-background-size: 100vw 100vh;
+    -webkit-background-size: 100vw 100vh;
     img {
       height: 100vh;
       width: 100vw;
@@ -59,7 +62,6 @@
   position: relative;
   top: 25%;
   background-color: $primary-colour;
-
   ul {
     list-style-type: none;
     margin: 0;
@@ -139,14 +141,17 @@
 // About section
 .about-container {
   background-color: $primary-colour;
-  display: grid;
+  // display: grid;
   grid-template: 5% 50% 45% / 100%;
   grid-template-areas:
     "title"
     "text"
     "headshot";
+  width: 100vw;
+  // position: absolute;
 
   .headshot-container {
+    // position: absolute;
     .headshot-and-text-container {
       img {
         height: 30vh;
