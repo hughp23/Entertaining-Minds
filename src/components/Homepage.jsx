@@ -48,7 +48,7 @@ class Homepage extends Component {
           <div className="background-container">
             <img src={background} />
           </div>
-          <div className="top-social-medias">
+          {/* <div className="top-social-medias">
             <ul className="flex-box-row social-media-links">
               <li className="facebookLogo">
                 <a href="https://www.facebook.com/entertainingminds/?ref=bookmarks">
@@ -73,7 +73,7 @@ class Homepage extends Component {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="logo-only-container">
             <img src={entertainingMindsLogo} alt="Entertaining Minds" />
           </div>
