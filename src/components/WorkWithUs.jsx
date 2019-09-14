@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "@reach/router";
 import "../styling/_workwithus.scss";
 import "../styling/_global.scss";
+import * as Scroll from "react-scroll";
 const arrowLeft = require("../assets/arrowLeft.png");
 
 class WorkWithUs extends Component {
@@ -99,6 +100,10 @@ class WorkWithUs extends Component {
         </div>
       </div>
     );
+  }
+
+  componentDidMount() {
+    Scroll.animateScroll.scrollToTop();
   }
 }
 

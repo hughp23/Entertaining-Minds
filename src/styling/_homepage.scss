@@ -199,6 +199,8 @@
   .headshot-container {
     grid-area: headshot;
     height: 30vh;
+    position: relative;
+    top: 5%;
     img {
       position: relative;
       top: 50%;
