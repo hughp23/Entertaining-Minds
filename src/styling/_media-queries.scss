@@ -45,6 +45,63 @@
   }
 }
 
+//Media Queries: 1200px
+@media screen and (max-width: 1200px) {
+  // About section
+  .about-container {
+    height: 125vh !important;
+  }
+
+  .footer-email-container {
+    ul {
+      li {
+        img {
+          width: 10% !important;
+        }
+
+        p {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+
+  .social-media-links-footer-container {
+    ul {
+      // margin-left: 15vw !important;
+      // margin-right: 15vw !important;
+
+      li {
+        a {
+          img {
+            width: 10% !important;
+          }
+
+          p {
+            font-size: 0.9em;
+          }
+        }
+      }
+    }
+  }
+
+  .work-with-us-page-container {
+    height: 195vh !important;
+  }
+
+  .work-for-us-page-container {
+    height: 210vh !important;
+  }
+
+  .headshot-container {
+    .headshot-and-text-container {
+      position: relative;
+      top: 100%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
 //Media Queries: 420px
 @media screen and (max-width: 420px) {
   //Social media links at top of page

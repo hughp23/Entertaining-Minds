@@ -153,10 +153,12 @@ class Homepage extends Component {
             </div>
           </div>
           <div className="headshot-container">
-            <img src={jessicaHeadshot} alt="Jessica Paul" />
-            <div className="name-and-role">
-              <h3>Jessica Paul</h3>
-              <h4>Director</h4>
+            <div className="headshot-and-text-container">
+              <img src={jessicaHeadshot} alt="Jessica Paul" />
+              <div className="name-and-role">
+                <h3>Jessica Paul</h3>
+                <h4>Director</h4>
+              </div>
             </div>
           </div>
         </div>

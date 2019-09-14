@@ -86,13 +86,6 @@
   }
 }
 
-.logo-and-text-container {
-  height: 75vh;
-  img {
-    height: 45vh;
-  }
-}
-
 .logo-only-container {
   height: 50vh;
   img {
@@ -154,9 +147,11 @@
     "headshot";
 
   .headshot-container {
-    img {
-      height: 30vh;
-      border-radius: 50%;
+    .headshot-and-text-container {
+      img {
+        height: 30vh;
+        border-radius: 50%;
+      }
     }
   }
 
