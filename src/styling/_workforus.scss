@@ -52,7 +52,7 @@
       width: 55vw;
       background-image: linear-gradient(
         to right,
-        rgba(245, 245, 245, 0.1),
+        rgba(245, 245, 245, 0.3),
         rgb(245, 245, 245)
       );
       // border-radius: 0px 10px 10px 0px;
@@ -69,6 +69,7 @@
             font-size: 1.3em;
             padding: 0.5vh;
             font-family: $primary-text-font;
+            text-align: left;
           }
         }
       }
@@ -78,7 +79,7 @@
       // border: red 2px solid;
       background-image: linear-gradient(
         to left,
-        rgba(245, 245, 245, 0.1),
+        rgba(245, 245, 245, 0.3),
         rgb(245, 245, 245)
       );
       margin-left: 25vw;

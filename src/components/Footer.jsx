@@ -16,13 +16,13 @@ const Footer = () => {
         <div className="footer-email-container">
           <ul className="flex-box social-media-links">
             <li className="emailLogo">
-              <div className="flex-box-row">
+              <div className="contact-container">
                 <img src={emailLogo} alt="email" />
                 <p>info@entertainingminds.co.uk</p>
               </div>
             </li>
             <li className="phoneLogo">
-              <div className="flex-box-row">
+              <div className="contact-container">
                 <img src={phoneLogo} alt="phone" />
                 <p>07772023349</p>
               </div>
@@ -40,7 +40,7 @@ const Footer = () => {
           <ul className="flex-box social-media-links">
             <li className="facebookLogo">
               <a href="https://www.facebook.com/entertainingminds/?ref=bookmarks">
-                <div className="flex-box-row">
+                <div className="contact-container">
                   <img
                     src={facebookLogo}
                     alt="https://www.facebook.com/entertainingminds/?ref=bookmarks"
@@ -51,7 +51,7 @@ const Footer = () => {
             </li>
             <li className="instaLogo">
               <a href="https://www.instagram.com/entertainingminds/">
-                <div className="flex-box-row">
+                <div className="contact-container">
                   <img
                     src={instaLogo}
                     alt="https://www.instagram.com/entertainingminds/"
@@ -63,7 +63,7 @@ const Footer = () => {
             <li className="twitterLogo">
               <a href="https://twitter.com/EntMindsUK">
                 {" "}
-                <div className="flex-box-row">
+                <div className="contact-container">
                   <img src={twitterLogo} alt="https://twitter.com/EntMindsUK" />
                   <p>@EntMindsUK</p>
                 </div>

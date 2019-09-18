@@ -1,21 +1,29 @@
 @import "./branding";
 
 //Media Queries: 1400px
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
   // About section
   .about-container {
     height: 125vh !important;
+  }
+
+  .headshot-container {
+    .headshot-and-text-container {
+      position: relative;
+      top: 135%;
+      transform: translateY(-50%);
+    }
   }
 
   .footer-email-container {
     ul {
       li {
         img {
-          width: 10% !important;
+          width: 8% !important;
         }
 
         p {
-          font-size: 0.9em;
+          font-size: 0.8em;
         }
       }
     }
@@ -29,11 +37,11 @@
       li {
         a {
           img {
-            width: 10% !important;
+            width: 8% !important;
           }
 
           p {
-            font-size: 0.9em;
+            font-size: 0.8em;
           }
         }
       }
@@ -42,6 +50,31 @@
 
   .work-with-us-page-container {
     height: 190vh !important;
+    .work-info-container-right {
+      width: 75vw;
+    }
+
+    .contact-info-container {
+      width: 100vw !important;
+    }
+  }
+
+  .work-for-us-page-container {
+    .work-info-container {
+      width: 75vw;
+    }
+
+    .contact-info-container {
+      width: 100vw !important;
+    }
+  }
+
+  .credits-container {
+    font-size: 0.6em;
+    // top: 10% !important;
+    a {
+      font-size: 0.6em;
+    }
   }
 }
 
@@ -49,18 +82,26 @@
 @media screen and (max-width: 1200px) {
   // About section
   .about-container {
-    height: 125vh !important;
+    height: 145vh !important;
+  }
+
+  .headshot-container {
+    .headshot-and-text-container {
+      top: 170%;
+    }
   }
 
   .footer-email-container {
     ul {
+      margin-left: 10vw !important;
+      margin-right: 10vw !important;
       li {
         img {
-          width: 10% !important;
+          width: 8% !important;
         }
 
         p {
-          font-size: 0.9em;
+          font-size: 0.75em;
         }
       }
     }
@@ -68,17 +109,16 @@
 
   .social-media-links-footer-container {
     ul {
-      // margin-left: 15vw !important;
-      // margin-right: 15vw !important;
-
+      margin-left: 10vw !important;
+      margin-right: 10vw !important;
       li {
         a {
           img {
-            width: 10% !important;
+            width: 8% !important;
           }
 
           p {
-            font-size: 0.9em;
+            font-size: 0.75em;
           }
         }
       }
@@ -86,19 +126,144 @@
   }
 
   .work-with-us-page-container {
-    height: 195vh;
+    height: 205vh !important;
   }
 
   .work-for-us-page-container {
-    height: 210vh;
+    height: 225vh !important;
   }
 
+  .credits-container {
+    font-size: 0.6em;
+    // top: 10% !important;
+    a {
+      font-size: 0.6em;
+    }
+  }
+}
+
+//Media Queries: 1100px
+@media screen and (max-width: 1100px) {
   .headshot-container {
     .headshot-and-text-container {
-      position: relative;
-      top: 130%;
-      transform: translateY(-50%);
+      top: 185%;
     }
+  }
+
+  .work-container {
+    .work-sub-container {
+      .work-text {
+        p {
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+
+  .work-for-us-page-container {
+    .info-paragraph {
+      .work-info-list-container {
+        .work-info-list ul {
+          top: 0 !important;
+          li {
+            font-size: 1.1em !important;
+          }
+        }
+      }
+    }
+  }
+
+  .work-with-us-page-container {
+    .info-paragraph {
+      .work-info-list-container {
+        .work-info-list ul {
+          top: 0 !important;
+          li {
+            font-size: 1.1em !important;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-email-container {
+    ul {
+      li {
+        img {
+          width: 7% !important;
+        }
+
+        p {
+          font-size: 0.7em;
+        }
+      }
+    }
+  }
+
+  .social-media-links-footer-container {
+    ul {
+      li {
+        a {
+          img {
+            width: 7% !important;
+          }
+
+          p {
+            font-size: 0.7em;
+          }
+        }
+      }
+    }
+  }
+
+  .work-with-us-page-container {
+    height: 225vh !important;
+  }
+
+  .work-for-us-page-container {
+    height: 230vh !important;
+  }
+}
+
+//Media Queries: 1000px
+@media screen and (max-width: 1000px) {
+  .about-container {
+    height: 165vh !important;
+    .about-text {
+      .about-sub-text {
+        height: 25vh;
+      }
+    }
+
+    .headshot-container {
+      .headshot-and-text-container {
+        top: 225%;
+      }
+    }
+  }
+
+  .work-container {
+    .work-sub-container {
+      .work-text {
+        p {
+          font-size: 1.1em;
+        }
+      }
+
+      .work-button {
+        a {
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+
+  .work-with-us-page-container {
+    height: 245vh !important;
+  }
+
+  .work-for-us-page-container {
+    height: 260vh !important;
   }
 }
 
@@ -313,16 +478,19 @@
       padding-top: 2.5vh;
 
       ul {
-        margin-left: 15vw !important;
-        margin-right: 15vw !important;
+        margin-left: 20vw !important;
+        margin-right: 20vw !important;
 
         li {
-          img {
-            width: 7% !important;
-          }
+          .contact-container {
+            justify-content: space-between;
+            img {
+              width: 7% !important;
+            }
 
-          p {
-            font-size: 0.7em;
+            p {
+              font-size: 0.7em;
+            }
           }
         }
       }
@@ -340,17 +508,20 @@
       grid-area: socialMedia;
 
       ul {
-        margin-left: 15vw !important;
-        margin-right: 15vw !important;
+        margin-left: 20vw !important;
+        margin-right: 20vw !important;
 
         li {
           a {
-            img {
-              width: 7% !important;
-            }
+            .contact-container {
+              justify-content: space-between;
+              img {
+                width: 7% !important;
+              }
 
-            p {
-              font-size: 0.7em;
+              p {
+                font-size: 0.7em;
+              }
             }
           }
         }

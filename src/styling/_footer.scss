@@ -26,16 +26,22 @@
       transform: translateY(-50%);
 
       li {
-        img {
-          padding: 0.5vh;
-          width: 12%;
-          height: 20%;
-        }
+        .contact-container {
+          display: flex;
+          flex-direction: row;
+          img {
+            width: 10%;
+            height: 20%;
+            top: 1.5vh;
+            position: relative;
+            margin-right: 1vw;
+          }
 
-        p {
-          float: left;
-          color: black;
-          font-family: $primary-text-font;
+          p {
+            float: left;
+            color: black;
+            font-family: $primary-text-font;
+          }
         }
       }
     }
@@ -66,16 +72,22 @@
       li {
         a {
           text-decoration: none;
-          img {
-            padding: 0.5vh;
-            width: 12%;
-            height: 20%;
-          }
+          .contact-container {
+            display: flex;
+            flex-direction: row;
+            img {
+              width: 10%;
+              height: 20%;
+              top: 1.5vh;
+              position: relative;
+              margin-right: 1vw;
+            }
 
-          p {
-            float: left;
-            color: black;
-            font-family: $primary-text-font;
+            p {
+              float: left;
+              color: black;
+              font-family: $primary-text-font;
+            }
           }
         }
       }

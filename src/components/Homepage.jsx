@@ -213,6 +213,7 @@ class Homepage extends Component {
     } else {
       document.getElementById("cookies-popup").classList.remove("hidden");
     }
+    Scroll.animateScroll.scrollToTop();
   }
 
   closePopup = () => {
