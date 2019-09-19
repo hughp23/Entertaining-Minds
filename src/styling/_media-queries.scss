@@ -19,11 +19,11 @@
     ul {
       li {
         img {
-          width: 8% !important;
+          width: 12.5% !important;
         }
 
         p {
-          font-size: 0.8em;
+          font-size: 1em;
         }
       }
     }
@@ -37,11 +37,11 @@
       li {
         a {
           img {
-            width: 8% !important;
+            width: 12.5% !important;
           }
 
           p {
-            font-size: 0.8em;
+            font-size: 1em;
           }
         }
       }
@@ -51,16 +51,6 @@
   .work-with-us-page-container {
     height: 190vh !important;
     .work-info-container-right {
-      width: 75vw;
-    }
-
-    .contact-info-container {
-      width: 100vw !important;
-    }
-  }
-
-  .work-for-us-page-container {
-    .work-info-container {
       width: 75vw;
     }
 
@@ -97,11 +87,11 @@
       margin-right: 10vw !important;
       li {
         img {
-          width: 8% !important;
+          width: 10% !important;
         }
 
         p {
-          font-size: 0.75em;
+          font-size: 0.9em;
         }
       }
     }
@@ -114,24 +104,24 @@
       li {
         a {
           img {
-            width: 8% !important;
+            width: 10% !important;
           }
 
           p {
-            font-size: 0.75em;
+            font-size: 0.9em;
           }
         }
       }
     }
   }
 
-  .work-with-us-page-container {
-    height: 205vh !important;
-  }
+  // .work-with-us-page-container {
+  //   height: 205vh !important;
+  // }
 
-  .work-for-us-page-container {
-    height: 225vh !important;
-  }
+  // .work-for-us-page-container {
+  //   height: 225vh !important;
+  // }
 
   .credits-container {
     font-size: 0.6em;
@@ -190,11 +180,11 @@
     ul {
       li {
         img {
-          width: 7% !important;
+          width: 9% !important;
         }
 
         p {
-          font-size: 0.7em;
+          font-size: 0.85em;
         }
       }
     }
@@ -205,24 +195,24 @@
       li {
         a {
           img {
-            width: 7% !important;
+            width: 9% !important;
           }
 
           p {
-            font-size: 0.7em;
+            font-size: 0.85em;
           }
         }
       }
     }
   }
 
-  .work-with-us-page-container {
-    height: 225vh !important;
-  }
+  // .work-with-us-page-container {
+  //   height: 225vh !important;
+  // }
 
-  .work-for-us-page-container {
-    height: 230vh !important;
-  }
+  // .work-for-us-page-container {
+  //   height: 230vh !important;
+  // }
 }
 
 //Media Queries: 1000px
@@ -258,13 +248,13 @@
     }
   }
 
-  .work-with-us-page-container {
-    height: 245vh !important;
-  }
+  // .work-with-us-page-container {
+  //   height: 245vh !important;
+  // }
 
-  .work-for-us-page-container {
-    height: 260vh !important;
-  }
+  // .work-for-us-page-container {
+  //   height: 260vh !important;
+  // }
 }
 
 //Media Queries: 420px
@@ -383,12 +373,6 @@
           width: 100vw;
         }
       }
-
-      .work-with-us-image-container {
-        img {
-          width: 100vw;
-        }
-      }
     }
 
     .work-title {
@@ -418,7 +402,7 @@
   }
 
   .work-for-us-page-container {
-    height: 500vh;
+    // height: 500vh;
 
     .work-info-list-container {
       .work-info-list {
@@ -438,7 +422,7 @@
   }
 
   .work-with-us-page-container {
-    height: 500vh !important;
+    // height: 500vh !important;
 
     .work-info-list-container {
       .work-info-list {
@@ -475,7 +459,7 @@
 
     .footer-email-container {
       grid-area: email;
-      padding-top: 2.5vh;
+      padding-top: 5.5vh;
 
       ul {
         margin-left: 20vw !important;

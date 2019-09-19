@@ -67,6 +67,10 @@ h5 {
   font-weight: bold;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .inline {
   display: inline;
 }
@@ -81,4 +85,8 @@ h5 {
 
 .pointer {
   cursor: pointer;
+}
+
+.paddingTop5vh {
+  padding-top: 5vh;
 }

@@ -84,17 +84,21 @@ class WorkWithUs extends Component {
               </div>
             </div>
             <section className="contact-info-container">
-              <h3>WHAT MAKES US DIFFERENT?</h3>
-              <p>
-                All of our staff at Entertaining Minds are trained under the
-                Alzheimer’s Society by our company’s own ‘Dementia Champion’.
-                With this they gain a knowledge and understanding of Dementia/
-                Alzheimer’s to become ‘Dementia Friends’. As a company this is
-                very important to us. We passionately believe in undoing the
-                stigma behind these diseases and helping people understand this
-                new way of living.
-              </p>
-              <p>All of our staff are fully screened and DBS checked by us.</p>
+              <div className="text-container">
+                <h3>WHAT MAKES US DIFFERENT?</h3>
+                <p>
+                  All of our staff at Entertaining Minds are trained under the
+                  Alzheimer’s Society by our company’s own ‘Dementia Champion’.
+                  With this they gain a knowledge and understanding of Dementia/
+                  Alzheimer’s to become ‘Dementia Friends’. As a company this is
+                  very important to us. We passionately believe in undoing the
+                  stigma behind these diseases and helping people understand
+                  this new way of living.
+                </p>
+                <p>
+                  All of our staff are fully screened and DBS checked by us.
+                </p>
+              </div>
             </section>
           </div>
         </div>

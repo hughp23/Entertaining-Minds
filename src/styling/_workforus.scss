@@ -4,7 +4,9 @@
 
 .work-for-us-page-container {
   background-color: $primary-colour;
-  height: 200vh;
+  min-height: 175vh;
+  display: block;
+  overflow: auto;
   .work-for-us-title {
     padding-top: 7.5vh;
     h1 {
@@ -25,7 +27,8 @@
   }
 
   .info-paragraph {
-    width: 99vw;
+    width: 100vw;
+    max-width: 100%;
     padding-top: 7.5vh;
     display: flex;
     flex-direction: column;
@@ -47,29 +50,35 @@
     }
 
     .work-info-list-container {
-      height: 20vh;
+      min-height: 20vh;
+      display: block;
+      overflow: auto;
       position: relative;
-      width: 55vw;
-      background-image: linear-gradient(
-        to right,
-        rgba(245, 245, 245, 0.3),
-        rgb(245, 245, 245)
-      );
+      // width: 55vw;
+      // background-image: linear-gradient(
+      //   to right,
+      //   rgba(245, 245, 245, 0.4),
+      //   rgb(245, 245, 245)
+      // );
       // border-radius: 0px 10px 10px 0px;
       // opacity: 0.5;
+      // left: 25vw;
+      background-color: $secondary-colour;
 
       .work-info-list {
-        float: right;
+        // float: right;
+        vertical-align: center;
         ul {
           padding-right: 5vw;
           position: relative;
-          top: 1.5vh;
+          list-style-type: none;
 
           li {
-            font-size: 1.3em;
+            font-size: 1.7em;
             padding: 0.5vh;
             font-family: $primary-text-font;
-            text-align: left;
+            text-align: center;
+            // color: $primary-text-colour;
           }
         }
       }
@@ -79,7 +88,7 @@
       // border: red 2px solid;
       background-image: linear-gradient(
         to left,
-        rgba(245, 245, 245, 0.3),
+        rgba(245, 245, 245, 0.45),
         rgb(245, 245, 245)
       );
       margin-left: 25vw;
@@ -103,7 +112,7 @@
       // border: red 2px solid;
       background-image: linear-gradient(
         to right,
-        rgba(245, 245, 245, 0.1),
+        rgba(245, 245, 245, 0.45),
         rgb(245, 245, 245)
       );
       // margin-left: 40vw;
@@ -138,19 +147,24 @@
 
   .contact-info-container {
     // border: orange 2px solid;
-    width: 100%;
-    width: 99vw;
+    width: 100vw;
+    max-width: 100%;
     background-color: $secondary-colour;
     padding-top: 2.5vh;
     margin-top: 10vh;
+    margin-bottom: 10vh;
 
     h3 {
       font-size: 1.5em;
     }
 
-    p {
-      font-family: $primary-text-font;
-      font-size: 1.3em;
+    .text-container {
+      padding-left: 2.5vw;
+      padding-right: 2.5vw;
+      p {
+        font-family: $primary-text-font;
+        font-size: 1.3em;
+      }
     }
   }
 }

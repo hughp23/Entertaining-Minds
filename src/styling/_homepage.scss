@@ -42,6 +42,7 @@
     img {
       height: 100vh;
       width: 100vw;
+      max-width: 100%;
       opacity: 0.8;
     }
   }
@@ -148,6 +149,7 @@
     "text"
     "headshot";
   width: 100vw;
+  max-width: 100%;
   // position: absolute;
 
   .headshot-container {

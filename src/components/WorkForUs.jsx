@@ -49,7 +49,7 @@ class WorkForUs extends Component {
                   is why we reward you with great rates of pay for simply a few
                   hours of your time.
                 </p>
-                <p className="bold">
+                <p>
                   Singers, poets, stand up comedians, magicians, or simply those
                   with a passion for the arts - this is for you!
                 </p>
@@ -85,17 +85,19 @@ class WorkForUs extends Component {
               </div>
             </div>
             <section className="contact-info-container">
-              <h3>Contact us today!</h3>
-              <p className="inline">If you’re looking for</p>{" "}
-              <p className="bold inline">flexible</p>{" "}
-              <p className="inline">and</p>{" "}
-              <p className="bold inline">rewarding</p>{" "}
-              <p className="inline">
-                work don’t hesitate to contact us today. We are always looking
-                for friendly, new faces to join our team.
-              </p>
-              <p>info@entertainingminds.co.uk</p>
-              <p>07772023349</p>
+              <div className="text-container">
+                <h3>Contact us today!</h3>
+                <p className="inline">If you’re looking for</p>{" "}
+                <p className="italic inline">flexible</p>{" "}
+                <p className="inline">and</p>{" "}
+                <p className="italic inline">rewarding</p>{" "}
+                <p className="inline">
+                  work don’t hesitate to contact us today. We are always looking
+                  for friendly, new faces to join our team.
+                </p>
+                <p className="paddingTop5vh">info@entertainingminds.co.uk</p>
+                <p>07772023349</p>
+              </div>
             </section>
           </div>
         </div>
