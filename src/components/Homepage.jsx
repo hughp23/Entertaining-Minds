@@ -10,9 +10,6 @@ import "../assets/entertainingMindsText.png";
 import { MDBAnimation } from "mdbreact";
 // import $ from "jquery";
 const entertainingMindsLogo = require("../assets/entertainingMindsLogo.png");
-const facebookLogo = require("../assets/facebook.png");
-const instaLogo = require("../assets/instagram.png");
-const twitterLogo = require("../assets/twitter.png");
 const jessicaHeadshot = require("../assets/jessicaHeadshot.jpg");
 const joinUsImage = require("../assets/joinUsImage.jpg");
 const workWithUsImage = require("../assets/workWithUsImage.jpg");
@@ -49,32 +46,6 @@ class Homepage extends Component {
           <div className="background-container">
             <img src={background} alt="entertaining minds" />
           </div>
-          {/* <div className="top-social-medias">
-            <ul className="flex-box-row social-media-links">
-              <li className="facebookLogo">
-                <a href="https://www.facebook.com/entertainingminds/?ref=bookmarks">
-                  <img
-                    src={facebookLogo}
-                    alt="https://www.facebook.com/entertainingminds/?ref=bookmarks"
-                  />
-                </a>
-              </li>
-              <li className="instaLogo">
-                <a href="https://www.instagram.com/entertainingminds/">
-                  <img
-                    src={instaLogo}
-                    alt="https://www.instagram.com/entertainingminds/"
-                  />
-                </a>
-              </li>
-              <li className="twitterLogo">
-                <a href="https://twitter.com/EntMindsUK">
-                  {" "}
-                  <img src={twitterLogo} alt="https://twitter.com/EntMindsUK" />
-                </a>
-              </li>
-            </ul>
-          </div> */}
           <MDBAnimation
             type="zoomIn"
             duration="1.5s"
@@ -169,9 +140,6 @@ class Homepage extends Component {
         </div>
         <div id="workInfo" className="work-container">
           <MDBAnimation
-            type="slideInLeft"
-            duration="2.5s"
-            reveal
             className="work-sub-container"
           >
             <div className="work-for-us-image-container">
@@ -193,9 +161,6 @@ class Homepage extends Component {
             </div>
           </MDBAnimation>
           <MDBAnimation
-            type="slideInRight"
-            duration="2.5s"
-            reveal
             className="work-sub-container"
           >
             <div className="work-with-us-image-container">
