@@ -137,6 +137,7 @@
   .return-home-container {
     position: fixed;
     z-index: 1;
+    box-sizing: content-box !important;
     img {
       height: 2.5vh;
       float: left;

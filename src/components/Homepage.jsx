@@ -7,6 +7,7 @@ import "../styling/_media-queries.scss";
 import "../assets/entertainingMindsLogoAndText.png";
 import "../assets/entertainingMindsLogo.png";
 import "../assets/entertainingMindsText.png";
+import { MDBAnimation } from "mdbreact";
 // import $ from "jquery";
 const entertainingMindsLogo = require("../assets/entertainingMindsLogo.png");
 const facebookLogo = require("../assets/facebook.png");
@@ -46,7 +47,7 @@ class Homepage extends Component {
         </div>
         <div className="full-screen nav-and-logo">
           <div className="background-container">
-            <img src={background} />
+            <img src={background} alt="entertaining minds" />
           </div>
           {/* <div className="top-social-medias">
             <ul className="flex-box-row social-media-links">
@@ -74,9 +75,13 @@ class Homepage extends Component {
               </li>
             </ul>
           </div> */}
-          <div className="logo-only-container">
+          <MDBAnimation
+            type="zoomIn"
+            duration="1.5s"
+            className="logo-only-container"
+          >
             <img src={entertainingMindsLogo} alt="Entertaining Minds" />
-          </div>
+          </MDBAnimation>
           <div className="nav-bar">
             <ul>
               <li>
@@ -163,7 +168,12 @@ class Homepage extends Component {
           </div>
         </div>
         <div id="workInfo" className="work-container">
-          <div className="work-sub-container">
+          <MDBAnimation
+            type="slideInLeft"
+            duration="2.5s"
+            reveal
+            className="work-sub-container"
+          >
             <div className="work-for-us-image-container">
               <img src={joinUsImage} alt="work for us" />
             </div>
@@ -181,8 +191,13 @@ class Homepage extends Component {
             <div className="work-button">
               <Link to="/workforus">Staff Information</Link>
             </div>
-          </div>
-          <div className="work-sub-container">
+          </MDBAnimation>
+          <MDBAnimation
+            type="slideInRight"
+            duration="2.5s"
+            reveal
+            className="work-sub-container"
+          >
             <div className="work-with-us-image-container">
               <img src={workWithUsImage} alt="work with us" />
             </div>
@@ -200,7 +215,7 @@ class Homepage extends Component {
             <div className="work-button">
               <Link to="/workwithus">Client Information</Link>
             </div>
-          </div>
+          </MDBAnimation>
         </div>
       </div>
     );

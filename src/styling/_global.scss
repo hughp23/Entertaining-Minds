@@ -90,3 +90,9 @@ h5 {
 .paddingTop5vh {
   padding-top: 5vh;
 }
+
+*,
+::after,
+::before {
+  box-sizing: content-box !important;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "@reach/router";
+import { MDBAnimation } from "mdbreact";
 import "../styling/_workforus.scss";
 import "../styling/_media-queries.scss";
 import * as Scroll from "react-scroll";
@@ -36,7 +37,12 @@ class WorkForUs extends Component {
                 </ul>
               </div>
             </div>
-            <div className="work-info-container">
+            <MDBAnimation
+              type="slideInRight"
+              duration="4s"
+              className="work-info-container"
+              reveal
+            >
               <div className="work-info">
                 <p>
                   We strive to provide you with regular work and understand the
@@ -54,8 +60,13 @@ class WorkForUs extends Component {
                   with a passion for the arts - this is for you!
                 </p>
               </div>
-            </div>
-            <div className="work-info-container-left">
+            </MDBAnimation>
+            <MDBAnimation
+              type="slideInLeft"
+              duration="4s"
+              className="work-info-container-left"
+              reveal
+            >
               <div className="work-info">
                 <p>
                   Our sessions are designed in the same way a kids musical
@@ -83,7 +94,7 @@ class WorkForUs extends Component {
                   behind Dementia/ Alzheimer’s disease.
                 </p>
               </div>
-            </div>
+            </MDBAnimation>
             <section className="contact-info-container">
               <div className="text-container">
                 <h3>Contact us today!</h3>

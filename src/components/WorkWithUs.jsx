@@ -3,6 +3,7 @@ import { Link } from "@reach/router";
 import "../styling/_workwithus.scss";
 import "../styling/_global.scss";
 import * as Scroll from "react-scroll";
+import { MDBAnimation } from "mdbreact";
 const arrowLeft = require("../assets/arrowLeft.png");
 
 class WorkWithUs extends Component {
@@ -36,7 +37,12 @@ class WorkWithUs extends Component {
                 </ul>
               </div>
             </div>
-            <div className="work-info-container">
+            <MDBAnimation
+              type="slideInLeft"
+              duration="4s"
+              className="work-info-container"
+              reveal
+            >
               <div className="work-info">
                 <p>
                   We pride ourselves in offering a quality program of musical
@@ -60,8 +66,13 @@ class WorkWithUs extends Component {
                   to life!
                 </p>
               </div>
-            </div>
-            <div className="work-info-container-right">
+            </MDBAnimation>
+            <MDBAnimation
+              type="slideInRight"
+              duration="4s"
+              className="work-info-container-right"
+              reveal
+            >
               <div className="work-info">
                 <p className="bold">
                   Please contact us directly for more information regarding our
@@ -82,7 +93,7 @@ class WorkWithUs extends Component {
                   to concentrate on your home with as little hassle as possible.
                 </p>
               </div>
-            </div>
+            </MDBAnimation>
             <section className="contact-info-container">
               <div className="text-container">
                 <h3>WHAT MAKES US DIFFERENT?</h3>

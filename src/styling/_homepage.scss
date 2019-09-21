@@ -78,7 +78,7 @@
 
       a {
         text-decoration: none;
-        color: $primary-text-colour;
+        color: $primary-text-colour !important;
         cursor: pointer;
       }
 
@@ -231,7 +231,7 @@
 
 // Work for/with us section
 .work-container {
-  background: $secondary-colour;
+  background: $primary-colour;
   height: 100vh;
   display: flex;
   justify-content: space-between;
