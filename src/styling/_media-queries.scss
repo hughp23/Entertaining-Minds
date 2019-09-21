@@ -322,12 +322,12 @@
   // About section
   .about-container {
     height: 150vh !important;
-    grid-template: 5% 60% 35% / 100% !important;
+    grid-template: 5% 65% 30% / 100% !important;
     .about-text {
-      height: 40vh;
+      height: 85vh;
       grid-area: text;
       .about-sub-text {
-        height: 20vh;
+        height: 25vh;
         margin-top: 2vh;
         p {
           font-size: 0.75em;
@@ -342,7 +342,7 @@
 
     .headshot-container {
       grid-area: headshot;
-      height: 50vh;
+      height: 15vh;
       .headshot-and-text-container {
         top: 130%;
         img {
