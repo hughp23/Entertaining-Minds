@@ -4,7 +4,7 @@
 
 .work-with-us-page-container {
   background-color: $primary-colour;
-  min-height: 205vh;
+  min-height: 175vh;
   display: block;
   overflow: auto;
   .work-with-us-title {
@@ -84,7 +84,7 @@
     .work-info-container {
       background-image: linear-gradient(
         to right,
-        rgba(245, 245, 245, 0.1),
+        rgba(245, 245, 245, 0.45),
         rgb(245, 245, 245)
       );
       width: 75vw;
@@ -107,7 +107,7 @@
     .work-info-container-right {
       background-image: linear-gradient(
         to left,
-        rgba(245, 245, 245, 0.1),
+        rgba(245, 245, 245, 0.45),
         rgb(245, 245, 245)
       );
       // width: 75vw;
