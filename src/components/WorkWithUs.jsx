@@ -48,7 +48,7 @@ class WorkWithUs extends Component {
                   We pride ourselves in offering a quality program of musical
                   activities and entertainment which will stimulate your
                   residents daily. All sessions are carefully planned and
-                  tailored to suit your residents abilities and needs a
+                  tailored to suit your residents abilities and needs - a
                   completely personal touch! Our sessions are run by actors and
                   creatives who have been carefully selected by us based on
                   their professional performing backgrounds and/ or their flare
@@ -71,7 +71,7 @@ class WorkWithUs extends Component {
               type="slideInRight"
               duration="4s"
               className="work-info-container-right"
-              reveal
+              // reveal
             >
               <div className="work-info">
                 <p className="bold">

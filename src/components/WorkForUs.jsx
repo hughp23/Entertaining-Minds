@@ -79,8 +79,7 @@ class WorkForUs extends Component {
                   perform your own set of singing, a yoga class, or even a magic
                   show - if it’s something you can do well! Entertaining Minds
                   strives to give you the chance to make money regularly
-                  performing, helping you do what you do best - and make a
-                  difference doing so!
+                  performing - and make a difference doing so!
                 </p>
                 <p>
                   Before joining our books you will be taken through an initial
@@ -97,7 +96,7 @@ class WorkForUs extends Component {
             </MDBAnimation>
             <section className="contact-info-container">
               <div className="text-container">
-                <h3>Contact us today!</h3>
+                <h3>CONTACT US TODAY!</h3>
                 <p className="inline">If you’re looking for</p>{" "}
                 <p className="italic inline">flexible</p>{" "}
                 <p className="inline">and</p>{" "}
