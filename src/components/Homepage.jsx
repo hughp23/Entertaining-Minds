@@ -7,9 +7,10 @@ import "../styling/_media-queries.scss";
 import "../assets/entertainingMindsLogoAndText.png";
 import "../assets/entertainingMindsLogo.png";
 import "../assets/entertainingMindsText.png";
+import "../assets/large-logo.png";
 import { MDBAnimation } from "mdbreact";
 // import $ from "jquery";
-const entertainingMindsLogo = require("../assets/entertainingMindsLogo.png");
+const entertainingMindsLogo = require("../assets/large-logo.png");
 const jessicaHeadshot = require("../assets/jessicaHeadshot.jpg");
 const joinUsImage = require("../assets/joinUsImage.jpg");
 const workWithUsImage = require("../assets/workWithUsImage.jpg");
@@ -139,9 +140,7 @@ class Homepage extends Component {
           </div>
         </div>
         <div id="workInfo" className="work-container">
-          <MDBAnimation
-            className="work-sub-container"
-          >
+          <MDBAnimation className="work-sub-container">
             <div className="work-for-us-image-container">
               <img src={joinUsImage} alt="work for us" />
             </div>
@@ -160,9 +159,7 @@ class Homepage extends Component {
               <Link to="/workforus">Staff Information</Link>
             </div>
           </MDBAnimation>
-          <MDBAnimation
-            className="work-sub-container"
-          >
+          <MDBAnimation className="work-sub-container">
             <div className="work-with-us-image-container">
               <img src={workWithUsImage} alt="work with us" />
             </div>
