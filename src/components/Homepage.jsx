@@ -16,7 +16,7 @@ const joinUsImage = require("../assets/joinUsImage.jpg");
 const workWithUsImage = require("../assets/workWithUsImage.jpg");
 const arrowDown = require("../assets/arrowDown.png");
 const background = require("../assets/background.png");
-const cross = require("../assets/cross.png");
+// const cross = require("../assets/cross.png");
 
 class Homepage extends Component {
   state = {};
@@ -41,7 +41,7 @@ class Homepage extends Component {
             or by continuing to use our site you consent to the use of cookies
             (unless you have disabled cookies).
           </p>
-          <img src={cross} alt="Close!" onClick={this.closePopup} />
+          {/* <img src={cross} alt="Close!" onClick={this.closePopup} /> */}
         </div>
         <div className="full-screen nav-and-logo">
           <div className="background-container">

@@ -18,7 +18,7 @@ const Footer = () => {
             <li className="emailLogo">
               <div className="contact-container">
                 <img src={emailLogo} alt="email" />
-                <p>info@entertainingminds.co.uk</p>
+                <a href="mailto:info@entertainingminds.co.uk"><p>info@entertainingminds.co.uk</p></a>
               </div>
             </li>
             <li className="phoneLogo">

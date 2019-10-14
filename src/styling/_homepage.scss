@@ -150,10 +150,14 @@
     "headshot";
   width: 100vw;
   max-width: 100%;
-  // position: absolute;
+  position: relative;
 
   .headshot-container {
-    // position: absolute;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
     .headshot-and-text-container {
       img {
         height: 30vh;
@@ -179,13 +183,13 @@
   .about-text {
     margin-left: 12.5vw;
     margin-right: 12.5vw;
-    height: 40vh;
+    height: auto;
     grid-area: text;
     display: flex;
     flex-direction: column;
 
     .about-sub-text {
-      height: 20vh;
+      height: 12.5vh;
       p {
         font-size: 1.25em;
         position: relative;
