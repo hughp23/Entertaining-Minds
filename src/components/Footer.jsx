@@ -31,7 +31,7 @@ const Footer = () => {
               </div>
             </li>
           </ul>
-          <section class="dementia-firends-logo-container">
+          <section class="dementia-friends-logo-container">
             <img src={dementiaFriendsLogo} alt="dementia friends" />
           </section>
         </div>

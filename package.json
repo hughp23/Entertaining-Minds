@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@reach/router": "^1.2.1",
+    "firebase": "^7.2.0",
     "jquery": "^3.4.1",
     "mdbreact": "^4.20.0",
     "node-sass": "^4.12.0",
