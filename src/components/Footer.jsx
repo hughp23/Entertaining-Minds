@@ -8,17 +8,20 @@ const instaLogo = require("../assets/instagram.png");
 const twitterLogo = require("../assets/twitter.png");
 const phoneLogo = require("../assets/phone.png");
 const emailLogo = require("../assets/email.png");
+const dementiaFriendsLogo = require("../assets/dementia-friends-logo.png");
 
 const Footer = () => {
   return (
     <div>
       <div id="footer" className="footer-container">
-        <div className="footer-email-container">
+        <div className="footer-email-container flex-box">
           <ul className="flex-box social-media-links">
             <li className="emailLogo">
               <div className="contact-container">
                 <img src={emailLogo} alt="email" />
-                <a href="mailto:info@entertainingminds.co.uk"><p>info@entertainingminds.co.uk</p></a>
+                <a href="mailto:info@entertainingminds.co.uk">
+                  <p>info@entertainingminds.co.uk</p>
+                </a>
               </div>
             </li>
             <li className="phoneLogo">
@@ -28,6 +31,9 @@ const Footer = () => {
               </div>
             </li>
           </ul>
+          <section class="dementia-firends-logo-container">
+            <img src={dementiaFriendsLogo} alt="dementia friends" />
+          </section>
         </div>
         <div
           onClick={scrollToTop}

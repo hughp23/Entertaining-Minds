@@ -98,13 +98,14 @@ class WorkWithUs extends Component {
               <div className="text-container">
                 <h3>WHAT MAKES US DIFFERENT?</h3>
                 <p>
-                  All of our staff at Entertaining Minds are trained under the
-                  Alzheimer’s Society by our company’s own ‘Dementia Champion’.
-                  With this they gain a knowledge and understanding of Dementia/
-                  Alzheimer’s to become ‘Dementia Friends’. As a company this is
-                  very important to us. We passionately believe in undoing the
-                  stigma behind these diseases and helping people understand
-                  this new way of living.
+                  All of our staff at Entertaining Minds have attended a
+                  Dementia Friends Information Session delivered by our
+                  company’s ‘Dementia Friends Champion’. At the Sessions, they
+                  become Dementia Friends by gaining a greater understanding of
+                  dementia and the things they can do to help. As a company this
+                  is very important to us. We passionately believe in reducing
+                  the stigma around dementia and helping people understand that
+                  there is more to the person than the dementia.
                 </p>
                 <p>
                   All of our staff are fully screened and DBS checked by us.
