@@ -5,6 +5,10 @@
   // About section
   .about-container {
     height: 125vh !important;
+
+    // .headshot-container {
+    //   top: 10%;
+    // }
   }
 
   // .headshot-container {
@@ -69,10 +73,15 @@
 }
 
 //Media Queries: 1200px
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   // About section
   .about-container {
     height: 145vh !important;
+    .about-text {
+      .about-sub-text {
+        height: 20vh;
+      }
+    }
   }
 
   // .headshot-container {
