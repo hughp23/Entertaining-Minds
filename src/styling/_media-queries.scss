@@ -27,7 +27,7 @@
         }
 
         p {
-          // font-size: 1em;
+          font-size: 1em;
         }
       }
     }
@@ -45,7 +45,7 @@
           }
 
           p {
-            // font-size: 1em;
+            font-size: 1em;
           }
         }
       }
@@ -64,10 +64,10 @@
   }
 
   .credits-container {
-    // font-size: 0.6em;
+    font-size: 0.6em;
     // top: 10% !important;
     a {
-      // font-size: 0.6em;
+      font-size: 0.6em;
     }
   }
 }
@@ -100,7 +100,7 @@
         }
 
         p {
-          // font-size: 0.9em;
+          font-size: 0.9em;
         }
       }
     }
@@ -117,7 +117,7 @@
           }
 
           p {
-            // font-size: 0.9em;
+            font-size: 0.9em;
           }
         }
       }
@@ -136,7 +136,7 @@
     // font-size: 0.6em;
     // top: 10% !important;
     a {
-      // font-size: 0.6em;
+      font-size: 0.6em;
     }
   }
 }
@@ -153,7 +153,7 @@
     .work-sub-container {
       .work-text {
         p {
-          // font-size: 1.2em;
+          font-size: 1.2em;
         }
       }
     }
@@ -165,7 +165,7 @@
         .work-info-list ul {
           top: 0 !important;
           li {
-            // font-size: 1.1em !important;
+            font-size: 1.1em !important;
           }
         }
       }
@@ -178,7 +178,7 @@
         .work-info-list ul {
           top: 0 !important;
           li {
-            // font-size: 1.1em !important;
+            font-size: 1.1em !important;
           }
         }
       }
@@ -193,7 +193,7 @@
         }
 
         p {
-          // font-size: 0.85em;
+          font-size: 0.85em;
         }
       }
     }
@@ -208,7 +208,7 @@
           }
 
           p {
-            // font-size: 0.85em;
+            font-size: 0.85em;
           }
         }
       }
@@ -245,13 +245,13 @@
     .work-sub-container {
       .work-text {
         p {
-          // font-size: 1.1em;
+          font-size: 1.1em;
         }
       }
 
       .work-button {
         a {
-          // font-size: 1.2em;
+          font-size: 1.2em;
         }
       }
     }
@@ -297,7 +297,7 @@
 
       li {
         font-family: $title-text-font;
-        // font-size: 1.1em;
+        font-size: 1.1em;
 
         :hover {
           color: $primary-text-colour;
@@ -320,11 +320,11 @@
     bottom: 15vh;
 
     h1 {
-      // font-size: 1.5em;
+      font-size: 1.5em;
     }
 
     h3 {
-      // font-size: 1em;
+      font-size: 1em;
     }
   }
 
@@ -339,7 +339,7 @@
         // height: 28vh;
         margin-top: 2vh;
         p {
-          // font-size: 0.75em;
+          font-size: 0.75em;
           position: relative;
           top: 50%;
           transform: translateY(-50%);
@@ -394,7 +394,7 @@
       grid-area: title;
 
       h1 {
-        // font-size: 2.5em;
+        font-size: 2.5em;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
@@ -407,7 +407,7 @@
       margin-right: 7.5vw;
 
       p {
-        // font-size: 0.95em !important;
+        font-size: 0.95em !important;
       }
     }
 
@@ -422,13 +422,13 @@
     .work-info-list-container {
       .work-info-list {
         li {
-          // font-size: 0.75em !important;
+          font-size: 0.75em !important;
         }
       }
     }
 
     p {
-      // font-size: 0.75em;
+      font-size: 0.75em;
     }
 
     .contact-info-container {
@@ -442,7 +442,7 @@
     .work-info-list-container {
       .work-info-list {
         li {
-          // font-size: 0.75em !important;
+          font-size: 0.75em !important;
         }
       }
     }
@@ -451,7 +451,7 @@
       .work-info-container .work-info-container-left {
         .work-info {
           p {
-            // font-size: 0.75em;
+            font-size: 0.75em;
           }
         }
       }
@@ -464,11 +464,12 @@
 
   // Footer Section
   .footer-container {
-    height: 40vh !important;
-    grid-template: 30% 40% 20% 10% / 100% !important;
+    height: 45vh !important;
+    grid-template: 25% 35% 15% 15% 15% / 100% !important;
     grid-template-areas:
       "email"
       "socialMedia"
+      "dementiaFriends"
       "logo"
       "credits" !important;
 
@@ -488,11 +489,15 @@
             }
 
             p {
-              // font-size: 0.7em;
+              font-size: 0.7em;
             }
           }
         }
       }
+    }
+
+    .dementia-friends-logo-container {
+      grid-area: dementiaFriends;
     }
 
     .footer-logo-container {
