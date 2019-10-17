@@ -468,22 +468,27 @@
 
   // Footer Section
   .footer-container {
-    height: 45vh !important;
-    grid-template: 25% 35% 15% 15% 15% / 100% !important;
+    height: 90vh !important;
+    grid-template: 40% 20% 20% 20% / 100% !important;
     grid-template-areas:
       "email"
-      "socialMedia"
+      // "socialMedia"
       "dementiaFriends"
       "logo"
       "credits" !important;
-
-    .footer-email-container {
-      grid-area: email;
-      padding-top: 5.5vh;
+    .social-media-links-footer-container {
+      flex-direction: column !important;
+      grid-area: email !important;
+      padding-top: 15vh;
+    }
+    .contact {
+      // padding-top: 5.5vh;
 
       ul {
-        // margin-left: 10vw !important;
-        // margin-right: 10vw !important;
+        margin-left: 10vw !important;
+        margin-right: 10vw !important;
+        top: 0;
+        transform: none;
 
         li {
           .contact-container {
@@ -499,25 +504,31 @@
         }
       }
     }
-
-    .dementia-friends-logo-container {
+    .footer-email-container {
       grid-area: dementiaFriends;
+      .dementia-friends-logo-container {
+        position: relative;
+        top: 32vh;
+      }
     }
 
     .footer-logo-container {
       img {
-        height: 15vh !important;
+        // height: 15vh !important;
         position: relative !important;
         bottom: 4vh !important;
       }
     }
 
-    .social-media-links-footer-container {
-      grid-area: socialMedia;
+    .social-media {
+      // grid-area: socialMedia;
 
       ul {
-        // margin-left: 10vw !important;
-        // margin-right: 10vw !important;
+        margin-left: 10vw !important;
+        margin-right: 10vw !important;
+        height: auto;
+        top: 0;
+        transform: none;
 
         li {
           a {
