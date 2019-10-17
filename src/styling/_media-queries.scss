@@ -4,8 +4,12 @@
 @media screen and (max-width: 1500px) {
   // About section
   .about-container {
-    height: 125vh !important;
-
+    height: 125vh;
+    .about-text {
+      .about-sub-text {
+        height: 17.5vh;
+      }
+    }
     // .headshot-container {
     //   top: 10%;
     // }
@@ -76,10 +80,10 @@
 @media screen and (max-width: 1300px) {
   // About section
   .about-container {
-    height: 145vh !important;
+    height: 170vh;
     .about-text {
       .about-sub-text {
-        height: 20vh;
+        height: 25vh;
       }
     }
   }
@@ -227,10 +231,10 @@
 //Media Queries: 1000px
 @media screen and (max-width: 1000px) {
   .about-container {
-    height: 165vh !important;
+    height: 185vh;
     .about-text {
       .about-sub-text {
-        height: 25vh;
+        height: 30vh;
       }
     }
 
@@ -330,7 +334,7 @@
 
   // About section
   .about-container {
-    height: 175vh !important;
+    height: 190vh;
     grid-template: 5% 65% 30% / 100% !important;
     .about-text {
       // height: 88vh;
@@ -550,4 +554,13 @@
   // .work-with-us-page-container {
   //   height: 550vh !important;
   // }
+
+  .about-container {
+    height: 250vh;
+    .about-text {
+      .about-sub-text {
+        height: 40vh;
+      }
+    }
+  }
 }
