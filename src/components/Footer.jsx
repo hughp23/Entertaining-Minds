@@ -15,22 +15,6 @@ const Footer = () => {
     <div>
       <div id="footer" className="footer-container">
         <div className="footer-email-container flex-box">
-          <ul className="flex-box social-media-links">
-            <li className="emailLogo">
-              <div className="contact-container">
-                <img src={emailLogo} alt="email" />
-                <a href="mailto:info@entertainingminds.co.uk">
-                  <p>info@entertainingminds.co.uk</p>
-                </a>
-              </div>
-            </li>
-            <li className="phoneLogo">
-              <div className="contact-container">
-                <img src={phoneLogo} alt="phone" />
-                <p>07772023349</p>
-              </div>
-            </li>
-          </ul>
           <section class="dementia-friends-logo-container">
             <img src={dementiaFriendsLogo} alt="dementia friends" />
           </section>
@@ -43,39 +27,62 @@ const Footer = () => {
           <img src={entertainingMindsLogo} alt="small-logo" />
         </div>
         <div className="social-media-links-footer-container">
-          <ul className="flex-box social-media-links">
-            <li className="facebookLogo">
-              <a href="https://www.facebook.com/entertainingminds/?ref=bookmarks">
+          <div className="social-media">
+            <ul className="flex-box social-media-links">
+              <li className="facebookLogo">
+                <a href="https://www.facebook.com/entertainingminds/?ref=bookmarks">
+                  <div className="contact-container">
+                    <img
+                      src={facebookLogo}
+                      alt="https://www.facebook.com/entertainingminds/?ref=bookmarks"
+                    />
+                    <p>@Entertaining Minds</p>
+                  </div>
+                </a>
+              </li>
+              <li className="instaLogo">
+                <a href="https://www.instagram.com/entertainingminds/">
+                  <div className="contact-container">
+                    <img
+                      src={instaLogo}
+                      alt="https://www.instagram.com/entertainingminds/"
+                    />
+                    <p>@entertainingminds</p>
+                  </div>
+                </a>
+              </li>
+              <li className="twitterLogo">
+                <a href="https://twitter.com/EntMindsUK">
+                  {" "}
+                  <div className="contact-container">
+                    <img
+                      src={twitterLogo}
+                      alt="https://twitter.com/EntMindsUK"
+                    />
+                    <p>@EntMindsUK</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="contact">
+            <ul className="flex-box social-media-links">
+              <li className="emailLogo">
                 <div className="contact-container">
-                  <img
-                    src={facebookLogo}
-                    alt="https://www.facebook.com/entertainingminds/?ref=bookmarks"
-                  />
-                  <p>@Entertaining Minds</p>
+                  <img src={emailLogo} alt="email" />
+                  <a href="mailto:info@entertainingminds.co.uk">
+                    <p>info@entertainingminds.co.uk</p>
+                  </a>
                 </div>
-              </a>
-            </li>
-            <li className="instaLogo">
-              <a href="https://www.instagram.com/entertainingminds/">
+              </li>
+              <li className="phoneLogo">
                 <div className="contact-container">
-                  <img
-                    src={instaLogo}
-                    alt="https://www.instagram.com/entertainingminds/"
-                  />
-                  <p>@entertainingminds</p>
+                  <img src={phoneLogo} alt="phone" />
+                  <p>07772023349</p>
                 </div>
-              </a>
-            </li>
-            <li className="twitterLogo">
-              <a href="https://twitter.com/EntMindsUK">
-                {" "}
-                <div className="contact-container">
-                  <img src={twitterLogo} alt="https://twitter.com/EntMindsUK" />
-                  <p>@EntMindsUK</p>
-                </div>
-              </a>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="credits-container">
           Icons made by{" "}

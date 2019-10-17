@@ -13,43 +13,16 @@
   .footer-email-container {
     grid-area: email;
 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      height: 20vh;
-      margin-left: 12.5vw;
-      margin-right: 12.5vw;
-      position: relative;
-      top: 65%;
-      transform: translateY(-50%);
-
-      li {
-        .contact-container {
-          display: flex;
-          flex-direction: row;
-          img {
-            width: 10%;
-            height: 20%;
-            // top: 1.5vh;
-            position: relative;
-            margin-right: 1vw;
-          }
-
-          p {
-            float: left;
-            color: black;
-            font-family: $primary-text-font;
-          }
-        }
-      }
-    }
-
     .dementia-friends-logo-container {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
       img {
-        height: 7.5vh;
+        height: 12.5vh;
         border-radius: 0.25em;
+        position: relative;
+        top: 25%;
       }
     }
   }
@@ -57,9 +30,9 @@
   .footer-logo-container {
     grid-area: logo;
     img {
-      height: 22vh;
+      height: 30vh;
       position: relative;
-      bottom: 0vh;
+      bottom: 2.5vh;
       text-align: center;
       margin-left: auto;
       margin-right: auto;
@@ -69,22 +42,24 @@
 
   .social-media-links-footer-container {
     grid-area: socialMedia;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      height: 20vh;
-      margin-left: 12.5vw;
-      margin-right: 12.5vw;
-      position: relative;
-      top: 65%;
-      transform: translateY(-50%);
+    .contact {
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 20vh;
+        // margin-left: 12.5vw;
+        // margin-right: 12.5vw;
+        position: relative;
+        top: 65%;
+        transform: translateY(-50%);
 
-      li {
-        a {
-          text-decoration: none;
+        li {
           .contact-container {
             display: flex;
             flex-direction: row;
@@ -104,9 +79,47 @@
           }
         }
       }
+    }
 
-      .facebookLogo {
-        width: 100%;
+    .social-media {
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 20vh;
+        // margin-left: 12.5vw;
+        // margin-right: 12.5vw;
+        position: relative;
+        top: 65%;
+        transform: translateY(-50%);
+
+        li {
+          a {
+            text-decoration: none;
+            .contact-container {
+              display: flex;
+              flex-direction: row;
+              img {
+                width: 10%;
+                height: 20%;
+                // top: 1.5vh;
+                position: relative;
+                margin-right: 1vw;
+              }
+
+              p {
+                float: left;
+                color: black;
+                font-family: $primary-text-font;
+              }
+            }
+          }
+        }
+
+        .facebookLogo {
+          width: 100%;
+        }
       }
     }
   }
