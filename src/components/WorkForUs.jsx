@@ -38,6 +38,42 @@ class WorkForUs extends Component {
               </div>
             </div>
             <MDBAnimation
+              type="slideInLeft"
+              duration="4s"
+              className="work-info-container-left"
+              reveal
+            >
+              <div className="work-info">
+                <p className="inline">
+                  At Entertaining Minds we understand our performers and their
+                  needs. We know you need flexible working hours. We know you
+                  need time to concentrate on auditions, or family life, or
+                  college/ university studies and we respect this fully.
+                  Director of the company,{" "}
+                </p>
+                <p className="italic inline">Jessica Paul</p>
+                <p className="inline">
+                  , is passionate about helping performers utilise their skills
+                  through reliable work which is why we reward you with great
+                  rates of pay for simply a few hours of{" "}
+                </p>
+                <p className="italic inline">your time</p>
+                <p className="inline">
+                  . Singers, poets, stand up comedians, magicians, or simply
+                  those with a passion for the arts - this is for you!
+                </p>
+                <p>
+                  Our sessions will usually last an hour in which you have
+                  creative freedom to entertain. Be it a set of singing,
+                  storytelling, or yoga/ movement classes, these sessions are
+                  your time. If you choose to become a performer for
+                  Entertaining Minds you will get the chance to practice what
+                  you do best in the intimate setting of a care home and bring
+                  joy to your care home audience.
+                </p>
+              </div>
+            </MDBAnimation>
+            <MDBAnimation
               type="slideInRight"
               duration="4s"
               className="work-info-container"
@@ -65,18 +101,23 @@ class WorkForUs extends Component {
             >
               <div className="work-info">
                 <h3 className="bold">The Entertaining Minds induction!</h3>
-                <p>
+                <p className="inline">
                   At Entertaining Minds we pride ourselves on our fun and
                   informative induction days. Before joining our books you will
                   be asked to undergo an induction in which you will learn more
                   about us as a company and have the chance to meet and network
                   with likeminded actors. You will also have the opportunity to
-                  become a Dementia Friend as part of an Alzheimer’s Society
-                  initiative - with your very own badge of approval! Our
-                  induction days have become an integral part of our company.
-                  They are there to help guide you through a care home setting
-                  and instil a safe and creative environment - it’s your chance
-                  to ask all the questions you need!
+                  become a{" "}
+                </p>{" "}
+                <p className="italic inline">Dementia Friend</p>
+                <p className="inline">
+                  {" "}
+                  as part of an Alzheimer’s Society initiative - with your very
+                  own badge of approval! Our induction days have become an
+                  integral part of our company. They are there to help guide you
+                  through a care home setting and instil a safe and creative
+                  environment - it’s your chance to ask all the questions you
+                  need!
                 </p>
               </div>
             </MDBAnimation>

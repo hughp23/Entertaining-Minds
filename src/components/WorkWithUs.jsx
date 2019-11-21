@@ -77,15 +77,21 @@ class WorkWithUs extends Component {
                   the wall between entertainer and resident to guarantee a
                   valuable and stimulating experience for all.
                 </p>
-                <p>
-                  In addition to this, all of our entertainers become Dementia
-                  Friends through our company’s own Dementia Friends Champion,
-                  Melanie Paul. This means they can work with unlimited
-                  awareness and understanding of your care home environment. In
-                  turn, your residents get the most from us and you get the
-                  promise of a credible service. We pride ourselves for this
-                  special information training and our inductions have now
-                  become an integral part of the reliable service we provide.
+                <p className="inline">
+                  In addition to this, all of our entertainers become{" "}
+                </p>
+                <p className="italic inline">Dementia Friend</p>{" "}
+                <p className="inline">through our company’s own </p>
+                <p className="italic inline">
+                  Dementia Friends Champion, Melanie Paul.
+                </p>{" "}
+                <p className="inline">
+                  This means they can work with unlimited awareness and
+                  understanding of your care home environment. In turn, your
+                  residents get the most from us and you get the promise of a
+                  credible service. We pride ourselves for this special
+                  information training and our inductions have now become an
+                  integral part of the reliable service we provide.
                 </p>
               </div>
             </MDBAnimation>
