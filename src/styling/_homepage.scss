@@ -142,21 +142,16 @@
 // About section
 .about-container {
   background-color: $primary-colour;
-  // display: grid;
-  grid-template: 5% 50% 45% / 100%;
-  grid-template-areas:
-    "title"
-    "text"
-    "headshot";
   width: 100vw;
   max-width: 100%;
-  position: relative;
+  // position: relative;
+  height: auto;
 
   .headshot-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
 
     .headshot-and-text-container {
       img {
@@ -167,7 +162,7 @@
   }
 
   h2 {
-    margin: 0;
+    // margin: 0;
     font-family: $title-text-font;
     letter-spacing: 0.5vw;
     font-size: 3.5em;
@@ -176,41 +171,37 @@
     color: $primary-text-colour;
   }
 
-  .about-title-container {
-    grid-area: title;
-  }
-
   .about-text {
     margin-left: 12.5vw;
     margin-right: 12.5vw;
-    height: auto;
-    grid-area: text;
+    // height: auto;
     display: flex;
     flex-direction: column;
+    padding-top: 2.5vh;
 
     .about-sub-text {
-      height: 12.5vh;
+      height: auto;
       p {
         font-size: 1.25em;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
+        // position: relative;
+        // top: 50%;
+        // transform: translateY(-50%);
         font-family: $primary-text-font;
         float: left;
         color: $primary-text-colour;
+        // margin-top: 1vh;
       }
     }
   }
 
   .headshot-container {
-    grid-area: headshot;
-    height: 30vh;
-    position: relative;
+    // height: 30vh;
+    // position: relative;
     // top: 10%;
-    img {
-      position: relative;
-      top: 50%;
-    }
+    // img {
+    //   position: relative;
+    //   top: 50%;
+    // }
     .name-and-role {
       margin-top: 2.5vh;
 

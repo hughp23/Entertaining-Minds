@@ -45,25 +45,13 @@ class WorkWithUs extends Component {
             >
               <div className="work-info">
                 <p>
-                  We pride ourselves in offering a quality program of musical
-                  activities and entertainment which will stimulate your
-                  residents daily. All sessions are carefully planned and
-                  tailored to suit your residents abilities and needs - a
-                  completely personal touch! Our sessions are run by actors and
-                  creatives who have been carefully selected by us based on
-                  their professional performing backgrounds and/ or their flare
-                  for the arts.
-                </p>
-                <p>
-                  Each of our sessions start with a fun element of dance or
-                  fitness - fully tailored for your residents and designed to
-                  get the endorphins flowing! Next we will enjoy an element of
-                  drama and reminiscent activities using sensory objects, poetry
-                  and theatre. Finally, we will end each of our sessions with a
-                  group sing-along - again completely tailored to your residents
-                  musical taste! Our staff are trained to provide a stimulating
-                  immersive experience in each session - helping to bring a room
-                  to life!
+                  At Entertaining Minds we are proud to offer a variety of
+                  quality entertainment from actors and performers across the
+                  entertainment industry. It is our ethos and our aim to bring
+                  the theatre into your home. We will work hard with your
+                  activities co-ordinators to get to know your home and your
+                  residents to find exactly what you require for a fully
+                  tailored experience.
                 </p>
               </div>
             </MDBAnimation>
@@ -74,41 +62,51 @@ class WorkWithUs extends Component {
               // reveal
             >
               <div className="work-info">
-                <p className="bold">
-                  Please contact us directly for more information regarding our
-                  services.
+                <h3 className="bold">So what makes us different?</h3>
+                <p>
+                  Firstly there has never been a model like Entertaining Minds
+                  for care homes. We work on an agency basis to find you exactly
+                  the entertainment that you need. We have a variety to offer,
+                  from singers, stand up comedians or yoga instructors - there
+                  will always be someone to hire, simply tell us what you need!
                 </p>
                 <p>
-                  As well as this, we offer a more qualified service of singers,
-                  poets and stand up comedians who can perform in your home on a
-                  group/ private basis. At Entertaining Minds we believe private
-                  sessions can be hugely beneficial for those of your immobile
-                  or bed-ridden residents. We offer a variety of sensory
-                  activities to help stimulate these people in order to maintain
-                  a fully inclusive service.
+                  Secondly, all of our performers are fully trained under
+                  Entertaining Minds, making them different to any other
+                  entertainer you may know. During this training we aim to break
+                  the wall between entertainer and resident to guarantee a
+                  valuable and stimulating experience for all.
                 </p>
                 <p>
-                  From regular staff to the co-ordination of entertainment, we
-                  will organise everything for you, meaning you will have time
-                  to concentrate on your home with as little hassle as possible.
+                  In addition to this, all of our entertainers become Dementia
+                  Friends through our company’s own Dementia Friends Champion,
+                  Melanie Paul. This means they can work with unlimited
+                  awareness and understanding of your care home environment. In
+                  turn, your residents get the most from us and you get the
+                  promise of a credible service. We pride ourselves for this
+                  special information training and our inductions have now
+                  become an integral part of the reliable service we provide.
                 </p>
               </div>
             </MDBAnimation>
             <section className="contact-info-container">
               <div className="text-container">
-                <h3>WHAT MAKES US DIFFERENT?</h3>
+                <h3 className="bold">Our signature storytelling....</h3>
                 <p>
-                  All of our staff at Entertaining Minds have attended a
-                  Dementia Friends Information Session delivered by our
-                  company’s ‘Dementia Friends Champion’. At the Sessions, they
-                  become Dementia Friends by gaining a greater understanding of
-                  dementia and the things they can do to help. As a company this
-                  is very important to us. We passionately believe in reducing
-                  the stigma around dementia and helping people understand that
-                  there is more to the person than the dementia.
+                  As part of Entertaining Minds we have the pleasure of bringing
+                  a brand new form of entertainment to your home. In a relaxed
+                  activity using drama, poetry and group sing-alongs we present
+                  our uniquely tailored storytelling experience to your home.
+                  Our original stories are performed by trained actors to bring
+                  miniature ‘interactive shows’ into your home. Using props and
+                  audience interaction, your residents will join us on a
+                  reminiscent journey using the power of storytelling to leave
+                  them engaged, uplifted and wanting more!
                 </p>
                 <p>
-                  All of our staff are fully screened and DBS checked by us.
+                  All of our actors are fully screened and DBS checked by us.
+                  For more information please contact us via
+                  info@entertainingminds.co.uk
                 </p>
               </div>
             </section>

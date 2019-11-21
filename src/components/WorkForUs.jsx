@@ -44,20 +44,16 @@ class WorkForUs extends Component {
               reveal
             >
               <div className="work-info">
+                <h3 className="bold">Our signature storytelling...</h3>
                 <p>
-                  We strive to provide you with regular work and understand the
-                  need for flexible hours. Entertaining Minds will pay you well
-                  on a weekly basis without tying you into a binding contract.
-                  Run by actress and musical theatre performer, Jessica Paul, we
-                  truly understand the need for flexible work. We know you need
-                  time to concentrate on auditions, college/ university studies
-                  and other important commitments. We respect this fully, which
-                  is why we reward you with great rates of pay for simply a few
-                  hours of your time.
-                </p>
-                <p>
-                  Singers, poets, stand up comedians, magicians, or simply those
-                  with a passion for the arts - this is for you!
+                  As part of our service we offer a unique storytelling
+                  experience for our homes. You will be provided with original
+                  stories/ poetic monologues in which you will take away,
+                  familiarise yourself with, and dramatise into miniature
+                  ‘interactive shows’. With props provided, all you will need is
+                  your- talented-self to embody a character and bring the story
+                  to life. These sessions will also last an hour in total - a
+                  perfect and easy opportunity for you to perform.
                 </p>
               </div>
             </MDBAnimation>
@@ -68,45 +64,29 @@ class WorkForUs extends Component {
               reveal
             >
               <div className="work-info">
+                <h3 className="bold">The Entertaining Minds induction!</h3>
                 <p>
-                  Our sessions are designed in the same way a kids musical
-                  theatre session would be - just instead of kids, we are of
-                  course entertaining elderly residents! It will be a fun
-                  environment for all involved - with movement, relaxed
-                  activities using drama/ poetry and group sing- alongs!
-                  Alongside this, we offer you the chance to utilise your skills
-                  further in individual sessions. These give you the chance to
-                  perform your own set of singing, a yoga class, or even a magic
-                  show - if it’s something you can do well! Entertaining Minds
-                  strives to give you the chance to make money regularly
-                  performing - and make a difference doing so!
-                </p>
-                <p>
-                  Before joining our books you will be taken through an initial
-                  training morning to discuss how our sessions are run - making
-                  sure you know exactly what is involved. You will also be
-                  coached as a ‘Dementia Friend’ by our friendly staff. This
-                  will help give you an insight into those living with Dementia
-                  - with your very own badge of approval! In joining our company
-                  you will not only perform regularly, you will also be part of
-                  an important new movement which works to undo the stigma
-                  behind Dementia/ Alzheimer’s disease.
+                  At Entertaining Minds we pride ourselves on our fun and
+                  informative induction days. Before joining our books you will
+                  be asked to undergo an induction in which you will learn more
+                  about us as a company and have the chance to meet and network
+                  with likeminded actors. You will also have the opportunity to
+                  become a Dementia Friend as part of an Alzheimer’s Society
+                  initiative - with your very own badge of approval! Our
+                  induction days have become an integral part of our company.
+                  They are there to help guide you through a care home setting
+                  and instil a safe and creative environment - it’s your chance
+                  to ask all the questions you need!
                 </p>
               </div>
             </MDBAnimation>
             <section className="contact-info-container">
               <div className="text-container">
                 <h3>CONTACT US TODAY!</h3>
-                <p className="inline">If you’re looking for</p>{" "}
-                <p className="italic inline">flexible</p>{" "}
-                <p className="inline">and</p>{" "}
-                <p className="italic inline">rewarding</p>{" "}
                 <p className="inline">
-                  work don’t hesitate to contact us today. We are always looking
-                  for friendly, new faces to join our team.
+                  To join the team and become an Entertaining Minds performer
+                  please send in your CV to info@entertainingminds.co.uk today!
                 </p>
-                <p className="paddingTop5vh">info@entertainingminds.co.uk</p>
-                <p>07772023349</p>
               </div>
             </section>
           </div>

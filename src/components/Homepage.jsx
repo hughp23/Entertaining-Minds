@@ -82,7 +82,7 @@ class Homepage extends Component {
             </a>
           </div>
         </div>
-        <div id="about" className="about-container full-screen">
+        <div id="about" className="about-container full-screen flex-box-column">
           <div className="about-title-container">
             <h2>ABOUT</h2>
           </div>
@@ -90,42 +90,47 @@ class Homepage extends Component {
             <div className="about-sub-text">
               <p>
                 Entertaining Minds was established in 2019 with the aim to
-                provide regular entertainment in care & nursing homes using
-                immersive musical theatre. Our company specialises uniquely in
-                stimulating those who suffer from Dementia/ Alzheimer’s disease.
+                provide regular entertainment in care and nursing homes using
+                the power of music, theatre and our company’s own signature
+                storytelling. Entertaining Minds specialises uniquely in
+                stimulating those who live with Dementia and maintains
+                informative training in this area.
               </p>
             </div>
             <div className="about-sub-text">
               <p>
-                Director of the company, Jessica Paul, graduated from Guildford
-                School of Acting in 2016 and continues a successful career in
-                acting and musical theatre. In addition to this, Jessica has
-                worked part-time as a Dementia care assistant on and off for
-                over seven years. After recognising a need for more stimulation
-                in care homes - as well as a need for flexible freelance work as
-                an actor and creative - Jessica has combined her knowledge to
-                create a new and exciting form of entertainment for care homes.
+                Owner and director of the company, Jessica Paul, graduated from
+                Guildford School of Acting in 2016 and continues a successful
+                career in acting and musical theatre. In addition to this
+                Jessica has worked part-time as a Dementia care assistant on and
+                off for over seven years. After recognising a need for more
+                stimulation in care homes, as well as a need for flexible
+                freelance work as an actor and creative, Jessica has combined
+                her knowledge to create a brand new and exciting agency model
+                for care homes.
               </p>
             </div>
             <div className="about-sub-text">
               <p>
                 Leading research has shown that music and exercise can
-                significantly improve and support the mood, alertness and
-                engagement in elderly people and Dementia sufferers. It can
-                reduce the use of medication and help to manage agitation,
-                isolation, depression and anxiety - overall supporting a better
-                quality of life. It is for this reason Entertaining Minds
-                creates every one of our sessions around music, fitness and
-                sensory activities.
+                significantly improve and support mood, alertness and engagement
+                in elderly people and those living with Dementia. It is for this
+                reason we are passionate about bringing Entertaining Minds into
+                care homes across the country on a regular basis.
               </p>
             </div>
             <div className="about-sub-text">
               <p>
-                As a company, Entertaining Minds hopes to be part of an
-                important new movement which challenges the stigma behind
-                Dementia. We wholeheartedly aim to deliver high-class
-                entertainment in order to improve quality of life and provide a
-                happier way of living for all.
+                We are proud to tell you that all of our performers at
+                Entertaining Minds become Dementia Friends through an
+                information session delivered by our company’s own Dementia
+                Friends Champion (an Alzheimer’s Society initiative). At these
+                sessions they will gain a greater understanding of Dementia and
+                how they can support those living with it. As a company we
+                passionately believe in reducing the stigma around this disease
+                which is why we train and represent fully informed entertainers.
+                We aim to raise awareness, give you the valuable experience you
+                want and deserve, and provide a happier way of living for all.
               </p>
             </div>
           </div>
