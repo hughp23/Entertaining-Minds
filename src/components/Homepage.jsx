@@ -154,10 +154,10 @@ class Homepage extends Component {
             </div>
             <div className="work-text">
               <p>
-                We strive to provide you with regular work and understand the
-                need for flexible hours. Entertaining Minds will pay you well on
-                a weekly basis without tying you into a binding contract... READ
-                MORE
+                At Entertaining Minds we understand our performers and their
+                needs. We know you need flexible working hours. We know you need
+                time to concentrate on auditions, or family life, or college/
+                university... READ MORE
               </p>
             </div>
             <div className="work-button">
@@ -173,10 +173,10 @@ class Homepage extends Component {
             </div>
             <div className="work-text">
               <p>
-                We pride ourselves in offering a quality program of musical
-                activities and entertainment which will stimulate your residents
-                daily. All sessions are carefully planned and tailored to suit
-                your residents abilities and needs... READ MORE
+                At Entertaining Minds we are proud to offer a variety of quality
+                entertainment from actors and performers across the
+                entertainment industry. It is our ethos and our aim to bring the
+                theatre into your... READ MORE
               </p>
             </div>
             <div className="work-button">

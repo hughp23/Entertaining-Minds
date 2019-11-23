@@ -57,9 +57,9 @@ class WorkForUs extends Component {
                   through reliable work which is why we reward you with great
                   rates of pay for simply a few hours of{" "}
                 </p>
-                <p className="italic inline">your time</p>
+                <p className="italic inline">your </p>
                 <p className="inline">
-                  . Singers, poets, stand up comedians, magicians, or simply
+                  time. Singers, poets, stand up comedians, magicians, or simply
                   those with a passion for the arts - this is for you!
                 </p>
                 <p>
