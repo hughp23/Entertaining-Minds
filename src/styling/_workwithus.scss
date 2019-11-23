@@ -45,7 +45,6 @@
 
     p {
       margin: 0;
-      padding-bottom: 5vh;
       font-family: $primary-text-font;
     }
 
@@ -54,17 +53,9 @@
       display: block;
       overflow: auto;
       position: relative;
-      // margin-left: 45vw;
-      // background-image: linear-gradient(
-      //   to left,
-      //   rgba(245, 245, 245, 0.1),
-      //   rgb(245, 245, 245)
-      // );
-      // border-radius: 10px 0px 0px 10px;
       background-color: $secondary-colour;
 
       .work-info-list {
-        // float: left;
         vertical-align: center;
         ul {
           padding-right: 5vw;
@@ -89,15 +80,14 @@
         rgb(245, 245, 245)
       );
       width: 75vw;
-      // border-radius: 0px 10px 10px 0px;
       margin-top: 5vh;
+      padding-top: 2.5vh;
+      padding-bottom: 2.5vh;
 
       .work-info {
         float: left;
         margin-left: 2.5vw;
         margin-right: 2.5vw;
-        position: relative;
-        top: 2.5vh;
 
         p {
           font-size: 1.3em;
@@ -111,17 +101,15 @@
         rgba(245, 245, 245, 0.45),
         rgb(245, 245, 245)
       );
-      // width: 75vw;
       margin-left: 25vw;
-      // border-radius: 0px 10px 10px 0px;
       margin-top: 5vh;
+      padding-top: 2.5vh;
+      padding-bottom: 2.5vh;
 
       .work-info {
         float: left;
         margin-left: 2.5vw;
         margin-right: 2.5vw;
-        position: relative;
-        top: 2.5vh;
 
         p {
           font-size: 1.3em;
@@ -130,17 +118,16 @@
     }
 
     .contact-info-container {
-      // border: orange 2px solid;
       width: 100%;
       width: 99vw;
       background-color: $secondary-colour;
       padding-top: 2.5vh;
       margin-top: 10vh;
       margin-bottom: 10vh;
+      padding-bottom: 2.5vh;
 
       h3 {
         font-size: 1.5em;
-        margin-bottom: 5vh;
       }
 
       .text-container {

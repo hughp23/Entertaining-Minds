@@ -55,21 +55,21 @@ class WorkForUs extends Component {
                 <p className="inline">
                   , is passionate about helping performers utilise their skills
                   through reliable work which is why we reward you with great
-                  rates of pay for simply a few hours of{" "}
+                  rates of pay for simply a few hours of your time. Singers,
+                  poets, stand up comedians, magicians, or simply those with a
+                  passion for the arts - this is for you!
                 </p>
-                <p className="italic inline">your </p>
                 <p className="inline">
-                  time. Singers, poets, stand up comedians, magicians, or simply
-                  those with a passion for the arts - this is for you!
-                </p>
-                <p>
                   Our sessions will usually last an hour in which you have
                   creative freedom to entertain. Be it a set of singing,
-                  storytelling, or yoga/ movement classes, these sessions are
-                  your time. If you choose to become a performer for
-                  Entertaining Minds you will get the chance to practice what
-                  you do best in the intimate setting of a care home and bring
-                  joy to your care home audience.
+                  storytelling, or yoga/ movement classes, these sessions are{" "}
+                </p>
+                <p className="inline italic">your time</p>
+                <p className="inline">
+                  . If you choose to become a performer for Entertaining Minds
+                  you will get the chance to practice what you do best in the
+                  intimate setting of a care home and bring joy to your care
+                  home audience.
                 </p>
               </div>
             </MDBAnimation>
@@ -109,7 +109,7 @@ class WorkForUs extends Component {
                   with likeminded actors. You will also have the opportunity to
                   become a{" "}
                 </p>{" "}
-                <p className="italic inline">Dementia Friend</p>
+                <p className="italic inline">Dementia Friends</p>
                 <p className="inline">
                   {" "}
                   as part of an Alzheimer’s Society initiative - with your very
