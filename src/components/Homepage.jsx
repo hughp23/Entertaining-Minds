@@ -93,7 +93,7 @@ class Homepage extends Component {
                 provide regular entertainment in care and nursing homes using
                 the power of music, theatre and our company’s own signature
                 storytelling. Entertaining Minds specialises uniquely in
-                stimulating those who live with Dementia and maintains
+                stimulating those who live with dementia and maintains
                 informative training in this area.
               </p>
             </div>
@@ -102,7 +102,7 @@ class Homepage extends Component {
                 Owner and director of the company, Jessica Paul, graduated from
                 Guildford School of Acting in 2016 and continues a successful
                 career in acting and musical theatre. In addition to this
-                Jessica has worked part-time as a Dementia care assistant on and
+                Jessica has worked part-time as a dementia care assistant on and
                 off for over seven years. After recognising a need for more
                 stimulation in care homes, as well as a need for flexible
                 freelance work as an actor and creative, Jessica has combined
@@ -114,9 +114,10 @@ class Homepage extends Component {
               <p>
                 Leading research has shown that music and exercise can
                 significantly improve and support mood, alertness and engagement
-                in elderly people and those living with Dementia. It is for this
-                reason we are passionate about bringing Entertaining Minds into
-                care homes across the country on a regular basis.
+                in those living with Dementia and those in the elderly
+                community. It is for this reason we are passionate about
+                bringing Entertaining Minds into care homes across the country
+                on a regular basis.
               </p>
             </div>
             <div className="about-sub-text">
@@ -125,12 +126,12 @@ class Homepage extends Component {
                 Entertaining Minds become Dementia Friends through an
                 information session delivered by our company’s own Dementia
                 Friends Champion (an Alzheimer’s Society initiative). At these
-                sessions they will gain a greater understanding of Dementia and
+                sessions they will gain a greater understanding of dementia and
                 how they can support those living with it. As a company we
                 passionately believe in reducing the stigma around this disease
                 which is why we train and represent fully informed entertainers.
-                We aim to raise awareness, give you the valuable experience you
-                want and deserve, and provide a happier way of living for all.
+                We aim to raise awareness, give you a valuable experience, and
+                provide a happier way of living for all.
               </p>
             </div>
           </div>
@@ -154,10 +155,10 @@ class Homepage extends Component {
             </div>
             <div className="work-text">
               <p>
-                At Entertaining Minds we understand our performers and their
-                needs. We know you need flexible working hours. We know you need
-                time to concentrate on auditions, or family life, or college/
-                university... READ MORE
+                At Entertaining Minds we pride ourselves on our fun and
+                informative induction days. Before joining our books you will be
+                asked to undergo an induction in which you will learn more about
+                us as a company and have the chance... READ MORE
               </p>
             </div>
             <div className="work-button">
@@ -176,7 +177,7 @@ class Homepage extends Component {
                 At Entertaining Minds we are proud to offer a variety of quality
                 entertainment from actors and performers across the
                 entertainment industry. It is our ethos and our aim to bring the
-                theatre into your... READ MORE
+                theatre into your home. We will work hard... READ MORE
               </p>
             </div>
             <div className="work-button">

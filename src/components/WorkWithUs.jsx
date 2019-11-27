@@ -49,8 +49,8 @@ class WorkWithUs extends Component {
                   quality entertainment from actors and performers across the
                   entertainment industry. It is our ethos and our aim to bring
                   the theatre into your home. We will work hard with your
-                  activities co-ordinators to get to know your home and your
-                  residents to find exactly what you require for a fully
+                  activities co- ordinators to get to know your home and your
+                  residents to find out exactly what you require for a fully
                   tailored experience.
                 </p>
               </div>
@@ -62,57 +62,89 @@ class WorkWithUs extends Component {
               // reveal
             >
               <div className="work-info">
-                <h3 className="bold">So what makes us different?</h3>
+                <h3 className="bold">So what makes us different??</h3>
                 <p>
-                  Firstly there has never been a model like Entertaining Minds
-                  for care homes. We work on an agency basis to find you exactly
-                  the entertainment that you need. We have a variety to offer,
-                  from singers, stand up comedians or yoga instructors - there
-                  will always be someone to hire, simply tell us what you need!
+                  Firstly, there has never been a model like Entertaining Minds
+                  specifically for care homes. We work on an agency basis to
+                  find you exactly the type of entertainment you desire. We have
+                  a variety to offer, from singers, stand up comedians or yoga
+                  instructors - there will always be someone to hire, simply
+                  tell us what you need! Secondly, all of our performers are
+                  fully trained under Entertaining Minds using our knowledge in
+                  care work and volunteering. During this training we aim to
+                  break the wall between performer and resident to ensure our
+                  entertainment is always immersive. Our performers are trained
+                  on awareness to guarantee a valuable and stimulating
+                  experience for all.
                 </p>
-                <p>
-                  Secondly, all of our performers are fully trained under
-                  Entertaining Minds, making them different to any other
-                  entertainer you may know. During this training we aim to break
-                  the wall between entertainer and resident to guarantee a
-                  valuable and stimulating experience for all.
+              </div>
+            </MDBAnimation>
+            <MDBAnimation
+              type="slideInLeft"
+              duration="4s"
+              className="work-info-container"
+              reveal
+            >
+              <div className="work-info">
+                <h3 className="bold">Our Dementia Friends sessions...</h3>
+                <p className="inline">
+                  In addition to this, all of our entertainers become Dementia
+                  Friends through our company’s own
+                </p>
+                <p className="inline italic">
+                  Dementia Champion, Melanie Paul.
                 </p>
                 <p className="inline">
-                  In addition to this, all of our entertainers become{" "}
+                  This means they can work with unlimited understanding of your
+                  care home environment. In turn, your residents get the most
+                  from us and you get the promise of a credible service. We
+                  pride ourselves for this special information training and our
+                  inductions have now become an integral part of the reliable
+                  service we provide.
                 </p>
-                <p className="italic inline">Dementia Friend</p>{" "}
-                <p className="inline">through our company’s own </p>
-                <p className="italic inline">
-                  Dementia Friends Champion, Melanie Paul.
-                </p>{" "}
+              </div>
+            </MDBAnimation>
+
+            <MDBAnimation
+              type="slideInRight"
+              duration="4s"
+              className="work-info-container-right"
+              // reveal
+            >
+              <div className="work-info">
+                <h3 className="bold">Our signature storytelling....</h3>
                 <p className="inline">
-                  This means they can work with unlimited awareness and
-                  understanding of your care home environment. In turn, your
-                  residents get the most from us and you get the promise of a
-                  credible service. We pride ourselves for this special
-                  information training and our inductions have now become an
-                  integral part of the reliable service we provide.
+                  As part of Entertaining Minds we have the pleasure of bringing
+                  a brand new form of entertainment to your home. In a relaxed
+                  activity using drama, poetry and group sing-alongs, we present
+                  our uniquely tailored storytelling experience. Our original
+                  stories are performed by trained actors to create miniature
+                  ‘interactive shows’ in your home. Using props and audience
+                  interaction, your residents will join us on a reminiscent
+                  journey to leave them engaged, uplifted and wanting more! For
+                  more information on our
+                </p>
+                <p className="italic inline">signature storytelling</p>
+                <p className="inline">
+                  please contact us via info@entertainingminds.co.uk.
                 </p>
               </div>
             </MDBAnimation>
             <section className="contact-info-container">
               <div className="text-container">
-                <h3 className="bold">Our signature storytelling....</h3>
-                <p>
-                  As part of Entertaining Minds we have the pleasure of bringing
-                  a brand new form of entertainment to your home. In a relaxed
-                  activity using drama, poetry and group sing-alongs we present
-                  our uniquely tailored storytelling experience to your home.
-                  Our original stories are performed by trained actors to bring
-                  miniature ‘interactive shows’ into your home. Using props and
-                  audience interaction, your residents will join us on a
-                  reminiscent journey using the power of storytelling to leave
-                  them engaged, uplifted and wanting more!
+                <h3 className="bold">Booking our performers!</h3>
+                <p className="inline">
+                  All of our performers are fully screened and DBS checked by
+                  us. For booking enquiries, please contact
                 </p>
+                <p className="italic inline">Jessica</p>
+                <p className="inline">on 07772023349 or</p>
+                <p className="inline italic">Melanie</p>
                 <p>
-                  All of our actors are fully screened and DBS checked by us.
-                  For more information please contact us via
-                  info@entertainingminds.co.uk
+                  07976880954. Alternatively email us at
+                  <a href="mailto:info@entertainingminds.co.uk">
+                    info@entertainingminds.co.uk.
+                  </a>
                 </p>
               </div>
             </section>

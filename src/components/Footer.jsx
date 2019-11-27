@@ -85,7 +85,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="credits-container">
-          Icons made by{" "}
+          {/* Icons made by{" "}
           <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
             Freepik
           </a>{" "}
@@ -101,7 +101,8 @@ const Footer = () => {
           >
             CC 3.0 BY
           </a>{" "}
-          / Built By{" "}
+          /  */}
+          Built By{" "}
           <a href="https://www.linkedin.com/in/hugh-paul-6762a7173/">
             Hugh Paul
           </a>{" "}
