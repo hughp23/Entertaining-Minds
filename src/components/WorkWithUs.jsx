@@ -62,7 +62,7 @@ class WorkWithUs extends Component {
               // reveal
             >
               <div className="work-info">
-                <h3 className="bold">So what makes us different??</h3>
+                <h3 className="bold">So what makes us different?</h3>
                 <p>
                   Firstly, there has never been a model like Entertaining Minds
                   specifically for care homes. We work on an agency basis to
@@ -89,10 +89,10 @@ class WorkWithUs extends Component {
                 <h3 className="bold">Our Dementia Friends sessions...</h3>
                 <p className="inline">
                   In addition to this, all of our entertainers become Dementia
-                  Friends through our company’s own
+                  Friends through our company’s own{" "}
                 </p>
                 <p className="inline italic">
-                  Dementia Champion, Melanie Paul.
+                  Dementia Champion, Melanie Paul.{" "}
                 </p>
                 <p className="inline">
                   This means they can work with unlimited understanding of your
@@ -122,9 +122,9 @@ class WorkWithUs extends Component {
                   ‘interactive shows’ in your home. Using props and audience
                   interaction, your residents will join us on a reminiscent
                   journey to leave them engaged, uplifted and wanting more! For
-                  more information on our
+                  more information on our{" "}
                 </p>
-                <p className="italic inline">signature storytelling</p>
+                <p className="italic inline">signature storytelling </p>
                 <p className="inline">
                   please contact us via info@entertainingminds.co.uk.
                 </p>
@@ -137,11 +137,11 @@ class WorkWithUs extends Component {
                   All of our performers are fully screened and DBS checked by
                   us. For booking enquiries, please contact
                 </p>
-                <p className="italic inline">Jessica</p>
-                <p className="inline">on 07772023349 or</p>
+                <p className="italic inline">Jessica </p>
+                <p className="inline">on 07772023349 or </p>
                 <p className="inline italic">Melanie</p>
                 <p>
-                  07976880954. Alternatively email us at
+                  07976880954. Alternatively email us at{" "}
                   <a href="mailto:info@entertainingminds.co.uk">
                     info@entertainingminds.co.uk.
                   </a>
