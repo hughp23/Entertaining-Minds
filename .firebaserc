@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "entertaining-minds"
+  },
+  "targets": {
+    "entertaining-minds": {
+      "hosting": {
+        "dev": [
+          "entertaining-minds.firebaseapp.com"
+        ]
+      }
+    }
   }
 }

@@ -144,52 +144,64 @@
   background-color: $primary-colour;
   width: 100vw;
   max-width: 100%;
-  // position: relative;
   height: auto;
 
-  .headshot-container {
-    // position: absolute;
-    // bottom: 0;
-    // left: 0;
-    // right: 0;
+  // .headshot-container {
+  //   .headshot-and-text-container {
+  //     img {
+  //       height: 30vh;
+  //       border-radius: 50%;
+  //     }
+  //   }
+  // }
 
-    .headshot-and-text-container {
-      img {
-        height: 30vh;
-        border-radius: 50%;
-      }
-    }
+  .aboutImg1-container {
+    /* The image used */
+    background-image: url("../assets/gallery/IMG-20191125-WA0025.jpg");
+    /* Full height */
+    height: 60vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .aboutImg2-container {
+    /* The image used */
+    background-image: url("../assets/gallery/IMG_20200123_143606.jpg");
+    /* Full height */
+    height: 60vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   h2 {
-    // margin: 0;
     font-family: $title-text-font;
     letter-spacing: 0.5vw;
     font-size: 3.5em;
     padding-top: 3vh;
-    // margin-bottom: 2.5vh;
     color: $primary-text-colour;
   }
 
   .about-text {
     margin-left: 12.5vw;
     margin-right: 12.5vw;
-    // height: auto;
     display: flex;
     flex-direction: column;
-    padding-top: 2.5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 
     .about-sub-text {
       height: auto;
       p {
         font-size: 1.25em;
-        // position: relative;
-        // top: 50%;
-        // transform: translateY(-50%);
         font-family: $primary-text-font;
         float: left;
         color: $primary-text-colour;
-        // margin-top: 1vh;
       }
     }
   }
@@ -222,58 +234,42 @@
 // Work for/with us section
 .work-container {
   background: $primary-colour;
-  height: 100vh;
+  // height: 100vh;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 
-  // :hover {
-  //   opacity: 0.8;
-  // }
+  .work-for-us-container {
+    background: url("../assets/joinUsImage.jpg") no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    // :hover {
+    //   opacity: 0.2;
+    // }
+  }
+
+  .work-with-us-container {
+    background: url("../assets/workWithUsImage.jpg") no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    // :hover {
+    //   opacity: 0.2;
+    // }
+  }
 
   .work-sub-container {
-    background: $secondary-colour;
-    width: 50vw;
-    display: grid;
-    grid-template: 25% 40% 35% / 100%;
-    grid-template-areas:
-      "title"
-      "text"
-      "button";
-
-    .work-for-us-image-container {
-      position: relative;
-      bottom: 100vh;
-      img {
-        height: 100vh;
-        width: 50vw;
-        opacity: 0.6;
-        :hover {
-          opacity: 0.2;
-        }
-      }
-    }
-
-    .work-with-us-image-container {
-      position: relative;
-      bottom: 100vh;
-      img {
-        height: 100vh;
-        width: 49.21vw;
-        opacity: 0.6;
-        :hover {
-          opacity: 0.2;
-        }
-      }
-    }
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
     .work-title {
-      grid-area: title;
-
       h1 {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
         font-family: $title-text-font;
         font-size: 3.5em;
         letter-spacing: 0.5vw;
@@ -281,24 +277,18 @@
     }
 
     .work-text {
-      grid-area: text;
       margin-left: 7.5vw;
       margin-right: 7.5vw;
       background: $primary-colour;
       opacity: 0.9;
-      height: 25vh;
-      position: relative;
-      top: 10vh;
       border-radius: 0.5em;
-      // padding-bottom: 2vh;
       padding-left: 2vw;
       padding-right: 2vw;
+      padding-bottom: 2vh;
+      padding-top: 2vh;
 
       p {
         color: $primary-text-colour;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
         font-size: 1.3em;
         font-family: $primary-text-font;
       }
@@ -310,9 +300,6 @@
       a {
         background: $primary-colour;
         border-radius: 1em;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
         border: none;
         padding: 3vh;
         font-family: $primary-text-font;
@@ -321,10 +308,6 @@
         font-size: 1.5em;
       }
     }
-    // .work-sub-container:hover {
-    //   background: $primary-colour;
-    //   opacity: 0.7;
-    // }
   }
 }
 
