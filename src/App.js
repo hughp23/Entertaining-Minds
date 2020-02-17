@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Router } from "@reach/router";
-import Homepage from "./components/Homepage";
+import Homepage from "./components/Homepage/Homepage";
 import WorkForUs from "./components/WorkForUs";
 import WorkWithUs from "./components/WorkWithUs";
 import Footer from "./components/Footer";

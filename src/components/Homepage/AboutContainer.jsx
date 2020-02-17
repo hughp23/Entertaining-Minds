@@ -7,9 +7,6 @@ class AboutContainer extends Component {
     return (
       <div id="about" className="about-container full-screen flex-box-column">
         <div class="aboutImg1-container"></div>
-        {/* <div className="about-title-container">
-          <h2>ABOUT</h2>
-        </div> */}
         <div className="about-text">
           <div>
             <div className="about-sub-text">
