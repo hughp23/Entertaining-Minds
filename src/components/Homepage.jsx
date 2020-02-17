@@ -23,6 +23,7 @@ class Homepage extends Component {
   render() {
     return (
       <div className="flex-box">
+          <div id="cookies-popup-container" className="cookies-popup-container flex-box-row">
         <div id="cookies-popup" className="cookies-popup flex-box-row">
           <p>
             We use cookies and similar technologies to measure traffic and site
@@ -43,10 +44,11 @@ class Homepage extends Component {
           </p>
           {/* <img src={cross} alt="Close!" onClick={this.closePopup} /> */}
         </div>
-        <div className="full-screen nav-and-logo">
-          <div className="background-container">
+        </div>
+        <div className="full-screen nav-and-logo home-background-image">
+          {/* <div className="background-container">
             <img src={background} alt="entertaining minds" />
-          </div>
+          </div> */}
           <MDBAnimation
             type="zoomIn"
             duration="1.5s"
@@ -63,6 +65,9 @@ class Homepage extends Component {
               </li>
               <li>
                 <a href="/workforus">JOIN US</a>
+              </li>
+              <li>
+                <a href="/ourtalent">OUR TALENT</a>
               </li>
               <li>
                 <a href="/workwithus">CLIENTS</a>

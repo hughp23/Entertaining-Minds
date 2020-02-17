@@ -1,15 +1,19 @@
 @import "./branding";
 
 .full-screen {
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.primary-background {
+  background-color: $primary-colour;
 }
 
 .half-screen {
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .quarter-screen {
-  height: 25vh;
+  min-height: 25vh;
 }
 
 .flex-box-row {
