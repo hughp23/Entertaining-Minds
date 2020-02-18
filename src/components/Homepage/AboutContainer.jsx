@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-const jessicaHeadshot = require("../../assets/jessicaHeadshot.jpg");
-const aboutImg_1 = require("../../assets/gallery/IMG-20191125-WA0007.jpg");
+// const jessicaHeadshot = require("../../assets/jessicaHeadshot.jpg");
 
 class AboutContainer extends Component {
   render() {

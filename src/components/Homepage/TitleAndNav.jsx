@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { MDBAnimation } from "mdbreact";
 const entertainingMindsLogo = require("../../assets/large-logo.png");
 const arrowDown = require("../../assets/arrowDown.png");
-const background = require("../../assets/background.png");
 
 class TitleAndNav extends Component {
   render() {
