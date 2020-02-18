@@ -36,6 +36,9 @@ class TitleAndNav extends Component {
               <a href="/workwithus">CLIENTS</a>
             </li>
             <li>
+              <a href="/ourtalent">OUR TALENT</a>
+            </li>
+            <li>
               <a href="/contactform">CONTACT</a>
             </li>
           </ul>
