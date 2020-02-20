@@ -5,7 +5,7 @@ import Homepage from "./components/Homepage/Homepage";
 import WorkForUs from "./components/WorkForUs";
 import WorkWithUs from "./components/WorkWithUs";
 import Footer from "./components/Footer";
-import OurTalent from "./components/OurTalent";
+//import OurTalent from "./components/OurTalent";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Homepage path="/" />
         <WorkForUs path="/workforus" />
         <WorkWithUs path="/workwithus" />
-        <OurTalent path="/ourtalent" />
+        {/* <OurTalent path="/ourtalent" /> */}
       </Router>
       <Footer path="contact" />
     </div>
