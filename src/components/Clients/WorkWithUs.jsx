@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "@reach/router";
-import "../styling/_workwithus.scss";
-import "../styling/_global.scss";
+import "../../styling/_workwithus.scss";
+import "../../styling/_global.scss";
 import * as Scroll from "react-scroll";
 import { MDBAnimation } from "mdbreact";
-const arrowLeft = require("../assets/arrowLeft.png");
+const arrowLeft = require("../../assets/arrowLeft.png");
 
 class WorkWithUs extends Component {
   render() {

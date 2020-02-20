@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "@reach/router";
 import { MDBAnimation } from "mdbreact";
-import "../styling/_workforus.scss";
-import "../styling/_media-queries.scss";
+import "../../styling/_workforus.scss";
+import "../../styling/_media-queries.scss";
 import * as Scroll from "react-scroll";
-const arrowLeft = require("../assets/arrowLeft.png");
+const arrowLeft = require("../../assets/arrowLeft.png");
 
 class WorkForUs extends Component {
   render() {
