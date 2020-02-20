@@ -1,15 +1,11 @@
 import React, { Component } from "react";
-const jessicaHeadshot = require("../../assets/jessicaHeadshot.jpg");
-const aboutImg_1 = require("../../assets/gallery/IMG-20191125-WA0007.jpg");
+// const jessicaHeadshot = require("../../assets/jessicaHeadshot.jpg");
 
 class AboutContainer extends Component {
   render() {
     return (
       <div id="about" className="about-container full-screen flex-box-column">
         <div class="aboutImg1-container"></div>
-        {/* <div className="about-title-container">
-          <h2>ABOUT</h2>
-        </div> */}
         <div className="about-text">
           <div className="about-sub-text-left">
             <div className="about-sub-text">
