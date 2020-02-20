@@ -12,6 +12,10 @@
   height: 25vh;
 }
 
+.primary-background {
+  background-color: $primary-colour;
+}
+
 .flex-box-row {
   display: flex;
   justify-content: space-between;
