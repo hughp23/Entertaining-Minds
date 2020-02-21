@@ -162,7 +162,8 @@
   }
 
   .aboutImg2-container {
-    background-image: url("../assets/gallery/IMG-20191125-WA0007.jpg");
+    float: right;
+    background-image: url("../assets/gallery/IMG_20200123_143606.jpg");
   }
 
   .about-text {
@@ -269,6 +270,7 @@
     .work-title {
       h1 {
         font-family: $title-text-font;
+        color: $secondary-text-colour;
         font-size: 3.5em;
         letter-spacing: 0.5vw;
       }
