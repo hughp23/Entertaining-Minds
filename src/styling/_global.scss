@@ -20,6 +20,10 @@
   min-height: 25vh;
 }
 
+.width-full {
+  width: 100%;
+}
+
 .primary-background {
   background-color: $primary-colour;
 }
@@ -45,12 +49,24 @@
   height: 15vh;
 }
 
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5 {
   font-family: $title-text-font;
+  color: $primary-text-colour;
   font-weight: 10;
   letter-spacing: 0.1vw;
   margin-top: 0;

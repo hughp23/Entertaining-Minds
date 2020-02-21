@@ -38,7 +38,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
 // Nav Bar
@@ -48,8 +47,6 @@
   padding-top: 2.5vh;
   padding-bottom: 2.5vh;
   z-index: 1;
-  // position: relative;
-  // top: 25%;
   background-color: $primary-colour;
   ul {
     list-style-type: none;
@@ -86,7 +83,6 @@
 }
 
 .text-only-container {
-
   h1 {
     font-family: $title-text-font;
     font-weight: 10;
@@ -151,7 +147,8 @@
     color: $primary-text-colour;
   }
 
-  .aboutImg1-container, .aboutImg2-container {
+  .aboutImg1-container,
+  .aboutImg2-container {
     height: 60vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -160,11 +157,11 @@
   }
 
   .aboutImg1-container {
-    background-image: url('../assets/gallery/IMG-20191125-WA0025.jpg');
+    background-image: url("../assets/gallery/IMG-20191125-WA0025.jpg");
   }
 
   .aboutImg2-container {
-    background-image: url('../assets/gallery/IMG-20191125-WA0007.jpg');
+    background-image: url("../assets/gallery/IMG-20191125-WA0007.jpg");
   }
 
   .about-text {
@@ -226,14 +223,14 @@
   padding-bottom: 5vh;
 
   .work-with-us-container {
-  background: url('../assets/workWithUsImage.jpg') no-repeat 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+    background: url("../assets/workWithUsImage.jpg") no-repeat 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
   }
 
   .work-for-us-container {
-    background: url('../assets/joinUsImage.jpg') no-repeat 50%;
+    background: url("../assets/joinUsImage.jpg") no-repeat 50%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -284,7 +281,7 @@
       height: 25vh;
       border-radius: 0.5em;
       padding-left: 2vw;
-      padding-right: 2vw;    
+      padding-right: 2vw;
       display: flex;
       flex-direction: column;
       justify-content: center;
