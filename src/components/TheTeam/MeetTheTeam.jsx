@@ -9,7 +9,7 @@ const MeetTheTeam = () => {
     <div className="meet-the-team-container full-screen">
       <NavFixed />
       <h1 className="page-title">Meet the Team</h1>
-      <section className="team-container flex-box-around">
+      <section className="team-container">
         <section className="team-member-container flex-box-column">
           <imgcontainer className="img-container flex-box-around">
             <div className="img-circle img-1"></div>

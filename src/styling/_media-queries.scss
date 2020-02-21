@@ -2,27 +2,6 @@
 
 //Media Queries: 1400px
 @media screen and (max-width: 1500px) {
-  // // About section
-  // .about-container {
-  //   height: 125vh;
-  //   .about-text {
-  //     .about-sub-text {
-  //       height: 17.5vh;
-  //     }
-  //   }
-  //   // .headshot-container {
-  //   //   top: 10%;
-  //   // }
-  // }
-
-  // // .headshot-container {
-  // //   .headshot-and-text-container {
-  // //     position: relative;
-  // //     top: 135%;
-  // //     transform: translateY(-50%);
-  // //   }
-  // // }
-
   .work-container {
     .work-sub-container {
       .work-text {
@@ -49,9 +28,6 @@
 
   .social-media-links-footer-container {
     ul {
-      // margin-left: 15vw !important;
-      // margin-right: 15vw !important;
-
       li {
         a {
           img {
@@ -79,7 +55,6 @@
 
   .credits-container {
     font-size: 0.6em;
-    // top: 10% !important;
     a {
       font-size: 0.6em;
     }
@@ -88,22 +63,6 @@
 
 //Media Queries: 1200px
 @media screen and (max-width: 1300px) {
-  // // About section
-  // .about-container {
-  //   height: 170vh;
-  //   .about-text {
-  //     .about-sub-text {
-  //       height: 25vh;
-  //     }
-  //   }
-  // }
-
-  // // .headshot-container {
-  // //   .headshot-and-text-container {
-  // //     top: 170%;
-  // //   }
-  // // }
-
   .work-container {
     .work-sub-container {
       .work-text {
@@ -116,8 +75,6 @@
 
   .footer-email-container {
     ul {
-      // margin-left: 10vw !important;
-      // margin-right: 10vw !important;
       li {
         img {
           width: 10% !important;
@@ -132,8 +89,6 @@
 
   .social-media-links-footer-container {
     ul {
-      // margin-left: 10vw !important;
-      // margin-right: 10vw !important;
       li {
         a {
           img {
@@ -148,17 +103,7 @@
     }
   }
 
-  // .work-with-us-page-container {
-  //   height: 205vh !important;
-  // }
-
-  // .work-for-us-page-container {
-  //   height: 225vh !important;
-  // }
-
   .credits-container {
-    // font-size: 0.6em;
-    // top: 10% !important;
     a {
       font-size: 0.6em;
     }
@@ -167,12 +112,6 @@
 
 //Media Queries: 1100px
 @media screen and (max-width: 1100px) {
-  // .headshot-container {
-  //   .headshot-and-text-container {
-  //     top: 185%;
-  //   }
-  // }
-
   .work-container {
     .work-sub-container {
       .work-text {
@@ -238,32 +177,20 @@
       }
     }
   }
-
-  // .work-with-us-page-container {
-  //   height: 225vh !important;
-  // }
-
-  // .work-for-us-page-container {
-  //   height: 230vh !important;
-  // }
 }
 
 //Media Queries: 1000px
 @media screen and (max-width: 1000px) {
-  // .about-container {
-  //   height: 185vh;
-  //   .about-text {
-  //     .about-sub-text {
-  //       height: 30vh;
-  //     }
-  //   }
+  .team-container {
+    flex-direction: column !important;
 
-  //   // .headshot-container {
-  //   //   .headshot-and-text-container {
-  //   //     top: 225%;
-  //   //   }
-  //   // }
-  // }
+    .team-member-container {
+      contactcontainer {
+        padding-right: 25vw;
+        padding-left: 25vw;
+      }
+    }
+  }
 
   .work-container {
     .work-sub-container {
@@ -280,25 +207,10 @@
       }
     }
   }
-
-  // .work-with-us-page-container {
-  //   height: 245vh !important;
-  // }
-
-  // .work-for-us-page-container {
-  //   height: 260vh !important;
-  // }
 }
 
 //Media Queries: 420px
 @media screen and (max-width: 420px) {
-  //Social media links at top of page
-  // .top-social-medias {
-  //   width: 50vw;
-  //   position: absolute;
-  //   left: 45vw;
-  // }
-
   body {
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
@@ -351,42 +263,6 @@
       font-size: 1em;
     }
   }
-
-  // // About section
-  // .about-container {
-  //   height: 190vh;
-  //   grid-template: 5% 65% 30% / 100% !important;
-  //   .about-text {
-  //     // height: 88vh;
-  //     grid-area: text;
-  //     .about-sub-text {
-  //       // height: 28vh;
-  //       margin-top: 2vh;
-  //       p {
-  //         font-size: 0.75em;
-  //         position: relative;
-  //         top: 50%;
-  //         transform: translateY(-50%);
-  //         font-family: $primary-text-font;
-  //         float: left;
-  //       }
-  //     }
-  //   }
-
-  //   .headshot-container {
-  //     grid-area: headshot;
-  //     height: 75vh;
-  //     // .headshot-and-text-container {
-  //     //   top: 130%;
-  //     //   img {
-  //     //     position: relative;
-  //     //     top: 50%;
-  //     //     transform: 0;
-  //     //     height: 20vh;
-  //     //   }
-  //     // }
-  //   }
-  // }
 
   // Work for/with us section
   .work-container {
@@ -441,8 +317,6 @@
   }
 
   .work-for-us-page-container {
-    // height: 500vh;
-
     .work-info-list-container {
       .work-info-list {
         li {
@@ -461,8 +335,6 @@
   }
 
   .work-with-us-page-container {
-    // height: 500vh !important;
-
     .work-info-list-container {
       .work-info-list {
         li {
@@ -492,7 +364,6 @@
     grid-template: 40% 20% 20% 20% / 100% !important;
     grid-template-areas:
       "email"
-      // "socialMedia"
       "dementiaFriends"
       "logo"
       "credits" !important;
@@ -502,8 +373,6 @@
       padding-top: 15vh;
     }
     .contact {
-      // padding-top: 5.5vh;
-
       ul {
         margin-left: 10vw !important;
         margin-right: 10vw !important;
@@ -534,15 +403,12 @@
 
     .footer-logo-container {
       img {
-        // height: 15vh !important;
         position: relative !important;
         bottom: 4vh !important;
       }
     }
 
     .social-media {
-      // grid-area: socialMedia;
-
       ul {
         margin-left: 10vw !important;
         margin-right: 10vw !important;
@@ -557,10 +423,6 @@
               img {
                 width: 7% !important;
               }
-
-              p {
-                // font-size: 0.7em;
-              }
             }
           }
         }
@@ -569,23 +431,11 @@
   }
 
   .credits-container {
-    // font-size: 0.3em;
     top: 5% !important;
-    a {
-      // font-size: 0.6em;
-    }
   }
 }
 
 @media screen and (max-width: 320px) {
-  // .work-for-us-page-container {
-  //   height: 550vh;
-  // }
-
-  // .work-with-us-page-container {
-  //   height: 550vh !important;
-  // }
-
   .about-container {
     height: 250vh;
     .about-text {
