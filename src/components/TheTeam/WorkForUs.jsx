@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "@reach/router";
 import { MDBAnimation } from "mdbreact";
-import "../../styling/_workforus.scss";
+import "../../styling/TheTeam/_workforus.scss";
 import "../../styling/_media-queries.scss";
 import * as Scroll from "react-scroll";
 const arrowLeft = require("../../assets/arrowLeft.png");

@@ -34,6 +34,12 @@
   flex-direction: row;
 }
 
+.flex-box-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .flex-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -47,6 +53,10 @@
 
 .height15vh {
   height: 15vh;
+}
+
+.thick-bottom-border {
+  border-bottom: 0.5vh solid $secondary-colour;
 }
 
 .sticky {
