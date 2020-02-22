@@ -42,37 +42,128 @@
 
 // Nav Bar
 .nav-bar {
-  // padding-left: 12.5vw;
-  // padding-right: 12.5vw;
-  padding-top: 2.5vh;
-  padding-bottom: 2.5vh;
   z-index: 1;
   background-color: $primary-colour;
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+
+  .ul1 {
     width: 85%;
-
-    li {
-      font-family: $title-text-font;
-      font-size: 1.1em;
-
-      a {
-        text-decoration: none;
-        color: $primary-text-colour !important;
-        cursor: pointer;
-      }
-
-      :hover {
-        color: $secondary-text-colour !important;
-      }
-    }
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
+  ul {
+    padding: 0;
+    list-style: none;
+    background: $primary-colour;
+  }
+  ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+    color: $primary-text-colour;
+    padding: 2.5vh 2.5vw 2.5vh 2.5vw;
+  }
+  ul li a {
+    display: block;
+    color: $primary-text-colour;
+    text-decoration: none;
+  }
+  ul li a:hover {
+    text-decoration: none;
+    color: $primary-text-colour !important;
+    cursor: pointer;
+  }
+  ul li ul.ul2 {
+    min-width: 100%; /* Set width of the dropdown */
+    background: $primary-colour;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    margin-top: 1rem;
+  }
+  ul li:hover ul.ul2 {
+    display: block; /* Display the dropdown */
+  }
+  ul li ul.ul2 li {
+    display: block;
+  }
+
+  // .ul1 {
+  //   width: 85%;
+  // }
+
+  // ul {
+  //   background: $primary-colour;
+  //   list-style-type: none;
+  //   margin: 0;
+  //   padding: 0;
+  //   overflow: hidden;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   flex-direction: row;
+  //   position: relative;
+
+  //   li {
+  //     font-family: $title-text-font;
+  //     font-size: 1.1em;
+  //     display: block;
+  //     transition-duration: 0.5s;
+  //     float: left;
+  //     padding-top: 2.5vh;
+  //     padding-bottom: 2.5vh;
+  //     color: $primary-text-colour !important;
+  //     cursor: pointer;
+  //     position: relative;
+
+  //     .ul2 {
+  //       border: green 2 px solid;
+  //       //visibility: hidden;
+  //       opacity: 0;
+  //       min-width: 5rem;
+  //       position: absolute;
+  //       transition: all 0.5s ease;
+  //       //margin-top: 1rem;
+  //       left: 0;
+  //       right: 0;
+  //       bottom: 0;
+  //       // display: none;
+  //       flex-direction: column;
+  //       //height: 20vh;
+  //       //z-index: 10;
+
+  //       li {
+  //         clear: both;
+  //         width: 100%;
+  //       }
+  //     }
+
+  //     a {
+  //       text-decoration: none;
+  //       color: $primary-text-colour !important;
+  //       cursor: pointer;
+  //     }
+
+  //     :hover {
+  //       color: $secondary-text-colour !important;
+  //       cursor: pointer;
+  //     }
+  //   }
+  // }
+
+  // ul li:hover > ul,
+  // ul li:focus-within > ul,
+  // ul li ul:hover {
+  //   visibility: visible;
+  //   opacity: 1;
+  //   display: block;
+  // }
+
+  // li:focus-within a {
+  //   outline: none;
+  // }
 }
 
 .logo-only-container {

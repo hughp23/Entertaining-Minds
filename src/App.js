@@ -1,5 +1,4 @@
 import React from "react";
-import $ from "jquery";
 import "./App.css";
 import { Router } from "@reach/router";
 import Homepage from "./components/Homepage/Homepage";

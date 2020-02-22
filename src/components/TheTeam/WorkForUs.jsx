@@ -4,6 +4,7 @@ import { MDBAnimation } from "mdbreact";
 import "../../styling/TheTeam/_workforus.scss";
 import "../../styling/_media-queries.scss";
 import * as Scroll from "react-scroll";
+import NavFixed from "../NavFixed";
 const arrowLeft = require("../../assets/arrowLeft.png");
 
 class WorkForUs extends Component {
@@ -11,6 +12,7 @@ class WorkForUs extends Component {
     return (
       <div>
         <div className="work-for-us-page-container">
+          <NavFixed />
           <div className="return-home-container">
             <Link to="/">
               <img src={arrowLeft} alt="return" />

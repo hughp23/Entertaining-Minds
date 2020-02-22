@@ -7,7 +7,6 @@ import WorkForUsContainer from "./WorkForUsContainer";
 import WorkWithUsContainer from "./WorkWithUsContainer";
 import AboutContainer from "./AboutContainer";
 import TitleAndNav from "./TitleAndNav";
-import Nav from "../Nav";
 // import $ from "jquery";
 // const cross = require("../assets/cross.png");
 

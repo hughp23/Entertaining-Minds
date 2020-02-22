@@ -207,6 +207,24 @@
       }
     }
   }
+
+  .footer-container {
+    section1 {
+      flex-direction: column !important;
+    }
+
+    .contact-details-container {
+      flex-direction: column !important;
+      links1 {
+        padding-right: 25vw !important;
+        padding-left: 25vw !important;
+      }
+      links2 {
+        padding-right: 25vw !important;
+        padding-left: 25vw !important;
+      }
+    }
+  }
 }
 
 //Media Queries: 420px
