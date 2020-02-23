@@ -1,0 +1,127 @@
+@import "./branding.scss";
+
+.slideInMenu {
+  display: none;
+  position: absolute;
+  right: 2.5vw;
+  height: 5vh;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  width: 36px;
+  height: 2.5vh;
+  right: 5px;
+  top: 3.5vh;
+  position: absolute;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: $secondary-colour;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.3s ease-in-out;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  display: none;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: $secondary-colour;
+  display: none;
+}
+
+/*
+    Sidebar wrapper styles
+    Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+    */
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: $primary-colour;
+  /* padding: 2.5em 1.5em 0; */
+  font-size: 1.3em;
+  overflow: hidden;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list ul {
+  color: $secondary-colour;
+  padding: 0 !important;
+  list-style-type: none !important;
+  border: none;
+  overflow: hidden;
+}
+
+.bm-item-list li {
+  color: $secondary-colour !important;
+  padding: 1.4em;
+  list-style-type: none !important;
+  text-align: center;
+
+  ul {
+    li {
+      color: $primary-colour !important;
+      background-color: $secondary-colour;
+    }
+  }
+}
+
+.bm-item-list li a {
+  color: $secondary-colour;
+  text-decoration: none;
+  padding-left: 3.4em;
+  padding-right: 5.4em;
+  padding-bottom: 1.4em;
+  padding-top: 1.4em;
+  text-align: center;
+  width: 100px;
+  margin: none;
+}
+
+.bm-item-list li:hover {
+  //   color: $primary-colour !important;
+  //   background-color: $secondary-colour;
+  //   transition: 0.5s ease-in-out;
+}
+
+.bm-item-list li a {
+  color: $secondary-colour;
+  text-decoration: none;
+}
+
+.bm-item-list li a:hover {
+  color: $primary-colour;
+  transition: 0.3s ease-in-out;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  border: none !important;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  // background: none !important;
+}
