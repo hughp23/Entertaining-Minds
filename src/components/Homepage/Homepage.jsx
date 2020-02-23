@@ -15,11 +15,14 @@ class Homepage extends Component {
   render() {
     return (
       <div className="flex-box">
-        <div id="cookies-popup-container" className="cookies-popup-container flex-box-row">
+        <div
+          id="cookies-popup-container"
+          className="cookies-popup-container flex-box-row"
+        >
           <div id="cookies-popup" className="cookies-popup flex-box-row">
             <p>
-              We use cookies and similar technologies to measure traffic and site
-              performance.{" "}
+              We use cookies and similar technologies to measure traffic and
+              site performance.{" "}
               <a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences">
                 Learn more about cookies (including how to disable them)
               </a>
@@ -36,7 +39,7 @@ class Homepage extends Component {
             </p>
             {/* <img src={cross} alt="Close!" onClick={this.closePopup} /> */}
           </div>
-      </div>
+        </div>
         <TitleAndNav />
         <AboutContainer />
         <div id="workInfo" className="work-container">
