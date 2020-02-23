@@ -34,7 +34,15 @@ class NavFixed extends Component {
             <a href="/theteam/ourtalent">OUR TALENT</a>
           </li> */}
           <li>
-            <a onClick={this.scrollToBottom}>CONTACT</a>
+            <a href="#about">ABOUT</a>
+            <ul className="ul2">
+              <li>
+                <a href="/about/gallery">GALLERY</a>
+              </li>
+              <li>
+                <a onClick={this.scrollToBottom}>CONTACT</a>
+              </li>
+            </ul>
           </li>
         </ul>
 
@@ -62,7 +70,15 @@ class NavFixed extends Component {
                 <a href="/theteam/ourtalent">OUR TALENT</a>
               </li> */}
               <li>
-                <a onClick={this.scrollToBottom}>CONTACT</a>
+                <a href="#about">ABOUT</a>
+                <ul className="ul2">
+                  <li>
+                    <a href="/about/gallery">GALLERY</a>
+                  </li>
+                  <li>
+                    <a onClick={this.scrollToBottom}>CONTACT</a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </Menu>
