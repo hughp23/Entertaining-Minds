@@ -6,37 +6,7 @@
     .work-sub-container {
       .work-text {
         p {
-          font-size: 1.15em;
-        }
-      }
-    }
-  }
-
-  .footer-email-container {
-    ul {
-      li {
-        img {
-          width: 12.5% !important;
-        }
-
-        p {
-          font-size: 1em;
-        }
-      }
-    }
-  }
-
-  .social-media-links-footer-container {
-    ul {
-      li {
-        a {
-          img {
-            width: 12.5% !important;
-          }
-
-          p {
-            font-size: 1em;
-          }
+          //font-size: 1em;
         }
       }
     }
@@ -52,13 +22,6 @@
       width: 100vw !important;
     }
   }
-
-  .credits-container {
-    font-size: 0.6em;
-    a {
-      font-size: 0.6em;
-    }
-  }
 }
 
 //Media Queries: 1200px
@@ -72,42 +35,6 @@
       }
     }
   }
-
-  .footer-email-container {
-    ul {
-      li {
-        img {
-          width: 10% !important;
-        }
-
-        p {
-          font-size: 0.9em;
-        }
-      }
-    }
-  }
-
-  .social-media-links-footer-container {
-    ul {
-      li {
-        a {
-          img {
-            width: 10% !important;
-          }
-
-          p {
-            font-size: 0.9em;
-          }
-        }
-      }
-    }
-  }
-
-  .credits-container {
-    a {
-      font-size: 0.6em;
-    }
-  }
 }
 
 //Media Queries: 1100px
@@ -116,7 +43,7 @@
     .work-sub-container {
       .work-text {
         p {
-          font-size: 0.85em;
+          //font-size: 0.85em;
         }
       }
     }
@@ -147,36 +74,6 @@
       }
     }
   }
-
-  .footer-email-container {
-    ul {
-      li {
-        img {
-          width: 9% !important;
-        }
-
-        p {
-          font-size: 0.85em;
-        }
-      }
-    }
-  }
-
-  .social-media-links-footer-container {
-    ul {
-      li {
-        a {
-          img {
-            width: 9% !important;
-          }
-
-          p {
-            font-size: 0.85em;
-          }
-        }
-      }
-    }
-  }
 }
 
 //Media Queries: 1000px
@@ -192,20 +89,47 @@
     }
   }
 
-  .work-container {
-    .work-sub-container {
-      .work-text {
-        p {
-          font-size: 0.7em;
-        }
-      }
+  .static-menu {
+    display: none !important;
+  }
 
-      .work-button {
-        a {
-          font-size: 1.2em;
+  .slideInMenu {
+    display: block;
+  }
+
+  .nav-home {
+    position: fixed;
+    border-bottom: 0.5vh solid $secondary-colour;
+  }
+
+  .nav-bar {
+    height: 9vh;
+
+    .ul1 {
+      width: 100%;
+    }
+
+    ul {
+      li {
+        padding: 0;
+
+        .ul2 {
+          position: relative !important;
+          background: $primary-colour;
+
+          li {
+            background: $secondary-colour;
+            a {
+              color: $primary-colour;
+            }
+          }
         }
       }
     }
+  }
+
+  .work-container {
+    flex-direction: column !important;
   }
 
   .footer-container {
