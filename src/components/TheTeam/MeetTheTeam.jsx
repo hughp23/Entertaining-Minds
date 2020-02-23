@@ -54,33 +54,42 @@ const MeetTheTeam = () => {
                 lost to this terrible disease and work to raise awareness in
                 this new way of living.
               </text>
+              <br />
             </biocontainer>
           </section>
           <section className="height-full">
             <contactcontainer className="contact-details-container flex-box-column-center">
-              <contact className="flex-box-row">
-                <img src={phoneLogo} alt="phone" />
-                <text>07772023349</text>
+              <contact className="flex-box-left">
+                <section className="flex-box-row">
+                  <img src={phoneLogo} alt="phone" />
+                  <text>07772023349</text>
+                </section>
               </contact>
-              <contact className="flex-box-row">
-                <img src={emailLogo} alt="email" />
-                <text>info@entertainingminds.co.uk</text>
+              <contact className="flex-box-left">
+                <section className="flex-box-row">
+                  <img src={emailLogo} alt="email" />
+                  <text>info@entertainingminds.co.uk</text>
+                </section>
               </contact>
-              <contact>
-                <a href="https://www.instagram.com/jessicalouisepaul/">
-                  <section className="flex-box-row">
-                    <img src={instaLogo} alt="instagram" />
-                    <text>@jessicalouisepaul</text>
-                  </section>
-                </a>
+              <contact className="flex-box-left">
+                <section className="flex-box-row">
+                  <a href="https://www.instagram.com/jessicalouisepaul/">
+                    <section className="flex-box-row">
+                      <img src={instaLogo} alt="instagram" />
+                      <text>@jessicalouisepaul</text>
+                    </section>
+                  </a>
+                </section>
               </contact>
-              <contact>
-                <a href="https://twitter.com/_jessicapaul?lang=en">
-                  <section className="flex-box-row">
-                    <img src={twitterLogo} alt="twitter" />
-                    <text>@_JessicaPaul</text>
-                  </section>
-                </a>
+              <contact className="flex-box-left">
+                <section className="flex-box-row">
+                  <a href="https://twitter.com/_jessicapaul?lang=en">
+                    <section className="flex-box-row">
+                      <img src={twitterLogo} alt="twitter" />
+                      <text>@_JessicaPaul</text>
+                    </section>
+                  </a>
+                </section>
               </contact>
             </contactcontainer>
           </section>
@@ -113,17 +122,22 @@ const MeetTheTeam = () => {
                 Society Dementia Friends information session to everyone at
                 their induction.
               </text>
+              <br />
             </biocontainer>
           </section>
           <section className="height-full">
             <contactcontainer className="contact-details-container flex-box-column-center">
-              <contact className="flex-box-row">
-                <img src={phoneLogo} alt="phone" />
-                <text>07976880954</text>
+              <contact className="flex-box-left">
+                <section className="flex-box-row">
+                  <img src={phoneLogo} alt="phone" />
+                  <text>07976880954</text>
+                </section>
               </contact>
-              <contact className="flex-box-row">
-                <img src={emailLogo} alt="email" />
-                <text>info@entertainingminds.co.uk</text>
+              <contact className="flex-box-left">
+                <section className="flex-box-row">
+                  <img src={emailLogo} alt="email" />
+                  <text>info@entertainingminds.co.uk</text>
+                </section>
               </contact>
             </contactcontainer>
           </section>

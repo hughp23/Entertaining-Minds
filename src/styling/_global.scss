@@ -12,6 +12,10 @@
   min-height: 60vh;
 }
 
+.minwidth10vw {
+  min-width: 10vw;
+}
+
 .primary-background {
   background-color: $primary-colour;
 }
@@ -51,6 +55,12 @@
 .flex-box-center {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+}
+
+.flex-box-left {
+  display: flex;
+  justify-content: left;
   flex-direction: row;
 }
 
