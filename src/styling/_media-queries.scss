@@ -158,32 +158,6 @@
     padding-right: env(safe-area-inset-right);
   }
 
-  // Nav Bar
-  .nav-bar {
-    z-index: 1;
-    position: relative;
-    top: 25%;
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-
-      li {
-        font-family: $title-text-font;
-        font-size: 1.1em;
-
-        :hover {
-          color: $primary-text-colour;
-        }
-      }
-    }
-  }
-
   .logo-only-container {
     height: 42vh;
     img {
@@ -298,82 +272,6 @@
     .contact-info-container {
       margin-top: 5vh !important;
     }
-  }
-
-  // Footer Section
-  .footer-container {
-    height: 90vh !important;
-    grid-template: 40% 20% 20% 20% / 100% !important;
-    grid-template-areas:
-      "email"
-      "dementiaFriends"
-      "logo"
-      "credits" !important;
-    .social-media-links-footer-container {
-      flex-direction: column !important;
-      grid-area: email !important;
-      padding-top: 15vh;
-    }
-    .contact {
-      ul {
-        margin-left: 10vw !important;
-        margin-right: 10vw !important;
-        top: 0;
-        transform: none;
-
-        li {
-          .contact-container {
-            justify-content: space-between;
-            img {
-              width: 7% !important;
-            }
-
-            p {
-              font-size: 0.7em;
-            }
-          }
-        }
-      }
-    }
-    .footer-email-container {
-      grid-area: dementiaFriends;
-      .dementia-friends-logo-container {
-        position: relative;
-        top: 32vh;
-      }
-    }
-
-    .footer-logo-container {
-      img {
-        position: relative !important;
-        bottom: 4vh !important;
-      }
-    }
-
-    .social-media {
-      ul {
-        margin-left: 10vw !important;
-        margin-right: 10vw !important;
-        height: auto;
-        top: 0;
-        transform: none;
-
-        li {
-          a {
-            .contact-container {
-              justify-content: space-between;
-              img {
-                width: 7% !important;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-
-  .credits-container {
-    top: 5% !important;
   }
 }
 
