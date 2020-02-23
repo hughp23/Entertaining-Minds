@@ -2,16 +2,6 @@
 
 //Media Queries: 1400px
 @media screen and (max-width: 1500px) {
-  .work-container {
-    .work-sub-container {
-      .work-text {
-        p {
-          //font-size: 1em;
-        }
-      }
-    }
-  }
-
   .work-with-us-page-container {
     height: 190vh !important;
     .work-info-container-right {
@@ -39,16 +29,6 @@
 
 //Media Queries: 1100px
 @media screen and (max-width: 1100px) {
-  .work-container {
-    .work-sub-container {
-      .work-text {
-        p {
-          //font-size: 0.85em;
-        }
-      }
-    }
-  }
-
   .work-for-us-page-container {
     .info-paragraph {
       .work-info-list-container {
@@ -140,12 +120,10 @@
     .contact-details-container {
       flex-direction: column !important;
       links1 {
-        padding-right: 25vw !important;
-        padding-left: 25vw !important;
+        padding: 0 25vw !important;
       }
       links2 {
-        padding-right: 25vw !important;
-        padding-left: 25vw !important;
+        padding: 0 25vw !important;
       }
     }
   }
@@ -168,9 +146,6 @@
   }
 
   .text-only-container {
-    position: relative;
-    bottom: 15vh;
-
     h1 {
       font-size: 1.5em;
     }
@@ -182,14 +157,12 @@
 
   // Work for/with us section
   .work-container {
-    background: $secondary-colour;
     height: 200vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 
     .work-sub-container {
-      background: $secondary-colour;
       width: 100vw;
       height: 100vh;
 
@@ -207,28 +180,18 @@
     }
 
     .work-title {
-      grid-area: title;
-
       h1 {
         font-size: 2.5em;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
       }
     }
 
     .work-text {
-      grid-area: text;
       margin-left: 7.5vw;
       margin-right: 7.5vw;
 
       p {
         font-size: 0.95em !important;
       }
-    }
-
-    .work-button {
-      grid-area: button;
     }
   }
 
@@ -271,6 +234,15 @@
 
     .contact-info-container {
       margin-top: 5vh !important;
+    }
+  }
+
+  .contact-details-container {
+    links1 {
+      padding: 0 12.5vw !important;
+    }
+    links2 {
+      padding: 0 12.5vw !important;
     }
   }
 }

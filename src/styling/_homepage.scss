@@ -92,80 +92,6 @@
   ul li ul.ul2 li {
     display: block;
   }
-
-  // .ul1 {
-  //   width: 85%;
-  // }
-
-  // ul {
-  //   background: $primary-colour;
-  //   list-style-type: none;
-  //   margin: 0;
-  //   padding: 0;
-  //   overflow: hidden;
-  //   display: flex;
-  //   justify-content: space-between;
-  //   flex-direction: row;
-  //   position: relative;
-
-  //   li {
-  //     font-family: $title-text-font;
-  //     font-size: 1.1em;
-  //     display: block;
-  //     transition-duration: 0.5s;
-  //     float: left;
-  //     padding-top: 2.5vh;
-  //     padding-bottom: 2.5vh;
-  //     color: $primary-text-colour !important;
-  //     cursor: pointer;
-  //     position: relative;
-
-  //     .ul2 {
-  //       border: green 2 px solid;
-  //       //visibility: hidden;
-  //       opacity: 0;
-  //       min-width: 5rem;
-  //       position: absolute;
-  //       transition: all 0.5s ease;
-  //       //margin-top: 1rem;
-  //       left: 0;
-  //       right: 0;
-  //       bottom: 0;
-  //       // display: none;
-  //       flex-direction: column;
-  //       //height: 20vh;
-  //       //z-index: 10;
-
-  //       li {
-  //         clear: both;
-  //         width: 100%;
-  //       }
-  //     }
-
-  //     a {
-  //       text-decoration: none;
-  //       color: $primary-text-colour !important;
-  //       cursor: pointer;
-  //     }
-
-  //     :hover {
-  //       color: $secondary-text-colour !important;
-  //       cursor: pointer;
-  //     }
-  //   }
-  // }
-
-  // ul li:hover > ul,
-  // ul li:focus-within > ul,
-  // ul li ul:hover {
-  //   visibility: visible;
-  //   opacity: 1;
-  //   display: block;
-  // }
-
-  // li:focus-within a {
-  //   outline: none;
-  // }
 }
 
 .logo-only-container {
@@ -196,9 +122,6 @@
 }
 
 .arrow-down {
-  // position: absolute;
-  // left: 50vw;
-  // top: 95vh;
   img {
     height: 2vh;
     color: $primary-text-colour;
@@ -226,12 +149,10 @@
   }
 
   h2 {
-    // margin: 0;
     font-family: $title-text-font;
     letter-spacing: 0.5vw;
     font-size: 3.5em;
     padding-top: 3vh;
-    // margin-bottom: 2.5vh;
     color: $primary-text-colour;
   }
 
@@ -246,11 +167,19 @@
 
   .aboutImg1-container {
     background-image: url("../assets/gallery/IMG-20191125-WA0025.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .aboutImg2-container {
-    float: right;
     background-image: url("../assets/gallery/IMG_20200123_143606.jpg");
+    background-position: right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .about-text {
