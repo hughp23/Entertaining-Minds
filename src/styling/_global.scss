@@ -1,15 +1,43 @@
 @import "./branding";
 
 .full-screen {
+  min-height: 100vh;
+}
+
+.height100vh {
   height: 100vh;
 }
 
+.minheight60vh {
+  min-height: 60vh;
+}
+
+.minwidth10vw {
+  min-width: 10vw;
+}
+
+.primary-background {
+  background-color: $primary-colour;
+}
+
 .half-screen {
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .quarter-screen {
-  height: 25vh;
+  min-height: 25vh;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.height-full {
+  height: 100%;
+}
+
+.primary-background {
+  background-color: $primary-colour;
 }
 
 .flex-box-row {
@@ -18,14 +46,64 @@
   flex-direction: row;
 }
 
+.flex-box-around {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.flex-box-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.flex-box-left {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .flex-box-column {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
 
+.flex-box-column-around {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.flex-box-column-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .height15vh {
   height: 15vh;
+}
+
+.thick-bottom-border {
+  border-bottom: 0.5vh solid $secondary-colour;
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
 }
 
 h1,
@@ -34,9 +112,22 @@ h3,
 h4,
 h5 {
   font-family: $title-text-font;
+  color: $primary-text-colour;
   font-weight: 10;
   letter-spacing: 0.1vw;
   margin-top: 0;
+}
+
+h1.page-title {
+  padding: 2.5vh 0 2.5vh 0;
+}
+
+p,
+text {
+  font-family: $primary-text-font;
+  color: $primary-text-colour;
+  margin: 0 !important;
+  font-size: 1.25em;
 }
 
 .bold {

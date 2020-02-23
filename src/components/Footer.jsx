@@ -13,8 +13,100 @@ const dementiaFriendsLogo = require("../assets/dementia-friends-logo.png");
 const Footer = () => {
   return (
     <div>
-      <div id="footer" className="footer-container">
-        <div className="footer-email-container flex-box">
+      <div id="footer" className="footer-container flex-box-column-around">
+        <section1>
+          <section className="dmt-friends-container flex-box-column-center width-full">
+            <section className="img-container">
+              <img src={dementiaFriendsLogo} alt="dementia friends" />
+            </section>
+          </section>
+          <section className="em-logo-container width-full flex-box-column-center">
+            <section className="img-container">
+              <img
+                onClick={scrollToTop}
+                title="Scroll To Top"
+                className="footer-logo-container pointer"
+                src={entertainingMindsLogo}
+                alt="small-logo"
+              />
+            </section>
+          </section>
+          <section className="contact-details-container width-full flex-box-column-center">
+            <links1 className="flex-box-column-center">
+              <section className="link-container flex-box-center width-full">
+                <a
+                  href="https://www.facebook.com/entertainingminds/?ref=bookmarks"
+                  className="width-full"
+                >
+                  <section className="flex-box-row width-full">
+                    <img
+                      src={facebookLogo}
+                      alt="https://www.facebook.com/entertainingminds/?ref=bookmarks"
+                    />
+                    <text>@Entertaining Minds</text>
+                  </section>
+                </a>
+              </section>
+              <section className="link-container flex-box-center width-full">
+                <a
+                  href="https://www.instagram.com/entertainingminds/"
+                  className="width-full"
+                >
+                  <section className="flex-box-row width-full">
+                    <img
+                      src={instaLogo}
+                      alt="https://www.instagram.com/entertainingminds/"
+                    />
+                    <text>@entertainingminds</text>
+                  </section>
+                </a>
+              </section>
+              <section className="link-container flex-box-center width-full">
+                <a href="https://twitter.com/EntMindsUK" className="width-full">
+                  <section className="flex-box-row width-full">
+                    <img
+                      src={twitterLogo}
+                      alt="https://twitter.com/EntMindsUK"
+                    />
+                    <text>@EntMindsUK</text>
+                  </section>
+                </a>
+              </section>
+            </links1>
+            <links2 className="flex-box-column-center">
+              <section className="link-container flex-box-center width-full">
+                <section className="flex-box-row width-full">
+                  <img src={phoneLogo} alt="phone" />
+                  <text>07772023349</text>
+                </section>
+              </section>
+              <section className="link-container flex-box-center width-full">
+                <a
+                  href="https://www.instagram.com/entertainingminds/"
+                  className="width-full"
+                >
+                  <section className="flex-box-row width-full">
+                    <img src={emailLogo} alt="email" />
+                    <text>info@entertainingminds.co.uk</text>
+                  </section>
+                </a>
+              </section>
+            </links2>
+          </section>
+        </section1>
+        <section2 className="flex-box-column-center">
+          <section className="credits-container">
+            <text>
+              Built By{" "}
+              <a href="https://www.linkedin.com/in/hugh-paul-6762a7173/">
+                Hugh Paul
+              </a>{" "}
+              / Company No 12165268
+            </text>
+          </section>
+        </section2>
+
+        {/* <div className="footer-email-container flex-box">
           <section class="dementia-friends-logo-container">
             <img src={dementiaFriendsLogo} alt="dementia friends" />
           </section>
@@ -85,29 +177,12 @@ const Footer = () => {
           </div>
         </div>
         <div className="credits-container">
-          {/* Icons made by{" "}
-          <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
-            Freepik
-          </a>{" "}
-          from{" "}
-          <a href="https://www.flaticon.com/" title="Flaticon">
-            www.flaticon.com
-          </a>{" "}
-          is licensed by{" "}
-          <a
-            href="http://creativecommons.org/licenses/by/3.0/"
-            title="Creative Commons BY 3.0"
-            target="_blank"
-          >
-            CC 3.0 BY
-          </a>{" "}
-          /  */}
           Built By{" "}
           <a href="https://www.linkedin.com/in/hugh-paul-6762a7173/">
             Hugh Paul
           </a>{" "}
           / Company No 12165268
-        </div>
+        </div> */}
       </div>
     </div>
   );
