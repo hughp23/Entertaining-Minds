@@ -7,7 +7,7 @@ class AboutContainer extends Component {
       <div id="about" className="about-container full-screen flex-box-column">
         <div class="aboutImg1-container"></div>
         <div className="about-text">
-          <div>
+          <div className="about-sub-text-left">
             <div className="about-sub-text">
               <p>
                 Entertaining Minds was established in 2019 with the aim to
@@ -32,7 +32,7 @@ class AboutContainer extends Component {
               </p>
             </div>
           </div>
-          <div>
+          <div className>
             <div className="about-sub-text">
               <p>
                 Leading research has shown that music and exercise can

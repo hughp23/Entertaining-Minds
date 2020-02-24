@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import '../styling/_our-talent.scss';
 import { getHeadshot } from '../utils.js';
 
@@ -38,6 +39,17 @@ class OurTalent extends Component {
             });
         }
     }
+=======
+
+class OurTalent extends Component {
+    render() {
+        return (
+            <div className="full-screen">
+                <h3>Our Talent</h3>
+            </div>
+        );
+    }
+>>>>>>> 89f616e3007300a6682897ca3c6d0d71e6bb8197
 }
 
 export default OurTalent;
