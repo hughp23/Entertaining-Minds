@@ -34,7 +34,9 @@ class OurTalent extends Component {
                                 </section>
                                 <section className="flex-box-column">
                                     <h3>Act Name: {item.actName}</h3>
-
+                                    <h4>Act: {item.act}</h4>
+                                    <h4>Category: {item.category}</h4>
+                                    <text>{item.bio}</text>
                                 </section>
                             </div>
                         </Popup>
