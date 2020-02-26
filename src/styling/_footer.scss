@@ -39,13 +39,15 @@
 
         .link-container {
           padding: 1vh 0 1vh 0;
+          height: 3.5vh;
           a {
             img {
-              height: 2.5vh;
+              height: 3.5vh;
             }
 
             text {
               color: $secondary-text-colour;
+                  margin-left: 1vw;
             }
           }
         }
@@ -56,12 +58,14 @@
 
         .link-container {
           padding: 1vh 0 1vh 0;
+          height: 3.5vh;
           img {
-            height: 2.5vh;
+            height: 3.5vh;
           }
 
           text {
             color: $secondary-text-colour;
+                margin-left: 1vw;
           }
         }
       }

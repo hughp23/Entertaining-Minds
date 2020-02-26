@@ -30,9 +30,9 @@ class Nav extends Component {
               </li>
             </ul>
           </li>
-          {/* <li>
+          <li>
             <a href="/theteam/ourtalent">OUR TALENT</a>
-          </li> */}
+          </li>
           <li>
             <a onClick={this.scrollToBottom}>CONTACT</a>
           </li>
@@ -58,9 +58,9 @@ class Nav extends Component {
                   </li>
                 </ul>
               </li>
-              {/* <li>
+              <li>
                 <a href="/theteam/ourtalent">OUR TALENT</a>
-              </li> */}
+              </li>
               <li>
                 <a onClick={this.scrollToBottom}>CONTACT</a>
               </li>
