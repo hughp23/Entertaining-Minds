@@ -19,7 +19,7 @@ class WorkForUsContainer extends Component {
             </p>
           </div>
           <div className="work-button">
-            <Link to="/workforus">Staff Information</Link>
+            <Link to="/theteam/workforus">Staff Information</Link>
           </div>
         </MDBAnimation>
       </div>
