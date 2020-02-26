@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "@reach/router";
 import { MDBAnimation } from "mdbreact";
-const joinUsImage = require("../../assets/joinUsImage.jpg");
 
 class WorkForUsContainer extends Component {
   render() {
