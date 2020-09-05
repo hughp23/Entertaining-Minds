@@ -35,9 +35,7 @@ const Footer = () => {
             <links1 className="flex-box-column-center">
               <section className="flex-box-left">
                 <section className="link-container flex-box-row">
-                  <a
-                    href="https://www.facebook.com/entertainingminds/?ref=bookmarks"
-                  >
+                  <a href="https://www.facebook.com/entertainingminds/?ref=bookmarks">
                     <section className="flex-box-row">
                       <img
                         src={facebookLogo}
@@ -50,9 +48,7 @@ const Footer = () => {
               </section>
               <section className="flex-box-left">
                 <section className="link-container flex-box-row">
-                  <a
-                    href="https://www.instagram.com/entertainingminds/"
-                  >
+                  <a href="https://www.instagram.com/entertainingminds/">
                     <section className="flex-box-row">
                       <img
                         src={instaLogo}
@@ -78,7 +74,7 @@ const Footer = () => {
               </section>
             </links1>
             <links2 className="flex-box-column-center">
-            <section className="flex-box-left">
+              <section className="flex-box-left">
                 <section className="link-container flex-box-row">
                   <section className="flex-box-row">
                     <img src={phoneLogo} alt="phone" />
@@ -88,11 +84,10 @@ const Footer = () => {
               </section>
               <section className="flex-box-left">
                 <section className="link-container flex-box-row">
-                  <a
-                    href="mailto:info@entertainingminds.co.uk">
+                  <a href="mailto:info@entertainingminds.co.uk">
                     <section className="flex-box-row">
                       <img src={emailLogo} alt="email" />
-                      <text>info@entertainingminds.co.uk</text>
+                      <text>entertainingminds@outlook.com</text>
                     </section>
                   </a>
                 </section>
