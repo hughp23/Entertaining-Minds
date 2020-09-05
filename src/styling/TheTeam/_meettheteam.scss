@@ -1,0 +1,65 @@
+@import "../branding.scss";
+
+.meet-the-team-container {
+  .team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5vh 0 5vh 0;
+    min-height: 100vh;
+    .team-member-container {
+      //   border: black 1px solid;
+      width: 100%;
+      min-height: 100%;
+      imgcontainer {
+        // border: blue 2px solid;
+        padding: 2.5vh 0 2.5vh 0;
+        .img-circle {
+          //border: red 2px solid;
+          height: 30vh;
+          width: 30vh;
+          border-radius: 10em;
+        }
+
+        .img-1 {
+          background-image: url("../../assets/jlp-headshot.jpg");
+          background-size: cover;
+        }
+
+        .img-2 {
+          background-image: url("../../assets/mlp-headshot.jpg");
+          background-size: cover;
+        }
+      }
+
+      namecontainer {
+        //border: orange 2px solid;
+        min-height: 7.5vh;
+        padding: 2.5vh 5vw 2.5vh 5vw;
+      }
+
+      biocontainer {
+        //border: magenta 2px solid;
+        padding: 2.5vh 5vw 2.5vh 5vw;
+      }
+
+      contactcontainer {
+        //border: turquoise 2px solid;
+        min-height: 15vh;
+        padding-right: 12.5vw;
+        padding-left: 12.5vw;
+        contact {
+          padding: 1.25vh 0 1.25vh 0;
+          img {
+            height: 2.5vh;
+            color: $secondary-colour;
+          }
+
+          text {
+            padding: 0 2.5vw 0 2.5vw;
+          }
+        }
+      }
+    }
+  }
+}

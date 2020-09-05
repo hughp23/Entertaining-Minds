@@ -20,8 +20,19 @@
     .work-sub-container {
       .work-text {
         p {
-          font-size: 1em;
+          // font-size: 1em;
         }
+      }
+    }
+  }
+
+  .team-container {
+    flex-direction: column !important;
+
+    .team-member-container {
+      contactcontainer {
+        padding-right: 25vw;
+        padding-left: 25vw;
       }
     }
   }
@@ -35,7 +46,7 @@
         .work-info-list ul {
           top: 0 !important;
           li {
-            font-size: 1.1em !important;
+            // font-size: 1.1em !important;
           }
         }
       }
@@ -48,7 +59,7 @@
         .work-info-list ul {
           top: 0 !important;
           li {
-            font-size: 1.1em !important;
+            // font-size: 1.1em !important;
           }
         }
       }
@@ -58,17 +69,6 @@
 
 //Media Queries: 1000px
 @media screen and (max-width: 1000px) {
-  .team-container {
-    flex-direction: column !important;
-
-    .team-member-container {
-      contactcontainer {
-        padding-right: 25vw;
-        padding-left: 25vw;
-      }
-    }
-  }
-
   .static-menu {
     display: none !important;
   }
@@ -129,6 +129,17 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .talent {
+    width: 100%;
+
+    //   h3, h4, text {
+    //     padding: .25em !important;
+    //     transform: scale(0.5);
+    // }
+  }
+}
+
 //Media Queries: 420px
 @media screen and (max-width: 420px) {
   body {
@@ -147,11 +158,11 @@
 
   .text-only-container {
     h1 {
-      font-size: 1.5em;
+      // font-size: 1.5em;
     }
 
     h3 {
-      font-size: 1em;
+      // font-size: 1em;
     }
   }
 
@@ -181,7 +192,7 @@
 
     .work-title {
       h1 {
-        font-size: 2.5em;
+        // font-size: 2.5em;
       }
     }
 
@@ -190,7 +201,7 @@
       margin-right: 7.5vw;
 
       p {
-        font-size: 0.95em !important;
+        // font-size: 0.95em !important;
       }
     }
   }
@@ -199,13 +210,13 @@
     .work-info-list-container {
       .work-info-list {
         li {
-          font-size: 0.75em !important;
+          // font-size: 0.75em !important;
         }
       }
     }
 
     p {
-      font-size: 0.75em;
+      // font-size: 0.75em;
     }
 
     .contact-info-container {
@@ -217,7 +228,7 @@
     .work-info-list-container {
       .work-info-list {
         li {
-          font-size: 0.75em !important;
+          // font-size: 0.75em !important;
         }
       }
     }
@@ -226,7 +237,7 @@
       .work-info-container .work-info-container-left {
         .work-info {
           p {
-            font-size: 0.75em;
+            // font-size: 0.75em;
           }
         }
       }

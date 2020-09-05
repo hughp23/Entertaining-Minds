@@ -1,5 +1,18 @@
 {
   "projects": {
-    "default": "entertaining-minds"
+    "default": "entertaining-minds",
+    "dev": "entertaining-minds"
+  },
+  "targets": {
+    "entertaining-minds": {
+      "hosting": {
+        "dev": [
+          "https://entertainingminds-dev.firebaseapp.com/"
+        ],
+        "live": [
+          "https://www.entertainingminds.co.uk/"
+        ]
+      }
+    }
   }
 }

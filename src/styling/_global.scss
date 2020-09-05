@@ -1,5 +1,9 @@
 @import "./branding";
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .full-screen {
   min-height: 100vh;
 }
@@ -55,6 +59,7 @@
 .flex-box-center {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
 }
 
@@ -110,7 +115,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-family: $title-text-font;
   color: $primary-text-colour;
   font-weight: 10;
@@ -118,7 +124,31 @@ h5 {
   margin-top: 0;
 }
 
-h1.page-title {
+h1 {
+  font-size: 4vw;
+}
+
+h2 {
+  font-size: 3.5vw;
+}
+
+h3 {
+  font-size: 3vw;
+}
+
+h4 {
+  font-size: 2.5vw;
+}
+
+h5 {
+  font-size: 2vw;
+}
+
+h6 {
+  font-size: 1.5vw;
+}
+
+h1, h2.page-title {
   padding: 2.5vh 0 2.5vh 0;
 }
 
@@ -126,8 +156,8 @@ p,
 text {
   font-family: $primary-text-font;
   color: $primary-text-colour;
-  margin: 0 !important;
-  font-size: 1.25em;
+  margin: 0;
+  font-size: 1.25vw;
 }
 
 .bold {
@@ -156,6 +186,10 @@ text {
 
 .paddingTop5vh {
   padding-top: 5vh;
+}
+
+.marginTop5vh {
+  margin-bottom: 5vh;
 }
 
 *,

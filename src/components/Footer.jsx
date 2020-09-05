@@ -33,63 +33,64 @@ const Footer = () => {
           </section>
           <section className="contact-details-container width-full flex-box-column-center">
             <links1 className="flex-box-column-center">
-              <section className="link-container flex-box-center width-full">
-                <a
-                  href="https://www.facebook.com/entertainingminds/?ref=bookmarks"
-                  className="width-full"
-                >
-                  <section className="flex-box-row width-full">
-                    <img
-                      src={facebookLogo}
-                      alt="https://www.facebook.com/entertainingminds/?ref=bookmarks"
-                    />
-                    <text>@Entertaining Minds</text>
-                  </section>
-                </a>
+              <section className="flex-box-left">
+                <section className="link-container flex-box-row">
+                  <a href="https://www.facebook.com/entertainingminds/?ref=bookmarks">
+                    <section className="flex-box-row">
+                      <img
+                        src={facebookLogo}
+                        alt="https://www.facebook.com/entertainingminds/?ref=bookmarks"
+                      />
+                      <text>@Entertaining Minds</text>
+                    </section>
+                  </a>
+                </section>
               </section>
-              <section className="link-container flex-box-center width-full">
-                <a
-                  href="https://www.instagram.com/entertainingminds/"
-                  className="width-full"
-                >
-                  <section className="flex-box-row width-full">
-                    <img
-                      src={instaLogo}
-                      alt="https://www.instagram.com/entertainingminds/"
-                    />
-                    <text>@entertainingminds</text>
-                  </section>
-                </a>
+              <section className="flex-box-left">
+                <section className="link-container flex-box-row">
+                  <a href="https://www.instagram.com/entertainingminds/">
+                    <section className="flex-box-row">
+                      <img
+                        src={instaLogo}
+                        alt="https://www.instagram.com/entertainingminds/"
+                      />
+                      <text>@entertainingminds</text>
+                    </section>
+                  </a>
+                </section>
               </section>
-              <section className="link-container flex-box-center width-full">
-                <a href="https://twitter.com/EntMindsUK" className="width-full">
-                  <section className="flex-box-row width-full">
-                    <img
-                      src={twitterLogo}
-                      alt="https://twitter.com/EntMindsUK"
-                    />
-                    <text>@EntMindsUK</text>
-                  </section>
-                </a>
+              <section className="flex-box-left">
+                <section className="link-container flex-box-row">
+                  <a href="https://twitter.com/EntMindsUK">
+                    <section className="flex-box-row">
+                      <img
+                        src={twitterLogo}
+                        alt="https://twitter.com/EntMindsUK"
+                      />
+                      <text>@EntMindsUK</text>
+                    </section>
+                  </a>
+                </section>
               </section>
             </links1>
             <links2 className="flex-box-column-center">
-              <section className="link-container flex-box-center width-full">
-                <section className="flex-box-row width-full">
-                  <img src={phoneLogo} alt="phone" />
-                  <text>07772023349</text>
+              <section className="flex-box-left">
+                <section className="link-container flex-box-row">
+                  <section className="flex-box-row">
+                    <img src={phoneLogo} alt="phone" />
+                    <text>07772023349</text>
+                  </section>
                 </section>
               </section>
-              <section className="link-container flex-box-center width-full">
-                <a
-                  href="https://www.instagram.com/entertainingminds/"
-                  className="width-full"
-                >
-                  <section className="flex-box-row width-full">
-                    <img src={emailLogo} alt="email" />
-                    <text>info@entertainingminds.co.uk</text>
-                  </section>
-                </a>
+              <section className="flex-box-left">
+                <section className="link-container flex-box-row">
+                  <a href="mailto:info@entertainingminds.co.uk">
+                    <section className="flex-box-row">
+                      <img src={emailLogo} alt="email" />
+                      <text>entertainingminds@outlook.com</text>
+                    </section>
+                  </a>
+                </section>
               </section>
             </links2>
           </section>
